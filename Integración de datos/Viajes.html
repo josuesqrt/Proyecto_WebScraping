@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Filtrado de Viajes</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      padding-top: 40px;
+      background: linear-gradient(to right, #f9f9f9, #e9f0ff);
+      font-family: 'Roboto', sans-serif;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-weight: 700;
+    }
+    .product {
+      margin-bottom: 30px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+    .product-inner {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      padding: 15px;
+      text-align: center;
+    }
+    .product img {
+      border-radius: 5px;
+      margin-bottom: 10px;
+      transition: transform 0.3s ease;
+    }
+    .product img:hover {
+      transform: scale(1.05);
+    }
+    .form-group select, .form-group input {
+      border-radius: 6px;
+    }
+    .btn-primary {
+      background-color: #007bff;
+      border: none;
+    }
+    .btn-primary:hover {
+      background-color: #0056b3;
+    }
+    .fadeIn {
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: scale(0.95);}
+      to {opacity: 1; transform: scale(1);}
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Explora tus Viajes desde Lima</h1>
+  <div class="row" id="search">
+    <form id="search-form">
+      <div class="form-group col-xs-9">
+        <input class="form-control" type="text" placeholder="Buscar destino o transporte..." />
+      </div>
+      <div class="form-group col-xs-3">
+        <button type="submit" class="btn btn-block btn-primary">Buscar</button>
+      </div>
+    </form>
+  </div>
+  <div class="row" id="filter">
+    <form>
+      <div class="form-group col-sm-6 col-xs-6">
+        <select data-filter="model" class="filter-model filter form-control">
+          <option value="">Seleccionar Destino</option>
+          <option value="">Mostrar Todos</option>
+        </select>
+      </div>
+      <div class="form-group col-sm-6 col-xs-6">
+        <select data-filter="type" class="filter-type filter form-control">
+          <option value="">Seleccionar Transporte</option>
+          <option value="">Mostrar Todos</option>
+        </select>
+      </div>
+    </form>
+  </div>
+  <div class="row" id="products"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+var iconoGPS = "https://cdn-icons-png.flaticon.com/512/684/684908.png";
+
+var data = [
+  {"make":"Lima","model":"Amazonas","type":"plane","price":"6h 23min","image":iconoGPS},
+  {"make":"Lima","model":"Amazonas","type":"bus","price":"77h 54min","image":iconoGPS},
+  {"make":"Lima","model":"Amazonas","type":"bus","price":"7d 2h","image":iconoGPS},
+  {"make":"Lima","model":"Amazonas","type":"car","price":"95h 14min","image":iconoGPS},
+  {"make":"Lima","model":"Ancash","type":"plane","price":"2h 51min","image":iconoGPS},
+  {"make":"Lima","model":"Ancash","type":"bus","price":"6h 27min","image":iconoGPS},
+  {"make":"Lima","model":"Ancash","type":"car","price":"6h 16min","image":iconoGPS},
+  {"make":"Lima","model":"Ancash","type":"plane","price":"5h 39min","image":iconoGPS},
+  {"make":"Lima","model":"Apurímac","type":"plane","price":"4h 13min","image":iconoGPS},
+  {"make":"Lima","model":"Apurímac","type":"bus","price":"13h 16min","image":iconoGPS},
+  {"make":"Lima","model":"Apurímac","type":"car","price":"12h 21min","image":iconoGPS},
+  {"make":"Lima","model":"Apurímac","type":"plane","price":"8h 20min","image":iconoGPS},
+  {"make":"Lima","model":"Apurímac","type":"bus","price":"13h 30min","image":iconoGPS},
+  {"make":"Lima","model":"Arequipa","type":"plane","price":"2h 26min","image":iconoGPS},
+  {"make":"Lima","model":"Arequipa","type":"bus","price":"13h 30min","image":iconoGPS},
+  {"make":"Lima","model":"Arequipa","type":"car","price":"12h 52min","image":iconoGPS},
+  {"make":"Lima","model":"Ayacucho","type":"plane","price":"1h 11min","image":iconoGPS},
+  {"make":"Lima","model":"Ayacucho","type":"bus","price":"8h 48min","image":iconoGPS},
+  {"make":"Lima","model":"Ayacucho","type":"car","price":"9h 7min","image":iconoGPS},
+  {"make":"Lima","model":"Cajamarca","type":"plane","price":"1h 21min","image":iconoGPS},
+  {"make":"Lima","model":"Cajamarca","type":"bus","price":"17h 47min","image":iconoGPS},
+  {"make":"Lima","model":"Cajamarca","type":"car","price":"13h 31min","image":iconoGPS},
+  {"make":"Lima","model":"Callao","type":"bus","price":"23min","image":iconoGPS},
+  {"make":"Lima","model":"Callao","type":"taxi","price":"15min","image":iconoGPS},
+  {"make":"Lima","model":"Callao","type":"car","price":"15min","image":iconoGPS},
+  {"make":"Lima","model":"Callao","type":"walk","price":"2h 24min","image":iconoGPS},
+  {"make":"Lima","model":"Cusco","type":"plane","price":"2h 3min","image":iconoGPS},
+  {"make":"Lima","model":"Cusco","type":"bus","price":"22h","image":iconoGPS},
+  {"make":"Lima","model":"Cusco","type":"car","price":"16h 42min","image":iconoGPS},
+  {"make":"Lima","model":"Huancavelica","type":"bus","price":"7h 18min","image":iconoGPS},
+  {"make":"Lima","model":"Huancavelica","type":"car","price":"6h 35min","image":iconoGPS},
+  {"make":"Lima","model":"Huancavelica","type":"plane","price":"4h 28min","image":iconoGPS},
+  {"make":"Lima","model":"Huancavelica","type":"bus","price":"10h 1min","image":iconoGPS},
+  {"make":"Lima","model":"Huánuco","type":"plane","price":"1h 3min","image":iconoGPS},
+  {"make":"Lima","model":"Huánuco","type":"bus","price":"7h 3min","image":iconoGPS},
+  {"make":"Lima","model":"Huánuco","type":"car","price":"6h 26min","image":iconoGPS},
+  {"make":"Lima","model":"Huánuco","type":"bus","price":"9h","image":iconoGPS},
+  {make:"Lima", model:"Ica", type:"bus", price:"4h 30min", image:iconoGPS},
+  {make:"Lima", model:"Ica", type:"car", price:"3h 52min", image:iconoGPS},
+  {make:"Lima", model:"Ica", type:"plane", price:"7h 48min", image:iconoGPS},
+  {make:"Lima", model:"Junín", type:"plane", price:"10h 1min", image:iconoGPS},
+  {make:"Lima", model:"Junín", type:"bus", price:"71h 22min", image:iconoGPS},
+  {make:"Lima", model:"Junín", type:"car", price:"48h 11min", image:iconoGPS},
+  {make:"Lima", model:"Junín", type:"plane", price:"9h 43min", image:iconoGPS},
+  {make:"Lima", model:"La Libertad", type:"plane", price:"9h 39min", image:iconoGPS},
+  {make:"Lima", model:"La Libertad", type:"bus", price:"26h 10min", image:iconoGPS},
+  {make:"Lima", model:"La Libertad", type:"car", price:"22h 21min", image:iconoGPS},
+  {make:"Lima", model:"La Libertad", type:"plane", price:"9h 13min", image:iconoGPS},
+  {make:"Lima", model:"Lambayeque", type:"plane", price:"1h 41min", image:iconoGPS},
+  {make:"Lima", model:"Lambayeque", type:"bus", price:"10h 40min", image:iconoGPS},
+  {make:"Lima", model:"Lambayeque", type:"car", price:"11h 44min", image:iconoGPS},
+  {make:"Lima", model:"Lambayeque", type:"bus", price:"10h 43min", image:iconoGPS},
+  {make:"Lima", model:"Lambayeque", type:"bus", price:"13h 54min", image:iconoGPS},
+  {make:"Lima", model:"Loreto", type:"plane", price:"13h 58min", image:iconoGPS},
+  {make:"Lima", model:"Loreto", type:"plane", price:"19h 42min", image:iconoGPS},
+  {make:"Lima", model:"Madre de Dios", type:"plane", price:"1h 51min", image:iconoGPS},
+  {make:"Lima", model:"Madre de Dios", type:"bus", price:"29h 4min", image:iconoGPS},
+  {make:"Lima", model:"Madre de Dios", type:"car", price:"29h 14min", image:iconoGPS},
+  {make:"Lima", model:"Madre de Dios", type:"bus", price:"36h 0min", image:iconoGPS},
+  {make:"Lima", model:"Madre de Dios", type:"bus", price:"31h 39min", image:iconoGPS},
+  {make:"Lima", model:"Moquegua", type:"plane", price:"5h 33min", image:iconoGPS},
+  {make:"Lima", model:"Moquegua", type:"bus", price:"19h", image:iconoGPS},
+  {make:"Lima", model:"Moquegua", type:"car", price:"13h 47min", image:iconoGPS},
+  {make:"Lima", model:"Moquegua", type:"plane", price:"4h 48min", image:iconoGPS},
+  {make:"Lima", model:"Moquegua", type:"bus", price:"24h 6min", image:iconoGPS},
+  {make:"Lima", model:"Pasco", type:"plane", price:"14h 10min", image:iconoGPS},
+  {make:"Lima", model:"Pasco", type:"plane", price:"19h 33min", image:iconoGPS},
+  {make:"Lima", model:"Pasco", type:"plane", price:"17h 25min", image:iconoGPS},
+  {make:"Lima", model:"Piura", type:"plane", price:"1h 46min", image:iconoGPS},
+  {make:"Lima", model:"Piura", type:"bus", price:"13h 45min", image:iconoGPS},
+  {make:"Lima", model:"Piura", type:"car", price:"14h 11min", image:iconoGPS},
+  {make:"Lima", model:"Puno", type:"plane", price:"2h 56min", image:iconoGPS},
+  {make:"Lima", model:"Puno", type:"bus", price:"24h 26min", image:iconoGPS},
+  {make:"Lima", model:"Puno", type:"car", price:"17h 26min", image:iconoGPS},
+  {make:"Lima", model:"Puno", type:"bus", price:"30h 51min", image:iconoGPS},
+  {make:"Lima", model:"San Martín", type:"plane", price:"14h 38min", image:iconoGPS},
+  {make:"Lima", model:"San Martín", type:"plane", price:"19h 38min", image:iconoGPS},
+  {make:"Lima", model:"Tacna", type:"plane", price:"2h 3min", image:iconoGPS},
+  {make:"Lima", model:"Tacna", type:"bus", price:"20h 36min", image:iconoGPS},
+  {make:"Lima", model:"Tacna", type:"car", price:"15h 52min", image:iconoGPS},
+  {make:"Lima", model:"Tumbes", type:"plane", price:"2h 12min", image:iconoGPS},
+  {make:"Lima", model:"Tumbes", type:"bus", price:"17h 10min", image:iconoGPS},
+  {make:"Lima", model:"Tumbes", type:"car", price:"17h 46min", image:iconoGPS},
+  {make:"Lima", model:"Tumbes", type:"plane", price:"6h 58min", image:iconoGPS}
+];
+
+var products = "", models = "", types = "";
+
+for (var i = 0; i < data.length; i++) {
+  var make = data[i].make,
+      model = data[i].model,
+      type = data[i].type,
+      price = data[i].price,
+      image = data[i].image;
+
+  products += "<div class='col-sm-4 product fadeIn' data-model='" + model + "' data-type='" + type + "'><div class='product-inner'><img src='" + image + "' width='100'><br><strong>Origen:</strong> " + make + "<br><strong>Destino:</strong> " + model + "<br><strong>Transporte:</strong> " + type + "<br><strong>Duración:</strong> " + price + "</div></div>";
+
+  if (models.indexOf("<option value='" + model + "'>" + model + "</option>") == -1) {
+    models += "<option value='" + model + "'>" + model + "</option>";
+  }
+  if (types.indexOf("<option value='" + type + "'>" + type + "</option>") == -1) {
+    types += "<option value='" + type + "'>" + type + "</option>";
+  }
+}
+
+$("#products").html(products);
+$(".filter-model").append(models);
+$(".filter-type").append(types);
+
+var filtersObject = {};
+
+$(".filter").on("change", function () {
+  var filterName = $(this).data("filter"),
+      filterVal = $(this).val();
+
+  if (filterVal == "") {
+    delete filtersObject[filterName];
+  } else {
+    filtersObject[filterName] = filterVal;
+  }
+
+  var filters = "";
+  for (var key in filtersObject) {
+    if (filtersObject.hasOwnProperty(key)) {
+      filters += "[data-" + key + "='" + filtersObject[key] + "']";
+    }
+  }
+
+  if (filters == "") {
+    $(".product").show();
+  } else {
+    $(".product").hide().filter(filters).show();
+  }
+});
+
+$("#search-form").submit(function (e) {
+  e.preventDefault();
+  var query = $("#search-form input").val().toLowerCase();
+
+  $(".product").hide();
+  $(".product").each(function () {
+    var model = $(this).data("model").toLowerCase(),
+        type = $(this).data("type").toLowerCase(),
+        html = $(this).html().toLowerCase();
+
+    if (model.indexOf(query) > -1 || type.indexOf(query) > -1 || html.indexOf(query) > -1) {
+      $(this).show();
+    }
+  });
+});
+</script>
+</body>
+</html>
