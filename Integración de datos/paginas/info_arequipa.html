@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Información Turística - Arequipa</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffaf4;
+      color: #333;
+      max-width: 900px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.08);
+    }
+    h1 { color: #c0392b; }
+    h2 { color: #2c3e50; margin-top: 40px; }
+    img { max-width: 100%; border-radius: 8px; }
+    .descripcion { font-size: 17px; margin: 20px 0; line-height: 1.6; }
+    .info-box {
+      background: #f0fff4;
+      padding: 15px;
+      border-left: 6px solid #27ae60;
+      margin: 20px 0;
+      border-radius: 6px;
+    }
+    .volver {
+      display: inline-block;
+      margin-top: 40px;
+      background: #c0392b;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    .media-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .media-column {
+      flex: 1;
+      min-width: 300px;
+    }
+    .contenido-box {
+      font-size: 14px;
+      line-height: 1.4;
+      margin-bottom: 16px;
+      padding: 12px 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .noticia {
+      background: #fef5f5;
+      border-left: 5px solid #e74c3c;
+    }
+    .video {
+      background: #f0f8ff;
+      border-left: 5px solid #2980b9;
+    }
+    .contenido-box a {
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 5px;
+      color: #1a0dab;
+      text-decoration: none;
+    }
+    .contenido-box a:hover {
+      text-decoration: underline;
+    }
+    .video-thumb {
+      margin-top: 10px;
+      width: 100%;
+      border-radius: 6px;
+    }
+    .oculto {
+      display: none;
+    }
+    .boton-vermas {
+      background-color: #007bff;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin: 20px 0;
+    }
+    .boton-vermas:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌄 Arequipa</h1>
+  <h2>Información turística</h2>
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bandera_del_Per%C3%BA.png/640px-Bandera_del_Per%C3%BA.png" alt="Imagen de Arequipa">
+  <div class="descripcion">Vigilado por el famoso volcán Misti, Arequipa muestra su diversidad natural en sus profundos cañones como Cotahuasi y Colca, este último ubicado en el famoso valle del Colca, que es uno de los imponentes atractivos turísticos de este departamento del sur del Perú. El Centro Histórico de Arequipa es Patrimonio Cultural de la Humanidad por sus impresionantes edificaciones como la Basílica Catedral, el Monasterio de Santa Catalina, el Convento la Recoleta, entre otras muestras de impresionante arquitectura. Otros atractivos turísticos que podemos encontrar en la ´Ciudad Blanca´ es el Mirador de Yanahuara, los Baños Termales de Yura, las Cuevas de Sumbay, entre otros.</div>
+
+  <div class="info-box">
+    <strong>Clima promedio estimado:</strong> 15.7 °C<br>
+    <strong>Clasificación del clima:</strong> Templado<br>
+    <strong>Mes de referencia:</strong> Ene
+  </div>
+
+  <h2>🌡️ Clima mensual en Arequipa</h2>
+  <img src="clima_arequipa.png" alt="Gráfico del clima en Arequipa">
+
+  <h2>📰 Noticias y 📺 Videos recomendados</h2>
+  <div class="media-grid">
+    <div class="media-column">
+      <h3>📰 Noticias</h3>
+      
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Erreway anuncia concierto en Arequipa con su gira ‘Juntos Otra Vez’: fecha, lugar y entradas</strong></p>
+                    <a href="https://elcomercio.pe/luces/musica/erreway-anuncia-concierto-en-arequipa-con-su-gira-juntos-otra-vez-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Desarticulan red de prostitución en Arequipa: líder preso y cómplice detenida</strong></p>
+                    <a href="https://elcomercio.pe/videos/pais/desarticulan-red-de-prostitucion-en-arequipa-lider-preso-y-complice-detenida-nnav-amtv-policial-video-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Zelestra anuncia inicio de operación comercial de su planta solar San Martín en Arequipa</strong></p>
+                    <a href="https://elcomercio.pe/economia/peru/zelestra-anuncia-inicio-de-operacion-comercial-de-su-planta-solar-san-martin-en-arequipa-l-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Bebotes Dog Park: conoce el primer parque acuático para perros en Arequipa</strong></p>
+                    <a href="https://elcomercio.pe/wuf/bebotes-dog-park-conoce-el-primer-parque-acuatico-para-perros-en-arequipa-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Sismo de magnitud 5.5 con epicentro en Chile se sintió en Tacna y Arequipa</strong></p>
+                    <a href="https://elcomercio.pe/peru/tacna/sismo-de-magnitud-55-con-epicentro-en-chile-se-sintio-en-tacna-y-arequipa-igp-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Arequipa puede (y debe) crecer al menos 7%</strong></p>
+                    <a href="https://elcomercio.pe/economia/opinion/arequipa-puede-y-debe-crecer-al-menos-7-por-ivan-portocarrero-arequipa-economia-de-arequipa-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Policía castiga con ejercicios físicos a conductor en Arequipa</strong></p>
+                    <a href="https://elcomercio.pe/videos/pais/arequipa-policia-impone-ejercicios-fisicos-a-chofer-en-lugar-de-multa-y-genera-polemica-nnav-amtv-video-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Sicarios asesinan a taxista haciéndose pasar por pasajeros en la avenida Arequipa</strong></p>
+                    <a href="https://elcomercio.pe/lima/policiales/asesinan-a-taxista-haciendose-pasar-por-pasajeros-en-la-avenida-arequipa-sicarios-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Arequipa: incautan más de un millón de cigarrillos de contrabando</strong></p>
+                    <a href="https://elcomercio.pe/lima/sucesos/arequipa-incautan-mas-de-un-millon-de-cigarrillos-de-contrabando-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>¿Por qué habrá corte de luz en Arequipa en estos horarios desde el 19 de mayo 2025? fecha en que volverá el servicio del fluido eléctrico y las z...</strong></p>
+                    <a href="https://elcomercio.pe/respuestas/por-que/por-que-habra-corte-de-luz-en-arequipa-en-estos-horarios-del-19-al-21-de-mayo-del-2025-fecha-en-que-volvera-el-servicio-del-fluido-electrico-y-las-zonas-mas-afectadas-tdpe-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Nueva directora estratégica de Ford, vicepresidente del directorio de Caja Arequipa y otros nombramientos destacados</strong></p>
+                    <a href="https://elcomercio.pe/economia/peru/el-nuevo-country-manager-de-konecta-peru-y-otros-nombramientos-destacados-nombramientos-nombramientos-destacados-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Hay Festival Arequipa: celebrar el legado de Vargas Llosa en un difícil contexto mundial</strong></p>
+                    <a href="https://elcomercio.pe/eldominical/actualidad/mario-vargas-llosa-hay-festival-arequipa-celebrar-el-legado-de-mvll-en-un-dificil-contexto-mundial-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Don Tetto regresa a Perú para conciertos en Lima y Arequipa</strong></p>
+                    <a href="https://elcomercio.pe/luces/musica/don-tetto-regresa-a-peru-para-conciertos-en-lima-y-arequipa-joinnus-celebs-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Sismo de magnitud 5.8 sacudió Arequipa sin reportarse daños materiales ni víctimas</strong></p>
+                    <a href="https://elcomercio.pe/peru/arequipa/sismo-de-magnitud-58-sacudio-arequipa-sin-reportarse-danos-materiales-ni-victimas-igp-chala-caraveli-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Suspenden vuelos en aeropuerto de Arequipa por alerta de bomba y activan protocolo de emergencia</strong></p>
+                    <a href="https://elcomercio.pe/peru/arequipa-por-alerta-de-bomba-suspenden-vuelos-en-aeropuerto-alfredo-rodriguez-ballon-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Arequipa: alerta por amenaza de explosivo en aeropuerto Alfredo Rodríguez Ballón</strong></p>
+                    <a href="https://elcomercio.pe/videos/pais/arequipa-alerta-por-amenaza-de-explosivo-en-aeropuerto-alfredo-rodriguez-ballon-emergencia-nnav-video-amtv-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Restablecen operaciones en el aeropuerto de Arequipa tras descartar amenaza de bomba</strong></p>
+                    <a href="https://elcomercio.pe/peru/arequipa/arequipa-alerta-de-bomba-en-el-aeropuerto-alfredo-rodriguez-ballon-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>¿A qué hora vuelve el servicio de agua en Arequipa? consulta distritos afectados, qué dice Sedapar y más</strong></p>
+                    <a href="https://elcomercio.pe/respuestas/tramites/a-que-hora-vuelve-el-servicio-de-agua-en-arequipa-distritos-afectados-que-dice-sedapar-y-mas-tdpe-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Descubren registro inédito de barco colonial hundido en Arequipa: “La Brava”, desaparecido frente a Acarí en el siglo XVI | Exclusivo</strong></p>
+                    <a href="https://elcomercio.pe/lima/descubren-registro-inedito-de-barco-colonial-hundido-en-arequipa-la-brava-desaparecido-frente-a-acari-en-el-siglo-xvi-exclusivo-arqueologia-descubrimiento-virreinato-mar-peruano-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Arequipa: un muerto y 35 heridos tras despiste de bus</strong></p>
+                    <a href="https://elcomercio.pe/peru/arequipa/arequipa-accidente-de-transito-un-muerto-y-35-heridos-tras-despiste-de-bus-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Arequipa: Se quejan de pésima atención en centro de salud 4 de Octubre</strong></p>
+                    <a href="https://elcomercio.pe" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>MEF: Arequipa se consolida como epicentro de inversión privada con más de US$14 mil millones</strong></p>
+                    <a href="https://elcomercio.pe/economia/peru/mef-arequipa-se-consolida-como-epicentro-de-inversion-privada-con-mas-de-us14-mil-millones-l-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Dina Boluarte no participará en audiencia del TC en Arequipa en proceso sobre límites de investigaciones</strong></p>
+                    <a href="https://elcomercio.pe/politica/gobierno/dina-boluarte-no-viajara-a-arequipa-para-audiencia-del-tribunal-constitucional-en-proceso-sobre-limites-de-investigaciones-a-la-presidenta-gustavo-adrianzen-tc-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Niño de un año muere tras ser atropellado por su padre en Arequipa</strong></p>
+                    <a href="https://elcomercio.pe/peru/arequipa-nino-de-un-ano-muere-tras-ser-atropellado-por-su-padre-en-el-distrito-de-san-isidro-viernes-santo-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>MEF inicia estrategia territorial para impulsar inversiones en Arequipa por US$14 mil millones</strong></p>
+                    <a href="https://elcomercio.pe/economia/peru/mef-inicia-estrategia-territorial-para-impulsar-inversiones-en-arequipa-por-us14-mil-millones-l-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Arequipa homenajea al Nobel, Lurín en llamas y el caos del sonido</strong></p>
+                    <a href="https://elcomercio.pe/opinion/columnistas/arequipa-homenajea-al-nobel-via-expresa-en-riesgo-y-el-caos-del-sonido-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Mario Vargas Llosa: Arequipa rinde homenaje al Nobel con apertura de su Biblioteca Personal</strong></p>
+                    <a href="https://elcomercio.pe/luces/libros/mario-vargas-llosa-homenaje-arequipa-abre-su-biblioteca-personal-al-publico-nobel-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Fallecimiento de Mario Vargas Llosa: Arequipa decreta duelo regional por dos días</strong></p>
+                    <a href="https://elcomercio.pe/luces/fallecimiento-de-mario-vargas-llosa-arequipa-decreta-duelo-regional-por-dos-dias-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Gloria Trevi confirma concierto en Arequipa tras éxito de su nuevo tema “Q.E.P.D.”</strong></p>
+                    <a href="https://elcomercio.pe/luces/musica/gloria-trevi-en-arequipa-2025-concierto-entradas-y-exito-viral-de-qepd-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Pamela López acusa a Christian Cueva de no pasar tiempo con sus hijos: “Se fue a Arequipa”</strong></p>
+                    <a href="https://elcomercio.pe/respuestas/farandula/la-nueva-y-sorprendente-acusacion-de-pamela-lopez-hacia-christian-cueva-se-fue-a-arequipa-tdpe-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+      <button id="botonNoticias" class="boton-vermas" onclick="mostrarNoticias()">Ver más noticias</button>
+    </div>
+    <div class="media-column">
+      <h3>📺 Videos</h3>
+      
+                <div class="contenido-box video ">
+                    <p>📺 <strong>AREQUIPA | 13 LUGARES TURÍSTICOS PARA VISITAR (TODO lo que DEBES SABER, HACER y CONOCER) 😲</strong></p>
+                    <a href="https://www.youtube.com/watch?v=duFze7nWfR8&pp=ygUZdHVyaXNtbyBlbiBBcmVxdWlwYSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+                    <a href="https://www.youtube.com/watch?v=duFze7nWfR8&pp=ygUZdHVyaXNtbyBlbiBBcmVxdWlwYSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/duFze7nWfR8/0.jpg"></a>
+                </div>
+            
+
+                <div class="contenido-box video ">
+                    <p>📺 <strong>Qué hacer en AREQUIPA EN 4 DIAS: Guía completa 2024</strong></p>
+                    <a href="https://www.youtube.com/watch?v=vHjSB8xk8Uw&pp=ygUZdHVyaXNtbyBlbiBBcmVxdWlwYSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+                    <a href="https://www.youtube.com/watch?v=vHjSB8xk8Uw&pp=ygUZdHVyaXNtbyBlbiBBcmVxdWlwYSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/vHjSB8xk8Uw/0.jpg"></a>
+                </div>
+            
+
+                <div class="contenido-box video ">
+                    <p>📺 <strong>Arequipa 2025 SUPER BARATO‼️✈️ 21 Lugares turisticos en 3 dias🔥 4K Peru 🌋 Ciudad blanca para visitar</strong></p>
+                    <a href="https://www.youtube.com/watch?v=WRtBxNMoceU&pp=ygUZdHVyaXNtbyBlbiBBcmVxdWlwYSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+                    <a href="https://www.youtube.com/watch?v=WRtBxNMoceU&pp=ygUZdHVyaXNtbyBlbiBBcmVxdWlwYSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/WRtBxNMoceU/0.jpg"></a>
+                </div>
+            
+    </div>
+  </div>
+
+  <a class="volver" href="index.html">← Volver al recomendador</a>
+
+  <script>
+    function mostrarNoticias() {
+      document.querySelectorAll('.oculto').forEach(e => e.style.display = 'block');
+      const boton = document.getElementById('botonNoticias');
+      if (boton) boton.style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Información Turística - Loreto</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffaf4;
+      color: #333;
+      max-width: 900px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.08);
+    }
+    h1 { color: #c0392b; }
+    h2 { color: #2c3e50; margin-top: 40px; }
+    img { max-width: 100%; border-radius: 8px; }
+    .descripcion { font-size: 17px; margin: 20px 0; line-height: 1.6; }
+    .info-box {
+      background: #f0fff4;
+      padding: 15px;
+      border-left: 6px solid #27ae60;
+      margin: 20px 0;
+      border-radius: 6px;
+    }
+    .volver {
+      display: inline-block;
+      margin-top: 40px;
+      background: #c0392b;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    .media-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .media-column {
+      flex: 1;
+      min-width: 300px;
+    }
+    .contenido-box {
+      font-size: 14px;
+      line-height: 1.4;
+      margin-bottom: 16px;
+      padding: 12px 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .noticia {
+      background: #fef5f5;
+      border-left: 5px solid #e74c3c;
+    }
+    .video {
+      background: #f0f8ff;
+      border-left: 5px solid #2980b9;
+    }
+    .contenido-box a {
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 5px;
+      color: #1a0dab;
+      text-decoration: none;
+    }
+    .contenido-box a:hover {
+      text-decoration: underline;
+    }
+    .video-thumb {
+      margin-top: 10px;
+      width: 100%;
+      border-radius: 6px;
+    }
+    .oculto {
+      display: none;
+    }
+    .boton-vermas {
+      background-color: #007bff;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin: 20px 0;
+    }
+    .boton-vermas:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌄 Loreto</h1>
+  <h2>Información turística</h2>
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bandera_del_Per%C3%BA.png/640px-Bandera_del_Per%C3%BA.png" alt="Imagen de Loreto">
+  <div class="descripcion">Departamento peruano famoso por cruzar el caudaloso río Amazonas, que es el más largo del mundo. En Loreto podemos encontrar paisajes exóticos con flora y fauna diversa, como en la Reserva Nacional Pacaya Samiria, que alberga a los delfines rosados, y la Reserva Nacional Allpahuayo Mishana, que se caracteriza por sus tipos de suelos y aves endémicas.</div>
+
+  <div class="info-box">
+    <strong>Clima promedio estimado:</strong> 26.5 °C<br>
+    <strong>Clasificación del clima:</strong> Muy caluroso<br>
+    <strong>Mes de referencia:</strong> Ene
+  </div>
+
+  <h2>🌡️ Clima mensual en Loreto</h2>
+  <img src="clima_loreto.png" alt="Gráfico del clima en Loreto">
+
+  <h2>📰 Noticias y 📺 Videos recomendados</h2>
+  <div class="media-grid">
+    <div class="media-column">
+      <h3>📰 Noticias</h3>
+      
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Turista de EE. UU. fallece tras sesión de Ayahuasca en Loreto</strong></p>
+                    <a href="https://elcomercio.pe/videos/pais/turista-de-ee-uu-muere-tras-sesion-de-ayahuasca-en-loreto-nnav-amtv-video-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Loreto: ciudadano norteamericano muere tras sesión de ayahuasca</strong></p>
+                    <a href="https://elcomercio.pe/peru/loreto/loreto-norteamericano-muere-tras-sesion-de-ayahuasca-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Tos ferina supera los 430 casos en Perú: Loreto concentra más del 80 % de contagios</strong></p>
+                    <a href="https://elcomercio.pe/peru/tos-ferina-supera-los-430-casos-en-peru-loreto-concentra-mas-del-80-de-contagios-minsa-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Tos ferina en Perú: Minsa confirma más de 400 casos y 10 fallecidos, con brotes graves en Loreto</strong></p>
+                    <a href="https://elcomercio.pe/peru/loreto/tos-ferina-en-peru-minsa-confirma-mas-de-400-casos-y-10-fallecidos-con-brotes-graves-en-loreto-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Loreto: trasladan con éxito a menor mordido por peligrosa serpiente en Loreto</strong></p>
+                    <a href="https://elcomercio.pe/lima/midis-trasladan-con-exito-a-menor-mordido-por-peligrosa-serpiente-en-loreto-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>“Libros viajeros BNP” atenderá a más de 400 comunidades navitas de Loreto</strong></p>
+                    <a href="https://elcomercio.pe/lima/sucesos/libros-viajeros-bnp-atendera-a-mas-de-400-comunidades-navitas-de-loreto-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Cofide otorga préstamo sostenible para apoyar infraestructura del sector energético en beneficio de comunidades de Loreto</strong></p>
+                    <a href="https://elcomercio.pe/economia/peru/cofide-otorga-prestamo-sostenible-para-apoyar-infraestructura-del-sector-energetico-en-beneficio-de-comunidades-de-loreto-l-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Loreto: cuatro PIAS fluviales brindarán más de 130 000 atenciones a población de 400 comunidades nativas</strong></p>
+                    <a href="https://elcomercio.pe/lima/sucesos/loreto-cuatro-pias-fluviales-brindaran-mas-de-130-000-atenciones-a-poblacion-de-400-comunidades-nativas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>PJ expresa condolencias a familiares de víctimas del choque entre buque de la Marina y plataforma fluvial en Loreto</strong></p>
+                    <a href="https://elcomercio.pe/lima/pj-expresa-condolencias-a-familiares-de-victimas-del-choque-entre-buque-de-la-marina-y-plataforma-fluvial-en-loreto-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Loreto: buque BAP se hunde en río Amazonas y deja dos muertos, un desaparecido y 30 tripulantes rescatados</strong></p>
+                    <a href="https://elcomercio.pe/peru/loreto/loreto-acciente-dembarcaciones-dos-muertos-un-desaparecido-y-30-tripulantes-rescatados-tras-hundimiento-de-buque-bap-marina-de-guerra-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Loreto: profesor dicta clases con los pies en el agua mientras sus alumnos lo escuchan desde una canoa</strong></p>
+                    <a href="https://elcomercio.pe/peru/loreto-profesor-dicta-clases-con-los-pies-en-el-agua-mientras-sus-alumnos-lo-escuchan-desde-una-canoa-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Loreto: población de Caballococha recibe atención médica de especialistas de EsSalud</strong></p>
+                    <a href="https://elcomercio.pe/lima/sucesos/loreto-poblacion-de-caballococha-recibe-atencion-medica-de-especialistas-de-essalud-iquitos-seguro-social-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Lluvias intensas en Loreto dejan más de 20 mil afectados y provocan estado de emergencia</strong></p>
+                    <a href="https://elcomercio.pe/peru/loreto/senamhi-lluvias-intensas-en-loreto-dejan-mas-de-20-mil-afectados-y-provocan-estado-de-emergencia-coer-inundaciones-clima-temperaturas-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Así se abastecen las dragas en Loreto: el sorprendente hallazgo de combustible oculto para la minería ilegal del oro</strong></p>
+                    <a href="https://elcomercio.pe/peru/loreto/mineria-ilegal-del-oro-en-loreto-asi-se-abastecen-las-balsas-dragas-el-sorprendente-hallazgo-de-combustible-oculto-en-la-embarcacion-zaragoza-rio-nanay-marina-de-guerra-policia-iquitos-renovacion-popular-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Loreto: 300 casas fueron arrasadas por la crecida del río Ucayali en Juancito</strong></p>
+                    <a href="https://elcomercio.pe/peru/loreto-300-casas-fueron-arrasadas-por-la-crecida-del-rio-ucayali-en-juancito-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Minería ilegal del oro en Loreto: cómo el combustible usado por las dragas llega al Nanay, zona donde el negocio ilícito opera sin control</strong></p>
+                    <a href="https://elcomercio.pe/peru/loreto/mineria-ilegal-del-oro-en-loreto-el-combustible-usado-por-las-balsas-dragas-llega-al-rio-nanay-sin-control-amazonia-selva-peruana-pnp-marina-de-guerra-rio-tigre-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Alerta en Loreto: Maynas, Ucayali y Alto Amazonas en peligro por lluvias e inundaciones</strong></p>
+                    <a href="https://elcomercio.pe/peru/loreto-maynas-ucayali-y-alto-amazonas-en-peligro-por-lluvias-e-inundaciones-advierte-senamhi-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Loreto en alerta por intensas lluvias y riesgo de inundaciones en el interior de la región</strong></p>
+                    <a href="https://elcomercio.pe/peru/loreto/senamhi-loreto-en-alerta-por-intensas-lluvias-y-riesgo-de-inundaciones-en-el-interior-de-la-region-defensa-civil-clima-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Verano 2025: Loreto y San Martín las regiones más afectadas por focos de calor</strong></p>
+                    <a href="https://elcomercio.pe/lima/verano-2025-loreto-y-san-martin-entre-las-regiones-mas-afectadas-por-aumento-de-focos-de-calor-cambio-climatico-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Sequía del río Ucayali: ¿cómo afecta a la comunidad de Huañuna en Loreto?</strong></p>
+                    <a href="https://elcomercio.pe/corresponsales-escolares/sequia-del-rio-ucayali-como-afecta-a-la-comunidad-de-huanuna-en-loreto-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Médico residente detenido por presunto abuso sexual a menor en hospital de Loreto</strong></p>
+                    <a href="https://elcomercio.pe/peru/medico-residente-detenido-por-presunto-abuso-sexual-a-menor-en-hospital-de-loreto-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Asesinato de barbero en Chorrillos: familia pide ayuda para trasladar cuerpo a Loreto</strong></p>
+                    <a href="https://elcomercio.pe/lima/seguridad/asesinato-de-barbero-en-chorrillos-familia-pide-ayuda-para-trasladar-cuerpo-a-loreto-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Inicia vacunación contra el dengue en Loreto, Ucayali, Piura y Tumbes</strong></p>
+                    <a href="https://elcomercio.pe/peru/minsa-inicia-vacunacion-contra-el-dengue-en-loreto-ucayali-piura-y-tumbes-casos-dengue-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Loreto: Minam declara en emergencia ambiental a área afectada por afloramiento de petróleo</strong></p>
+                    <a href="https://elcomercio.pe/peru/loreto/loreto-minam-declara-en-emergencia-ambiental-a-area-afectada-por-afloramiento-de-petroleo-petroperu-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Colegios de Loreto, Ayacucho y La Libertad logran primeros puestos en concurso escolar de videos BCRP 2024</strong></p>
+                    <a href="https://elcomercio.pe/economia/peru/colegios-de-loreto-ayacucho-y-la-libertad-logran-primeros-puestos-en-concurso-escolar-de-videos-bcrp-2024-i-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Loreto: intervienen embarcación y frustran envío de combustible para minería ilegal</strong></p>
+                    <a href="https://elcomercio.pe/peru/loreto-intervienen-embarcacion-y-frustran-envio-de-combustible-para-mineria-ilegal-marina-de-guerra-del-peru-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Loreto: reportan derrame de petróleo del Oleoducto Norperuano en la cuenca del río Pastaza</strong></p>
+                    <a href="https://elcomercio.pe/peru/loreto/loreto-reportan-derrame-de-petroleo-del-oleoducto-norperuano-en-la-cuenca-del-rio-pastaza-petroperu-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Moyobamba busca integrarse con la región Loreto a través de una carretera</strong></p>
+                    <a href="https://elcomercio.pe/lima/sucesos/moyobamba-busca-integrarse-con-la-region-loreto-a-traves-de-una-carretera-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Decretan estado de emergencia por 60 días Loreto debido a déficit hídrico</strong></p>
+                    <a href="https://elcomercio.pe/peru/loreto-en-estado-de-emergencia-por-escasas-lluvias-rio-amazonas-deficit-hidrico-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Firman convenio para avanzar en la formalización de propiedades en distritos de Loreto</strong></p>
+                    <a href="https://elcomercio.pe/peru/loreto/firman-convenio-para-avanzar-en-la-formalizacion-de-propiedades-en-distritos-de-loreto-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+      <button id="botonNoticias" class="boton-vermas" onclick="mostrarNoticias()">Ver más noticias</button>
+    </div>
+    <div class="media-column">
+      <h3>📺 Videos</h3>
+      
+                <div class="contenido-box video ">
+                    <p>📺 <strong>Disfrute de Loreto y sus atractivos turísticos</strong></p>
+                    <a href="https://www.youtube.com/watch?v=rSYLIMjbDVQ&pp=ygUXdHVyaXNtbyBlbiBMb3JldG8gUGVyw7o%3D" target="_blank">Ver video</a>
+                    <a href="https://www.youtube.com/watch?v=rSYLIMjbDVQ&pp=ygUXdHVyaXNtbyBlbiBMb3JldG8gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/rSYLIMjbDVQ/0.jpg"></a>
+                </div>
+            
+
+                <div class="contenido-box video ">
+                    <p>📺 <strong>Iquitos, Mercados Exóticos En La Selva Amazónica. Loreto, Perú</strong></p>
+                    <a href="https://www.youtube.com/watch?v=Fg5uq8CHI-c&pp=ygUXdHVyaXNtbyBlbiBMb3JldG8gUGVyw7o%3D" target="_blank">Ver video</a>
+                    <a href="https://www.youtube.com/watch?v=Fg5uq8CHI-c&pp=ygUXdHVyaXNtbyBlbiBMb3JldG8gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/Fg5uq8CHI-c/0.jpg"></a>
+                </div>
+            
+
+                <div class="contenido-box video ">
+                    <p>📺 <strong>El mercado más EXTRAÑO que he visitado | Amazonas: Belén, Perú</strong></p>
+                    <a href="https://www.youtube.com/watch?v=L3bp3lJScXU&pp=ygUXdHVyaXNtbyBlbiBMb3JldG8gUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank">Ver video</a>
+                    <a href="https://www.youtube.com/watch?v=L3bp3lJScXU&pp=ygUXdHVyaXNtbyBlbiBMb3JldG8gUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/L3bp3lJScXU/0.jpg"></a>
+                </div>
+            
+    </div>
+  </div>
+
+  <a class="volver" href="index.html">← Volver al recomendador</a>
+
+  <script>
+    function mostrarNoticias() {
+      document.querySelectorAll('.oculto').forEach(e => e.style.display = 'block');
+      const boton = document.getElementById('botonNoticias');
+      if (boton) boton.style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>

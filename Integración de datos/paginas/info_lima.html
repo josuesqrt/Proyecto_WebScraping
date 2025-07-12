@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Información Turística - Lima</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffaf4;
+      color: #333;
+      max-width: 900px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.08);
+    }
+    h1 { color: #c0392b; }
+    h2 { color: #2c3e50; margin-top: 40px; }
+    img { max-width: 100%; border-radius: 8px; }
+    .descripcion { font-size: 17px; margin: 20px 0; line-height: 1.6; }
+    .info-box {
+      background: #f0fff4;
+      padding: 15px;
+      border-left: 6px solid #27ae60;
+      margin: 20px 0;
+      border-radius: 6px;
+    }
+    .volver {
+      display: inline-block;
+      margin-top: 40px;
+      background: #c0392b;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    .media-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .media-column {
+      flex: 1;
+      min-width: 300px;
+    }
+    .contenido-box {
+      font-size: 14px;
+      line-height: 1.4;
+      margin-bottom: 16px;
+      padding: 12px 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .noticia {
+      background: #fef5f5;
+      border-left: 5px solid #e74c3c;
+    }
+    .video {
+      background: #f0f8ff;
+      border-left: 5px solid #2980b9;
+    }
+    .contenido-box a {
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 5px;
+      color: #1a0dab;
+      text-decoration: none;
+    }
+    .contenido-box a:hover {
+      text-decoration: underline;
+    }
+    .video-thumb {
+      margin-top: 10px;
+      width: 100%;
+      border-radius: 6px;
+    }
+    .oculto {
+      display: none;
+    }
+    .boton-vermas {
+      background-color: #007bff;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin: 20px 0;
+    }
+    .boton-vermas:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌄 Lima</h1>
+  <h2>Información turística</h2>
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bandera_del_Per%C3%BA.png/640px-Bandera_del_Per%C3%BA.png" alt="Imagen de Lima">
+  <div class="descripcion">Lima es la capital del Perú, ubicada en la costa central. Es la única capital sudamericana con salida al mar. Su arquitectura colonial se mantiene en gran estado, respetando su historia y logrando una armonía perfecta entre la tradición y sus edificaciones contemporáneas. El Centro Histórico de Lima fue declarado Patrimonio Cultural de la Humanidad por la UNESCO en 1991. Además, por la excelente calidad y pasión de cocineros peruanos como Gastón Acurio, Virgilio Martínez, entre otros, Lima ha sido denominada como la Capital Gastronómica de Latinoamérica.</div>
+
+  <div class="info-box">
+    <strong>Clima promedio estimado:</strong> 21.5 °C<br>
+    <strong>Clasificación del clima:</strong> Caluroso<br>
+    <strong>Mes de referencia:</strong> Ene
+  </div>
+
+  <h2>🌡️ Clima mensual en Lima</h2>
+  <img src="clima_lima.png" alt="Gráfico del clima en Lima">
+
+  <h2>📰 Noticias y 📺 Videos recomendados</h2>
+  <div class="media-grid">
+    <div class="media-column">
+      <h3>📰 Noticias</h3>
+      
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Corte de EE.UU. ordena a Municipalidad de Lima pagar US$ 200 millones a Rutas de Lima</strong></p>
+                    <a href="https://elcomercio.pe/economia/corte-de-eeuu-ordena-a-municipalidad-de-lima-pagar-us-200-millones-a-rutas-de-lima-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Los Fabulosos Cadillacs regresan a Lima para celebrar su 40 aniversario: fecha, precio y más</strong></p>
+                    <a href="https://elcomercio.pe/luces/musica/los-fabulosos-cadillacs-regresan-a-lima-para-celebrar-su-40-aniversario-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Aprendió a hacer sánguches por necesidad y hoy tiene un local que compite con los mejores de Lima: conoce Pandilla y su propuesta</strong></p>
+                    <a href="https://elcomercio.pe/provecho/tendencias/pandilla-la-sangucheria-en-miraflores-que-conquista-a-los-amantes-de-un-sanguche-conoce-su-historia-miraflores-carta-panes-restaurante-local-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Renunció a todo y viajó al Líbano para conectar con sus raíces: así nació Ezzem, el nuevo templo de la cocina de Medio Oriente en Lima</strong></p>
+                    <a href="https://elcomercio.pe/provecho/tendencias/ezzem-el-nuevo-restaurante-con-cocina-del-medio-oriente-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Gaspar Gentile se unirá a Alianza Lima: “Tenía ganas de llegar, estoy muy contento”</strong></p>
+                    <a href="https://elcomercio.pe/deporte-total/futbol-peruano/gaspar-gentile-se-unira-a-alianza-lima-tenia-ganas-de-llegar-estoy-muy-contento-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>New Balance Lima 15K Powered by El Comercio: Conoce los tres tips para evitar calambres durante la carrera</strong></p>
+                    <a href="https://elcomercio.pe/deporte-total/polideportivo/new-balance-lima-15k-powered-by-el-comercio-conoce-los-tres-tips-para-evitar-calambres-durante-la-carrera-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>New Balance Lima 15K Powered by El Comercio: súmate al reconocimiento de la ruta con energía y buena vibra</strong></p>
+                    <a href="https://elcomercio.pe/deporte-total/new-balance-lima-15k-powered-by-el-comercio-sumate-al-reconocimiento-de-la-ruta-con-energia-y-buena-vibra-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Circo temático Dinosaurios Gigantes Caminantes llega a Lima Norte</strong></p>
+                    <a href="https://elcomercio.pe/luces/circo-tematico-dinosaurios-gigantes-caminantes-llega-a-lima-norte-farandula-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Villa Chicken se reinventa y presenta Villa Steakhouse, su templo de las carnes que redefine la experiencia parrillera en Lima</strong></p>
+                    <a href="https://elcomercio.pe/provecho/restaurantes/villa-chicken-se-reinventa-y-presenta-villa-steakhouse-su-nuevo-templo-de-las-carnes-que-redefine-la-experiencia-parrillera-en-lima-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Cazzu confirma concierto en Lima: ¿Cuándo y dónde será?</strong></p>
+                    <a href="https://elcomercio.pe/luces/musica/cazzu-confirma-concierto-en-lima-cuando-y-donde-sera-teleticket-celebs-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Trabajan en tres de los restaurantes más ‘top’ de Lima y hoy cocinan juntos su propio proyecto en SJM: así es La Cevichería</strong></p>
+                    <a href="https://elcomercio.pe/provecho/restaurantes/la-cevicheria-el-restaurante-de-pescados-y-mariscos-que-pone-en-el-mapa-gastronomico-a-san-juan-de-miraflores-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>En un lugar estratégico y con una carta diferente: así es la sede de El Pan de la Chola en el Centro Histórico de Lima</strong></p>
+                    <a href="https://elcomercio.pe/provecho/restaurantes/el-pan-de-la-chola-abrio-su-nuevo-local-en-el-centro-de-lima-conoce-su-propuesta-entrevista-jonathan-day-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Banh Mi, la celebrada propuesta ecuatoriana que busca ser la nueva joya asiática de Lima</strong></p>
+                    <a href="https://elcomercio.pe/provecho/tendencias/banh-mi-de-quito-a-lima-asi-es-la-propuesta-de-comida-del-sudeste-asiatico-en-la-av-la-mar-restaurantes-en-miraflores-ecuador-gastronomia-cocina-ecuatoriana-carta-platos-bebidas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Lima: regresan las mañanas frías, con neblina y lloviznas desde hoy 26 de junio</strong></p>
+                    <a href="https://elcomercio.pe/lima/sucesos/lima-regresan-las-mananas-frias-con-neblina-y-lloviznas-desde-este-26-de-junio-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Recorrido de la Marcha del Orgullo 2025 en Lima: conoce a qué hora y cómo participar este sábado 28 de junio</strong></p>
+                    <a href="https://elcomercio.pe/respuestas/donde/recorrido-de-la-marcha-del-orgullo-2025-en-lima-conoce-a-que-hora-y-como-participar-este-sabado-28-de-junio-tdpe-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Estos 6 distritos de Lima presentan un mayor riesgo de colapso de viviendas frente a un sismo de gran magnitud</strong></p>
+                    <a href="https://elcomercio.pe/respuestas/cual/estos-6-distritos-de-lima-presentan-un-mayor-riesgo-de-colapso-de-viviendas-frente-a-un-sismo-de-gran-magnitud-tdpe-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Intenso frío y lloviznas, pero con inesperados brillos de sol en Lima: Cinco preguntas sobre el invierno y los cambios de temperatura</strong></p>
+                    <a href="https://elcomercio.pe/lima/intenso-frio-y-lloviznas-pero-con-inesperados-brillos-de-sol-en-lima-por-que-ocurre-este-fenomeno-y-que-nos-espera-en-los-proximos-dias-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>¡Atención! Corte de agua en Lima desde hoy al 27 de junio según Sedapal: zonas afectadas por distritos</strong></p>
+                    <a href="https://elcomercio.pe/respuestas/a-que-hora/corte-de-agua-en-lima-hoy-segun-sedapal-hora-zonas-afectadas-por-distritos-y-mas-ultimo-reporte-tdpe-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>San Borja registró el aire más contaminado de Lima en mayo, según Senamhi</strong></p>
+                    <a href="https://elcomercio.pe/lima/san-borja-registro-el-aire-mas-contaminado-de-lima-en-mayo-segun-senamhi-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Jordi Espinoza será el árbitro de Universitario vs. Grau y Alianza Lima vs. Melgar por Liga 1</strong></p>
+                    <a href="https://elcomercio.pe/deporte-total/futbol-peruano/liga-1-jordi-espinoza-sera-el-arbitro-de-universitario-vs-grau-y-alianza-lima-vs-melgar-por-torneo-apertura-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>FIL Lima 2025: Javier Cercas y Rosa Montero lideran los invitados de la Feria Internacional del Libro</strong></p>
+                    <a href="https://elcomercio.pe/luces/libros/fil-lima-2025-javier-cercas-y-rosa-montero-lideran-los-invitados-de-la-feria-internacional-del-libro-elisabet-benavent-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Conoce a los ganadores de la cena exclusiva en La Locanda, del Swissôtel Lima</strong></p>
+                    <a href="https://elcomercio.pe/desde-la-redaccion/experiencias/conoce-a-los-ganadores-de-la-cena-exclusiva-en-la-locanda-del-swissotel-lima-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Miguel Bosé regresa a Lima tras 14 años con su ‘Importante Tour 2025–2026′</strong></p>
+                    <a href="https://elcomercio.pe/luces/musica/miguel-bose-regresa-a-lima-tras-14-anos-con-su-importante-tour-20252026-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Exfutbolista campeón con Alianza Lima asegura que es más difícil jugar en el Monumental que en Matute: “Es completamente diferente”</strong></p>
+                    <a href="https://elcomercio.pe/respuestas/deportes/exfutbolista-campeon-con-alianza-lima-asegura-que-es-mas-dificil-jugar-en-el-monumental-que-en-matute-es-completamente-diferente-tdpe-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Lima acoge el XV Festival Internacional de Cine y Comunicación de los Pueblos Indígenas con más de 50 películas gratuitas</strong></p>
+                    <a href="https://elcomercio.pe/luces/cine/lima-acoge-el-15-festival-internacional-de-cine-y-comunicacion-de-los-pueblos-indigenas-con-mas-de-50-peliculas-gratuitas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Festival de cine indígena en Lima, aumenta la neumonía y del fútbol a la minería ilegal</strong></p>
+                    <a href="https://elcomercio.pe/opinion/columnistas/festival-de-cine-indigena-en-lima-aumenta-la-neumonia-y-del-futbol-a-la-mineria-ilegal-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Junta de Fiscales Superiores de Lima Centro solicitan “máximo respeto” a la autonomía del Ministerio Público</strong></p>
+                    <a href="https://elcomercio.pe/politica/justicia/patricia-benavides-delia-espinoza-junta-de-fiscales-superiores-de-lima-centro-solicitan-maximo-respeto-a-la-autonomia-del-ministerio-publico-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Cuáles son los encuentros que les quedan por jugar a Universitario, Alianza Lima y Melgar en la lucha por ganar el Torneo Apertura 2025</strong></p>
+                    <a href="https://elcomercio.pe/respuestas/deportes/prohibido-fallar-estos-son-los-encuentros-que-les-quedan-por-jugar-a-universitario-alianza-lima-y-melgar-en-la-lucha-por-ganar-el-torneo-apertura-2025-tdpe-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Invierno de hasta 10°C en Lima: así impactará el frío en la salud de niños y adultos mayores</strong></p>
+                    <a href="https://elcomercio.pe/lima/un-invierno-con-10-grados-y-neblina-las-enfermedades-respiratorias-que-mas-afectan-en-esta-temporada-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Cocina amazónica en Lima: 10 restaurantes para celebrar la Fiesta de San Juan</strong></p>
+                    <a href="https://elcomercio.pe/provecho/listas-y-rankings/fiesta-de-san-juan-10-restaurantes-de-cocina-amazonica-en-lima-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+      <button id="botonNoticias" class="boton-vermas" onclick="mostrarNoticias()">Ver más noticias</button>
+    </div>
+    <div class="media-column">
+      <h3>📺 Videos</h3>
+      
+                <div class="contenido-box video ">
+                    <p>📺 <strong>✨ LIMA en 3 DÍAS: Los Lugares IMPERDIBLES para Visitar en 2025 🇵🇪 ¡Guía Completa!</strong></p>
+                    <a href="https://www.youtube.com/watch?v=gXrBMAj8zSE&pp=ygUVdHVyaXNtbyBlbiBMaW1hIFBlcsO6" target="_blank">Ver video</a>
+                    <a href="https://www.youtube.com/watch?v=gXrBMAj8zSE&pp=ygUVdHVyaXNtbyBlbiBMaW1hIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/gXrBMAj8zSE/0.jpg"></a>
+                </div>
+            
+
+                <div class="contenido-box video ">
+                    <p>📺 <strong>👉 Los 7 Mejores Destinos cerca de LIMA, PERÚ 🇵🇪 ... #recomendaciones #viajes #travel</strong></p>
+                    <a href="https://www.youtube.com/watch?v=q7LEW0Zem-Q&pp=ygUVdHVyaXNtbyBlbiBMaW1hIFBlcsO6" target="_blank">Ver video</a>
+                    <a href="https://www.youtube.com/watch?v=q7LEW0Zem-Q&pp=ygUVdHVyaXNtbyBlbiBMaW1hIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/q7LEW0Zem-Q/0.jpg"></a>
+                </div>
+            
+
+                <div class="contenido-box video ">
+                    <p>📺 <strong>Lugares ALUCINANTES de LIMA PERÚ 🇵🇪</strong></p>
+                    <a href="https://www.youtube.com/watch?v=aKu14A8E2Hg&pp=ygUVdHVyaXNtbyBlbiBMaW1hIFBlcsO6" target="_blank">Ver video</a>
+                    <a href="https://www.youtube.com/watch?v=aKu14A8E2Hg&pp=ygUVdHVyaXNtbyBlbiBMaW1hIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/aKu14A8E2Hg/0.jpg"></a>
+                </div>
+            
+    </div>
+  </div>
+
+  <a class="volver" href="index.html">← Volver al recomendador</a>
+
+  <script>
+    function mostrarNoticias() {
+      document.querySelectorAll('.oculto').forEach(e => e.style.display = 'block');
+      const boton = document.getElementById('botonNoticias');
+      if (boton) boton.style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>

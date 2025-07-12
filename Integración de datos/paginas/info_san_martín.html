@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Información Turística - San Martín</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffaf4;
+      color: #333;
+      max-width: 900px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.08);
+    }
+    h1 { color: #c0392b; }
+    h2 { color: #2c3e50; margin-top: 40px; }
+    img { max-width: 100%; border-radius: 8px; }
+    .descripcion { font-size: 17px; margin: 20px 0; line-height: 1.6; }
+    .info-box {
+      background: #f0fff4;
+      padding: 15px;
+      border-left: 6px solid #27ae60;
+      margin: 20px 0;
+      border-radius: 6px;
+    }
+    .volver {
+      display: inline-block;
+      margin-top: 40px;
+      background: #c0392b;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    .media-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .media-column {
+      flex: 1;
+      min-width: 300px;
+    }
+    .contenido-box {
+      font-size: 14px;
+      line-height: 1.4;
+      margin-bottom: 16px;
+      padding: 12px 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .noticia {
+      background: #fef5f5;
+      border-left: 5px solid #e74c3c;
+    }
+    .video {
+      background: #f0f8ff;
+      border-left: 5px solid #2980b9;
+    }
+    .contenido-box a {
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 5px;
+      color: #1a0dab;
+      text-decoration: none;
+    }
+    .contenido-box a:hover {
+      text-decoration: underline;
+    }
+    .video-thumb {
+      margin-top: 10px;
+      width: 100%;
+      border-radius: 6px;
+    }
+    .oculto {
+      display: none;
+    }
+    .boton-vermas {
+      background-color: #007bff;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin: 20px 0;
+    }
+    .boton-vermas:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌄 San Martín</h1>
+  <h2>Información turística</h2>
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bandera_del_Per%C3%BA.png/640px-Bandera_del_Per%C3%BA.png" alt="Imagen de San Martín">
+  <div class="descripcion">El departamento de San Martín está ubicado en el noreste del Perú. Entre sus principales atracciones naturales se encuentran cataratas, orquídeas y mariposas. Es reserva de especies en peligro de extinción que están protegidas en el Parque Nacional Río Abiseo y el Parque Nacional de la Cordillera Azul. Posee interesantes sitios arqueológicos como la ciudadela del Gran Pajatén.</div>
+
+  <div class="info-box">
+    <strong>Clima promedio estimado:</strong> 21.6 °C<br>
+    <strong>Clasificación del clima:</strong> Caluroso<br>
+    <strong>Mes de referencia:</strong> Ene
+  </div>
+
+  <h2>🌡️ Clima mensual en San Martín</h2>
+  <img src="clima_san_martín.png" alt="Gráfico del clima en San Martín">
+
+  <h2>📰 Noticias y 📺 Videos recomendados</h2>
+  <div class="media-grid">
+    <div class="media-column">
+      <h3>📰 Noticias</h3>
+      
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Martín Vizcarra: PJ evaluó pedido de prisión preventiva y reanuda audiencia este viernes</strong></p>
+                    <a href="https://elcomercio.pe/politica/justicia/martin-vizcarra-en-vivo-poder-judicial-prision-preventiva-expresidente-fiscal-german-juarez-juicio-oral-presuntas-coimas-lomas-de-ilo-hospital-de-moquegua-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Poder Judicial reanudará audiencia de prisión preventiva contra Martín Vizcarra este viernes 27 de junio</strong></p>
+                    <a href="https://elcomercio.pe/politica/justicia/martin-vizcarra-en-vivo-sigue-la-audiencia-del-poder-judicial-sobre-pedido-de-prision-preventiva-contra-expresidente-lbposting-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Videos revelan que Martín Vizcarra se desplazó sin seguridad del Estado por terminal de Moquegua, según fiscalía</strong></p>
+                    <a href="https://elcomercio.pe/politica/justicia/martin-vizcarra-videos-evidencian-que-expresidente-se-desplazo-sin-seguridad-del-estado-por-terminal-de-moquegua-advierte-fiscalia-obrainsa-iccgsa-lomas-de-ilo-hospital-de-moquegua-lava-jato-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>“Los amo, sean fuertes”: el último mensaje de un padre a sus hijos antes de ser detenido por ICE en San Diego</strong></p>
+                    <a href="https://elcomercio.pe/mag/historias/los-amo-sean-fuertes-el-ultimo-mensaje-de-un-padre-a-sus-hijos-antes-de-ser-detenido-por-ice-en-san-diego-nnda-nnni-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Diana Seminario: ¿Le llegó la hora a Martín Vizcarra?</strong></p>
+                    <a href="https://elcomercio.pe/politica/opinion/diana-seminario-le-llego-la-hora-a-martin-vizcarra-esta-tarde-se-define-si-le-dan-seis-meses-de-prision-preventiva-videocolumna-del-jueves-26-de-junio-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Martín Liberman ‘liquida’ a Boca Juniors por empatar ante  Auckland City en el Mundial de Clubes: “El peor equipo de la historia de Boca Juniors”</strong></p>
+                    <a href="https://elcomercio.pe/respuestas/deportes/martin-liberman-liquida-a-boca-juniors-por-empatar-ante-auckland-city-en-el-mundial-de-clubes-el-peor-equipo-de-la-historia-de-boca-juniors-tdpe-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>San Borja registró el aire más contaminado de Lima en mayo, según Senamhi</strong></p>
+                    <a href="https://elcomercio.pe/lima/san-borja-registro-el-aire-mas-contaminado-de-lima-en-mayo-segun-senamhi-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Fiscalía pide seis meses de prisión preventiva contra Martín Vizcarra: estos son los argumentos</strong></p>
+                    <a href="https://elcomercio.pe/politica/justicia/fiscalia-pide-seis-meses-de-prision-preventiva-contra-martin-vizcarra-estos-son-los-argumentos-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>México: once muertos en ataque armado durante fiesta de San Juan en Guanajuato</strong></p>
+                    <a href="https://elcomercio.pe/mundo/mexico/once-muertos-en-ataque-armado-durante-fiesta-de-san-juan-en-el-centro-de-mexico-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Fiscalía solicita 6 meses de prisión preventiva contra Martín Vizcarra por casos Lomas de Ilo y Hospital de Moquegua</strong></p>
+                    <a href="https://elcomercio.pe/politica/justicia/martin-vizcarra-fiscalia-solicita-6-meses-de-prision-preventiva-contra-expresidente-por-presuntas-coimas-cuando-era-gobernador-regional-de-moquegua-hospital-de-moquegua-lomas-de-ilo-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Origen de la Fiesta de San Juan en Perú y por qué se celebra el 24 de junio</strong></p>
+                    <a href="https://elcomercio.pe/respuestas/efemerides/fiesta-de-san-juan-en-peru-origen-por-que-se-celebra-el-24-de-junio-y-donde-tdpe-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Fiesta de San Juan: conoce 5 destinos claves para vivir esta celebración en el oriente del país</strong></p>
+                    <a href="https://elcomercio.pe/peru/fiesta-de-san-juan-conoce-cinco-destinos-clave-para-vivir-esta-celebracion-en-el-oriente-del-pais-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Juzgado rechaza pedido para realizar audiencias más frecuentes en juicio a Martín Vizcarra: ¿cómo afectará la fecha de su futura sentencia?</strong></p>
+                    <a href="https://elcomercio.pe/politica/justicia/martin-vizcarra-corte-superior-nacional-rechaza-hacer-audiencias-mas-frecuentes-en-su-juicio-como-afectara-esto-la-fecha-de-su-futura-sentencia-lomas-de-ilo-hospital-de-moquegua-obrainsa-iccgsa-lava-jato-poder-judicial-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Cocina amazónica en Lima: 10 restaurantes para celebrar la Fiesta de San Juan</strong></p>
+                    <a href="https://elcomercio.pe/provecho/listas-y-rankings/fiesta-de-san-juan-10-restaurantes-de-cocina-amazonica-en-lima-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Iquitos: regalan más de 1000 juanes por la fiesta de San Juan 2025</strong></p>
+                    <a href="https://elcomercio.pe/peru/amazonas/iquitos-fiesta-de-san-juan-2025-regalan-mas-de-1000-en-loreto-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>En el Día de San Juan: ocho personas se salvan de morir tras naufragio en río Tigre</strong></p>
+                    <a href="https://elcomercio.pe/peru/loreto/loreto-dia-de-san-juan-ocho-personas-se-salvan-de-morir-tras-naufragio-de-embarcacion-en-rio-tigre-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Sabores de la Selva peruana: cócteles para celebrar el Día de San Juan, según Luis ‘Chino’ Flores</strong></p>
+                    <a href="https://elcomercio.pe/provecho/tendencias/sabores-de-la-selva-peruana-cocteles-para-celebrar-el-dia-de-san-juan-segun-luis-chino-flores-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Fiesta de San Juan 2025: ¿cuándo es, cuál es su origen y dónde se celebra con mayor fervor?</strong></p>
+                    <a href="https://elcomercio.pe/provecho/tendencias/fiesta-de-san-juan-2025-cuando-es-cual-es-su-origen-y-donde-se-celebra-con-mayor-fervor-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>San Martín de Porres: delincuente con cuchillo asalta a madre que llevaba a su bebé en coche</strong></p>
+                    <a href="https://elcomercio.pe/lima/san-martin-de-porres-delincuente-con-cuchillo-asalta-a-madre-que-llevaba-a-su-bebe-en-coche-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Aarón Ormeño Hurtado dictará taller de poesía en la Casa Joven de San Miguel</strong></p>
+                    <a href="https://elcomercio.pe/luces/arte/aaron-ormeno-hurtado-dictara-taller-de-poesia-en-la-casa-joven-de-san-miguel-literatura-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>De Querétaro a la Residencial San Felipe: el chef que abrió 52MX para “dignificar lo mexicano” usando solo productos peruanos</strong></p>
+                    <a href="https://elcomercio.pe/provecho/chefs/cristian-ruiz-el-chef-mexicano-que-cumple-un-ano-liderando-52mx-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>De la Plaza San Martín a la de Tian’anmen: un inocente en China</strong></p>
+                    <a href="https://elcomercio.pe/eldominical/actualidad/oswaldo-reynoso-los-eunucos-inmortales-novela-memoria-de-la-plaza-san-martin-a-la-plaza-tiananmen-un-inocente-en-china-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>¿La mejor del Perú? Esta universidad destrona a la UNI y San Marcos en ranking global</strong></p>
+                    <a href="https://elcomercio.pe/respuestas/cual/la-mejor-del-peru-esta-universidad-destrona-a-la-uni-y-san-marcos-en-ranking-global-tdpe-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Caso Fefer: el homicidio de Myriam Fefer y un enigma sin resolver en San Isidro | FOTOS</strong></p>
+                    <a href="https://elcomercio.pe/archivo-elcomercio/caso-fefer-myriam-fefer-eva-bracamonte-liliana-castro-san-isidro-asesinato-homicidio-crimen-nnsp-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Fiscalía pide que las audiencias del juicio de Martín Vizcarra sean más frecuentes: ¿que se lograría y en qué basa la solicitud al PJ?</strong></p>
+                    <a href="https://elcomercio.pe/politica/justicia/martin-vizcarra-fiscalia-pide-que-audiencias-de-su-juicio-sean-mas-frecuentes-en-que-se-basa-la-solicitud-hecha-al-poder-judicial-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>San Juan en AWA: Aldo Yaranga y Pedro Miguel Schiaffino celebrarán la gran fiesta amazónica desde Lima</strong></p>
+                    <a href="https://elcomercio.pe/provecho/restaurantes/san-juan-en-awa-aldo-yaranga-y-pedro-miguel-schiaffino-celebraran-la-gran-fiesta-amazonica-desde-lima-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>San Isidro y Barranco han invertido menos del 18% de su presupuesto: ¿Por qué los vecinos advierten ineficiencias y qué responden los municipios?</strong></p>
+                    <a href="https://elcomercio.pe/lima/san-isidro-y-barranco-han-invertido-menos-del-18-de-su-presupuesto-por-que-los-vecinos-advierten-ineficiencia-y-que-responden-los-municipios-san-isidro-barranco-foncomun-ejecucion-presupuestal-congreso-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Cien años de radio en el Perú: una historia que empezó en el cerro San Cristóbal, ajena al pueblo, y que se resiste a los tiempos de streaming y ...</strong></p>
+                    <a href="https://elcomercio.pe/somos/historias/cien-anos-de-radio-en-el-peru-una-historia-que-empezo-en-el-cerro-san-cristobal-ajena-al-pueblo-y-que-se-resiste-a-los-tiempos-de-streaming-y-podcasts-primera-emisora-radial-augusto-b-leguia-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Brass, el nuevo steakhouse en San Isidro que tiene las brasas como protagonistas</strong></p>
+                    <a href="https://elcomercio.pe/provecho/restaurantes/brass-restaurante-el-nuevo-steakhouse-en-san-isidro-que-tiene-las-brasas-como-protagonistas-carnes-y-parrillas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>San Juan de Miraflores: Vecinos toman la palabra ante alcaldesa Delia Castro en programa Audiencias Vecinales</strong></p>
+                    <a href="https://elcomercio.pe/lima/sucesos/san-juan-de-miraflores-vecinos-toman-la-palabra-ante-alcaldesa-delia-castro-en-programa-audiencias-vecinales-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+      <button id="botonNoticias" class="boton-vermas" onclick="mostrarNoticias()">Ver más noticias</button>
+    </div>
+    <div class="media-column">
+      <h3>📺 Videos</h3>
+      
+                <div class="contenido-box video ">
+                    <p>📺 <strong>Descubre la maravillosa región de San Martín #ElPerúEsSusRegiones</strong></p>
+                    <a href="https://www.youtube.com/watch?v=-NyTVxp2wgw&pp=ygUcdHVyaXNtbyBlbiBTYW4gTWFydMOtbiBQZXLDug%3D%3D" target="_blank">Ver video</a>
+                    <a href="https://www.youtube.com/watch?v=-NyTVxp2wgw&pp=ygUcdHVyaXNtbyBlbiBTYW4gTWFydMOtbiBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/-NyTVxp2wgw/0.jpg"></a>
+                </div>
+            
+
+                <div class="contenido-box video ">
+                    <p>📺 <strong>7 LUGARES TURISTICOS QUE TIENES QUE VISITAR EN TARAPOTO /PERU</strong></p>
+                    <a href="https://www.youtube.com/watch?v=icRpTjE3-Qs&pp=ygUcdHVyaXNtbyBlbiBTYW4gTWFydMOtbiBQZXLDug%3D%3D" target="_blank">Ver video</a>
+                    <a href="https://www.youtube.com/watch?v=icRpTjE3-Qs&pp=ygUcdHVyaXNtbyBlbiBTYW4gTWFydMOtbiBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/icRpTjE3-Qs/0.jpg"></a>
+                </div>
+            
+
+                <div class="contenido-box video ">
+                    <p>📺 <strong>JUANJUÍ PERÚ // Descubre la Perla Amazónica de San Martín en la Selva Peruana</strong></p>
+                    <a href="https://www.youtube.com/watch?v=ZdI30eqrPTg&pp=ygUcdHVyaXNtbyBlbiBTYW4gTWFydMOtbiBQZXLDug%3D%3D" target="_blank">Ver video</a>
+                    <a href="https://www.youtube.com/watch?v=ZdI30eqrPTg&pp=ygUcdHVyaXNtbyBlbiBTYW4gTWFydMOtbiBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/ZdI30eqrPTg/0.jpg"></a>
+                </div>
+            
+    </div>
+  </div>
+
+  <a class="volver" href="index.html">← Volver al recomendador</a>
+
+  <script>
+    function mostrarNoticias() {
+      document.querySelectorAll('.oculto').forEach(e => e.style.display = 'block');
+      const boton = document.getElementById('botonNoticias');
+      if (boton) boton.style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>

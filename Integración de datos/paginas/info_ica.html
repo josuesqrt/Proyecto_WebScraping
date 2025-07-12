@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Información Turística - Ica</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffaf4;
+      color: #333;
+      max-width: 900px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.08);
+    }
+    h1 { color: #c0392b; }
+    h2 { color: #2c3e50; margin-top: 40px; }
+    img { max-width: 100%; border-radius: 8px; }
+    .descripcion { font-size: 17px; margin: 20px 0; line-height: 1.6; }
+    .info-box {
+      background: #f0fff4;
+      padding: 15px;
+      border-left: 6px solid #27ae60;
+      margin: 20px 0;
+      border-radius: 6px;
+    }
+    .volver {
+      display: inline-block;
+      margin-top: 40px;
+      background: #c0392b;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    .media-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .media-column {
+      flex: 1;
+      min-width: 300px;
+    }
+    .contenido-box {
+      font-size: 14px;
+      line-height: 1.4;
+      margin-bottom: 16px;
+      padding: 12px 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .noticia {
+      background: #fef5f5;
+      border-left: 5px solid #e74c3c;
+    }
+    .video {
+      background: #f0f8ff;
+      border-left: 5px solid #2980b9;
+    }
+    .contenido-box a {
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 5px;
+      color: #1a0dab;
+      text-decoration: none;
+    }
+    .contenido-box a:hover {
+      text-decoration: underline;
+    }
+    .video-thumb {
+      margin-top: 10px;
+      width: 100%;
+      border-radius: 6px;
+    }
+    .oculto {
+      display: none;
+    }
+    .boton-vermas {
+      background-color: #007bff;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin: 20px 0;
+    }
+    .boton-vermas:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌄 Ica</h1>
+  <h2>Información turística</h2>
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bandera_del_Per%C3%BA.png/640px-Bandera_del_Per%C3%BA.png" alt="Imagen de Ica">
+  <div class="descripcion">Departamento costeño cuyas principales características geográficas son sus dunas e inmensos desiertos, donde se pueden practicar deportes extremos como el sandboard, además de haber sido sede de importantes competencias automovilísticas como el Rally Dakar. Sin embargo, lo más impresionante que podemos ver en Ica son las Líneas de Nasca, que de acuerdo a la investigadora María Reiche se trataría de un calendario astronómico hecho por antiguos peruanos. Por otro lado, Ica cuenta con la Reserva Natural de Paracas, la misma que está poblada de una generosa variedad de especies de flora y fauna, algunas únicas como el pingüino de Humboldt. Disfrutar de un buen vino, de la música afroperuana y paradisiacos paisajes como el oasis de la Huacachina, son solo algunos de los atractivos.</div>
+
+  <div class="info-box">
+    <strong>Clima promedio estimado:</strong> 24.9 °C<br>
+    <strong>Clasificación del clima:</strong> Caluroso<br>
+    <strong>Mes de referencia:</strong> Ene
+  </div>
+
+  <h2>🌡️ Clima mensual en Ica</h2>
+  <img src="clima_ica.png" alt="Gráfico del clima en Ica">
+
+  <h2>📰 Noticias y 📺 Videos recomendados</h2>
+  <div class="media-grid">
+    <div class="media-column">
+      <h3>📰 Noticias</h3>
+      
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Sismo de 4.0 magnitud ocurrió esta mañana en Ica</strong></p>
+                    <a href="https://elcomercio.pe/peru/ica/ica-temblor-de-40-magnitud-ocurrio-esta-manana-sismo-terremoto-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Exalcaldesa de Ica Emma Mejía denuncia brutal agresión de su esposo</strong></p>
+                    <a href="https://elcomercio.pe/videos/pais/exalcaldesa-de-ica-emma-mejia-denuncia-brutal-agresion-de-su-esposo-nnav-amtv-video-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Alcalde de Nasca admite tener actividades mineras fuera de Ica y convoca mesa de trabajo por reservas arqueológicas</strong></p>
+                    <a href="https://elcomercio.pe/peru/ica/alcalde-de-nasca-admite-tener-actividades-mineras-fuera-de-ica-y-convoca-mesa-de-trabajo-por-reservas-arqueologicas-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Ica: sicarios asesinan a ciudadano extranjero y graban el crimen</strong></p>
+                    <a href="https://elcomercio.pe/peru/ica/ica-sicarios-asesinan-a-ciudadano-venezolano-y-graban-el-crimen-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Ashley Vargas: encuentran cuerpo de alférez FAP desaparecido en mar de Ica</strong></p>
+                    <a href="https://elcomercio.pe/lima/accidentes/ashley-vargas-encuentran-cuerpo-de-alferez-fap-desaparecido-en-mar-de-ica-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Perú en el podio, periodismo en la mira y tragedia en Ica</strong></p>
+                    <a href="https://elcomercio.pe/opinion/columnistas/peru-en-el-podio-periodismo-en-la-mira-y-tragedia-en-ica-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Ica: turista estadounidense muere tras accidente en tubular en las dunas de Huacachina</strong></p>
+                    <a href="https://elcomercio.pe/peru/ica/ica-turista-estadounidense-muere-tras-accidente-en-tubular-en-las-dunas-de-huacachina-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Ministro de Justicia anuncia que mega penal de Ica será concluido en un plazo de dos años</strong></p>
+                    <a href="https://elcomercio.pe/lima/sucesos/mega-penal-de-ica-ministro-de-justicia-anuncia-que-obra-sera-concluida-en-un-plazo-de-dos-anos-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Ica: cinco sismos ocurrieron en Nasca en las últimas 15 horas, desde la noche de ayer</strong></p>
+                    <a href="https://elcomercio.pe/peru/ica/ica-cinco-sismos-ocurrieron-en-nasca-en-las-ultimas-15-horas-desde-la-noche-del-27-hasta-el-28-de-mayo-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Sismo de magnitud 5.4 en Ica: movimiento telúrico se registró en plena conferencia de Indeci</strong></p>
+                    <a href="https://elcomercio.pe/videos/pais/sismo-de-magnitud-54-en-ica-movimiento-telurico-se-registro-en-plena-conferencia-de-indeci-temblor-nnav-video-amtv-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Ica: dos sismos consecutivos más de magnitud 4.3 y 4.4 remecen Nasca</strong></p>
+                    <a href="https://elcomercio.pe/peru/ica/ica-dos-sismos-consecutivos-mas-de-magnitud-43-y-44-remecen-nasca-este-28-de-mayo-igp-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Sismo de magnitud 5.4 sacudió Ica la mañana de este miércoles</strong></p>
+                    <a href="https://elcomercio.pe/peru/sismo-en-ica-temblor-de-magnitud-54-sacudio-la-region-reporta-igp-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Ica: sismos consecutivos de 5.5 y 4.0 remecieron Nasca esta noche</strong></p>
+                    <a href="https://elcomercio.pe/peru/ica/ica-sismos-consecutivos-de-55-y-40-remecieron-nasca-esta-noche-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Detienen en Ica al presunto autor del asesinato del periodista Gastón Medina</strong></p>
+                    <a href="https://elcomercio.pe/peru/ica/detienen-en-ica-al-presunto-autor-del-asesinato-del-periodista-gaston-medina-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>KIO impulsa su crecimiento nacional con la inauguración de una nueva estación de servicio en Ica</strong></p>
+                    <a href="https://elcomercio.pe/publirreportaje/la-apertura-fortalece-la-presencia-de-kio-en-el-sur-del-pais-y-refuerza-su-compromiso-con-una-red-energetica-moderna-eficiente-y-cercana-a-los-peruanos-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Vendimia de Ica: seis experiencias imperdibles en nuestro paso por la fiesta más grande de la “ciudad del eterno sol”</strong></p>
+                    <a href="https://elcomercio.pe/provecho/tendencias/vendimia-de-ica-2025-seis-experiencias-imperdibles-en-la-ciudad-del-eterno-sol-vinos-de-ica-huacachina-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Sra. Buendía: empezaron con una cocina de kerosene y hoy llevan la tradición de Ica a otro nivel</strong></p>
+                    <a href="https://elcomercio.pe/provecho/tendencias/sra-buendia-empezaron-con-una-cocina-de-kerosene-y-hoy-llevan-la-tradicion-de-ica-a-otro-nivel-ica-tejas-y-chocotejas-postres-local-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Ferrocarril Lima-Ica avanza, moda peruana brilla en Europa y alarma por intoxicación escolar en Piura</strong></p>
+                    <a href="https://elcomercio.pe/opinion/columnistas/ferrocarril-lima-ica-avanza-moda-peruana-brilla-en-europa-y-alarma-por-intoxicacion-escolar-en-piura-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Alemania, Canadá y Corea del Sur entre los países que buscan ejecutar el Ferrocarril Lima-Ica</strong></p>
+                    <a href="https://elcomercio.pe/peru/mtc-ocho-paises-presentan-propuestas-para-la-ejecucion-del-ferrocarril-lima-ica-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Senamhi: vientos moderados a fuertes persistirán en Áncash, Ica, Lima y más regiones</strong></p>
+                    <a href="https://elcomercio.pe/peru/senamhi-vientos-moderados-a-fuertes-impactaran-ancash-ica-lima-y-mas-regiones-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Ica: trasladan 15 toneladas de ayuda humanitaria alimentaria para familias damnificadas</strong></p>
+                    <a href="https://elcomercio.pe" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Ica: desplazan 15 toneladas de ayuda humanitaria alimentarias para familias damnificadas</strong></p>
+                    <a href="https://elcomercio.pe" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Vive la Vendimia en Ica: ¿qué actividades se pueden hacer en la ciudad a cuatro horas de Lima?</strong></p>
+                    <a href="https://elcomercio.pe/vamos/peru/vive-la-vendimia-en-ica-que-actividades-se-pueden-hacer-en-la-ciudad-a-cuatro-horas-de-lima-viaje-a-ica-ruta-corta-desde-lima-viaje-en-auto-vino-vendimia-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Conoce la nueva fecha de inicio para el Año Escolar 2025 en Ica: problemas por lluvias retrasan las clases</strong></p>
+                    <a href="https://elcomercio.pe/respuestas/trends/la-nueva-fecha-de-inicio-para-el-ano-escolar-2025-para-ica-problemas-por-lluvias-retrasan-las-clases-tdpe-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Festival Internacional de la Vendimia de Ica 2025: todo lo que necesitas saber</strong></p>
+                    <a href="https://elcomercio.pe/provecho/tendencias/festival-internacional-de-la-vendimia-de-ica-2025-todo-lo-que-necesitas-saber-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>RENIEC lanza alerta sobre los DNI vencidos en Ica tras simulacro de padrón electoral</strong></p>
+                    <a href="https://elcomercio.pe/respuestas/tramites/la-alerta-que-lanzo-el-reniec-sobre-los-dni-vencidos-en-ica-tras-simulacro-de-padron-electoral-tdpe-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Vendimia de Ica 2025: Cronograma de actividades del 7 al 16 de marzo</strong></p>
+                    <a href="https://elcomercio.pe/respuestas/trends/cronograma-vendimia-de-ica-2025-que-actividades-del-7-al-16-de-marzo-tdpe-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Ica: joven arriesga su vida para rescatar a perrito atrapado en río caudaloso</strong></p>
+                    <a href="https://elcomercio.pe/videos/pais/ica-joven-arriesga-su-vida-para-rescatar-a-perrito-atrapado-en-rio-caudaloso-viral-nnav-video-tvpe-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Brasas, ahumados, vinos y un mágico sunset: así es la propuesta de Tatá Rooftop en Ica</strong></p>
+                    <a href="https://elcomercio.pe/provecho/restaurantes/brasas-ahumados-vinos-y-un-magico-sunset-asi-es-la-propuesta-de-tata-rooftop-donde-comer-en-ica-eduardo-uribe-local-platos-carta-restaurante-bebidas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Ica: río El Ingenio se desborda tras intensas lluvias y afecta tránsito en la Panamericana Sur</strong></p>
+                    <a href="https://elcomercio.pe/peru/ica-rio-el-ingenio-se-desborda-tras-intensas-lluvias-y-afecta-transito-en-la-panamericana-sur-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+      <button id="botonNoticias" class="boton-vermas" onclick="mostrarNoticias()">Ver más noticias</button>
+    </div>
+    <div class="media-column">
+      <h3>📺 Videos</h3>
+      
+                <div class="contenido-box video ">
+                    <p>📺 <strong>5 LUGARES QUE DEBES DE CONOCER DE LA REGIÓN ICA</strong></p>
+                    <a href="https://www.youtube.com/watch?v=ZS2UirVug10&pp=ygUUdHVyaXNtbyBlbiBJY2EgUGVyw7o%3D" target="_blank">Ver video</a>
+                    <a href="https://www.youtube.com/watch?v=ZS2UirVug10&pp=ygUUdHVyaXNtbyBlbiBJY2EgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/ZS2UirVug10/0.jpg"></a>
+                </div>
+            
+
+                <div class="contenido-box video ">
+                    <p>📺 <strong>ICA Lugares turisticos 🔥 COMO LLEGAR desde Lima ó ICA Barato‼️ Peru turismo Nazca Paracas Huacachina</strong></p>
+                    <a href="https://www.youtube.com/watch?v=IjnYfpsW2e4&pp=ygUUdHVyaXNtbyBlbiBJY2EgUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank">Ver video</a>
+                    <a href="https://www.youtube.com/watch?v=IjnYfpsW2e4&pp=ygUUdHVyaXNtbyBlbiBJY2EgUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/IjnYfpsW2e4/0.jpg"></a>
+                </div>
+            
+
+                <div class="contenido-box video ">
+                    <p>📺 <strong>ICA SUPER BARATO‼️🔥 Nazca + Paracas + 9 Lugares en 3 dias🏂🏝️ Huacachina Peru 2025 Turismo Turisticos</strong></p>
+                    <a href="https://www.youtube.com/watch?v=9zN2hqcoAl0&pp=ygUUdHVyaXNtbyBlbiBJY2EgUGVyw7o%3D" target="_blank">Ver video</a>
+                    <a href="https://www.youtube.com/watch?v=9zN2hqcoAl0&pp=ygUUdHVyaXNtbyBlbiBJY2EgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/9zN2hqcoAl0/0.jpg"></a>
+                </div>
+            
+    </div>
+  </div>
+
+  <a class="volver" href="index.html">← Volver al recomendador</a>
+
+  <script>
+    function mostrarNoticias() {
+      document.querySelectorAll('.oculto').forEach(e => e.style.display = 'block');
+      const boton = document.getElementById('botonNoticias');
+      if (boton) boton.style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>

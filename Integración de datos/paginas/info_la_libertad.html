@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Información Turística - La Libertad</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffaf4;
+      color: #333;
+      max-width: 900px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.08);
+    }
+    h1 { color: #c0392b; }
+    h2 { color: #2c3e50; margin-top: 40px; }
+    img { max-width: 100%; border-radius: 8px; }
+    .descripcion { font-size: 17px; margin: 20px 0; line-height: 1.6; }
+    .info-box {
+      background: #f0fff4;
+      padding: 15px;
+      border-left: 6px solid #27ae60;
+      margin: 20px 0;
+      border-radius: 6px;
+    }
+    .volver {
+      display: inline-block;
+      margin-top: 40px;
+      background: #c0392b;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    .media-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .media-column {
+      flex: 1;
+      min-width: 300px;
+    }
+    .contenido-box {
+      font-size: 14px;
+      line-height: 1.4;
+      margin-bottom: 16px;
+      padding: 12px 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .noticia {
+      background: #fef5f5;
+      border-left: 5px solid #e74c3c;
+    }
+    .video {
+      background: #f0f8ff;
+      border-left: 5px solid #2980b9;
+    }
+    .contenido-box a {
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 5px;
+      color: #1a0dab;
+      text-decoration: none;
+    }
+    .contenido-box a:hover {
+      text-decoration: underline;
+    }
+    .video-thumb {
+      margin-top: 10px;
+      width: 100%;
+      border-radius: 6px;
+    }
+    .oculto {
+      display: none;
+    }
+    .boton-vermas {
+      background-color: #007bff;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin: 20px 0;
+    }
+    .boton-vermas:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌄 La Libertad</h1>
+  <h2>Información turística</h2>
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bandera_del_Per%C3%BA.png/640px-Bandera_del_Per%C3%BA.png" alt="Imagen de La Libertad">
+  <div class="descripcion">Sede de los impresionantes y famosos templos, pirámides y ciudades de barro de Chan Chan, La Libertad es un departamento ubicado en la costa norte del Perú. Su Imponente arquitectura colonial y costumbres arraigadas como la pesca en Caballitos de Totora (tradicionales embarcaciones de la costa norteña) son muestras claras que es un destino muy atractivo para el turismo en general. Asimismo, destaca por ser la cuna de la Marinera, baile nacional del Perú, y por sus playas, que atraen a miles de surfistas del mundo.</div>
+
+  <div class="info-box">
+    <strong>Clima promedio estimado:</strong> 21.8 °C<br>
+    <strong>Clasificación del clima:</strong> Caluroso<br>
+    <strong>Mes de referencia:</strong> Ene
+  </div>
+
+  <h2>🌡️ Clima mensual en La Libertad</h2>
+  <img src="clima_la_libertad.png" alt="Gráfico del clima en La Libertad">
+
+  <h2>📰 Noticias y 📺 Videos recomendados</h2>
+  <div class="media-grid">
+    <div class="media-column">
+      <h3>📰 Noticias</h3>
+      
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Resultados de La Kábala: revisa aquí la jugada y sorteo del jueves 26 de junio</strong></p>
+                    <a href="https://elcomercio.pe/respuestas/loterias/kabala-en-vivo-resultados-hoy-jueves-26-de-junio-de-2025-numeros-ganadores-y-premios-del-pozo-buenazo-pozo-buenazo-la-tinka-chau-chamba-intralot-tinkanet-loteria-lbposting-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>El alcalde de Nueva York lanza su campaña a la reelección como candidato independiente</strong></p>
+                    <a href="https://elcomercio.pe/mundo/eeuu/eric-adams-el-alcalde-de-nueva-york-lanza-su-campana-a-la-reeleccion-como-candidato-independiente-partido-democrata-zohran-mamdani-andrew-cuomo-curtis-silwa-estados-unidos-donald-trump-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>¿Marge murió? Qué pasó en el final de la temporada 36 de Los Simpson y por qué enfureció a los fans</strong></p>
+                    <a href="https://elcomercio.pe/mag/fama/que-ver/marge-murio-que-paso-en-el-final-de-la-temporada-36-de-los-simpson-nnda-nnrt-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Octavo retiro de AFP afectaría la rentabilidad de los fondos de afiliados: ¿por qué?</strong></p>
+                    <a href="https://elcomercio.pe/economia/peru/octavo-retiro-de-afp-afectaria-la-rentabilidad-de-los-fondos-de-afiliados-por-que-afp-retiro-afp-comision-de-economia-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia ">
+                    <p>📰 <strong>Construcción repunta en mayo, pero el ritmo aún no alcanza para cumplir la meta de crecimiento del 2025</strong></p>
+                    <a href="https://elcomercio.pe/economia/construccion-repunta-en-mayo-pero-el-ritmo-aun-no-alcanza-para-cumplir-la-meta-de-crecimiento-del-2025-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Primer bono especial de junio 2025: pasos para activarlo una vez inicie la asignación en Venezuela</strong></p>
+                    <a href="https://elcomercio.pe/respuestas/venezuela/pago-del-primer-bono-especial-de-junio-2025-en-venezuela-numero-y-pasos-que-debes-seguir-para-activarlo-una-vez-inicie-la-asignacion-tdpe-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Esta es la cadena hotelera que duplicará su presencia en el Perú al 2030: ¿qué marcas internacionales traerá y en qué ciudades?</strong></p>
+                    <a href="https://elcomercio.pe/economia/peru/esta-es-la-cadena-hotelera-que-duplicara-su-presencia-en-el-peru-al-2030-que-marcas-internacionales-traera-y-en-que-ciudades-cadena-hotelera-ihg-hoteles-de-lujo-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Intenta resolver esta ecuación en tiempo récord: ¿cuál es la respuesta de 9(17-9)+5x2-10?</strong></p>
+                    <a href="https://elcomercio.pe/mag/virales/reto-matematico-intenta-resolver-esta-ecuacion-en-tiempo-record-cual-es-la-respuesta-de-917-95x2-10-nnda-nnrt-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>“Chicago PD”: sorpresiva salida de querido personaje golpea a la serie policial</strong></p>
+                    <a href="https://elcomercio.pe/saltar-intro/streaming/series/chicago-pd-sorpresiva-salida-de-querido-personaje-golpea-a-la-serie-policial-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>La increíble e inspiradora historia de la egresada de la UP que se ha convertido en una de las mujeres más poderosas del Perú, según Forbes</strong></p>
+                    <a href="https://elcomercio.pe/respuestas/quien/la-increible-e-inspiradora-historia-de-la-egresada-de-la-unmsm-que-se-ha-convertido-en-una-de-las-mujeres-mas-poderosas-del-peru-segun-forbes-tdpe-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Cómo la policía de Ecuador encontró el búnker de alias ‘Fito’ tras buscarlo por más de 10 horas en su lujosa casa</strong></p>
+                    <a href="https://elcomercio.pe/mundo/latinoamerica/alias-fito-como-fue-la-captura-del-lider-de-los-choneros-el-criminal-mas-buscado-de-ecuador-y-por-que-podria-ser-extraditado-a-estados-unidos-daniel-noboa-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>“El juego del calamar” estrena su temporada final: ¿en qué se quedó la serie?</strong></p>
+                    <a href="https://elcomercio.pe/saltar-intro/netflix/series/el-juego-del-calamar-3-que-paso-en-la-temporada-2-todo-lo-que-debes-saber-antes-del-estreno-del-final-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Juan Pablo II vs Cienciano EN VIVO y online: horario y dónde ver la fecha 17 del Torneo Apertura de Liga 1 2025</strong></p>
+                    <a href="https://elcomercio.pe/deporte-total/futbol-peruano/juan-pablo-ii-vs-cienciano-hoy-en-vivo-y-online-via-liga-1-max-hora-canal-tv-y-como-ver-futbol-gratis-en-directo-por-la-fecha-17-del-torneo-apertura-de-liga-1-2025-youtube-video-tdpe-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>¿Qué pasará con el programa nuclear de Irán tras la guerra y cuánto tiempo le faltaba para tener la bomba atómica?</strong></p>
+                    <a href="https://elcomercio.pe/mundo/oriente-medio/iran-israel-que-pasara-con-el-programa-nuclear-irani-tras-la-guerra-de-los-12-dias-y-donde-esta-el-uranio-que-ya-enriquecio-al-60-fordow-natanz-donald-trump-estados-unidos-benjamin-netanyahu-bomba-atomica-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Valera 10 puntos, solidaridad con el Tunche y el “sí, me llamó la U” de Ramos: lo que no se vio del triunfo crema que se dispara en la punta del ...</strong></p>
+                    <a href="https://elcomercio.pe/deporte-total/futbol-peruano/universitario-alex-valera-10-puntos-solidaridad-con-el-tunche-rivera-y-el-si-me-llamo-la-u-de-luis-ramos-lo-que-no-se-vio-del-triunfo-crema-que-se-dispara-en-la-punta-del-apertura-2025-liga-1-te-apuesto-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Ignácio: el héroe que extraña Cristal y que fue MVP en el Mundial de Clubes y por qué su presente despierta la atención en el Rímac</strong></p>
+                    <a href="https://elcomercio.pe/deporte-total/futbol-peruano/ignacio-da-silva-el-heroe-que-extrana-sporting-cristal-y-que-fue-mvp-en-el-mundial-de-clubes-2025-y-por-que-su-presente-despierta-la-atencion-en-el-rimac-liga-1-te-apuesto-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>“Pero qué genio”, el delirio ecuatoriano por Cueva, un festejo con beso y la rabia tras el pitazo final: lo que no se vio de su estreno goleador ...</strong></p>
+                    <a href="https://elcomercio.pe/deporte-total/seleccion/christian-cueva-pero-que-genio-el-delirio-ecuatoriano-por-aladino-un-festejo-con-beso-y-la-rabia-tras-el-pitazo-final-lo-que-no-se-vio-de-su-estreno-goleador-en-emelec-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Redes, mentalidad y tecnología: la fórmula para que tu ‘startup’ conquiste a los fondos de inversión</strong></p>
+                    <a href="https://elcomercio.pe/economia/peru/redes-mentalidad-y-tecnologia-la-formula-para-que-tu-startup-conquiste-fondos-de-inversion-peru-business-fest-caf-xerticalai-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>La deuda de la gastronomía peruana con la Amazonía: un potencial infinito de sabores aún por descubrir</strong></p>
+                    <a href="https://elcomercio.pe/provecho/restaurantes/gastronomia-amazonica-aldo-yaranga-del-restaurante-awa-nos-habla-del-potencial-de-los-insumos-amazonicos-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Seleccionando uno de los símbolos conocerás cuál es tu miedo más íntimo en la vida</strong></p>
+                    <a href="https://elcomercio.pe/mag/virales/test-de-personalidad-seleccionando-uno-de-los-simbolos-conoceras-cual-es-tu-miedo-mas-intimo-en-la-vida-nnda-nnrt-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Trump anuncia que el acuerdo comercial con China ha sido firmado y prevé otro con la India</strong></p>
+                    <a href="https://elcomercio.pe/economia/mundo/donald-trump-anuncia-que-el-acuerdo-comercial-con-china-ha-sido-firmado-y-preve-otro-con-la-india-estados-unidos-xi-jinping-narendra-modi-reino-unido-usa-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Fiscal José Domingo Pérez solicita a Delia Espinoza que pida la suspensión temporal de Fernández Jerí</strong></p>
+                    <a href="https://elcomercio.pe/politica/fiscal-jose-domingo-perez-solicita-a-delia-espinoza-que-pida-la-suspension-temporal-de-fernandez-jeri-ultimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Ilia Topuria vs. Charles Oliveira: así fue el careo antes de la pelea en UFC 317</strong></p>
+                    <a href="https://elcomercio.pe/deporte-total/polideportivo/ilia-topuria-vs-charles-oliveira-asi-fue-el-careo-antes-de-la-pelea-en-ufc-317-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>La recaptura de ‘Fito’, objetivo clave para Noboa en su “guerra” contra crimen en Ecuador</strong></p>
+                    <a href="https://elcomercio.pe/mundo/latinoamerica/alias-fito-la-recaptura-del-lider-de-los-choneros-objetivo-clave-para-daniel-noboa-en-su-guerra-contra-crimen-en-ecuador-jose-adolfo-macias-villamar-la-roca-guayaquil-manta-manabi-utlimas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Cementos Inka pone la mira en más plantas de producción y nuevos destinos</strong></p>
+                    <a href="https://elcomercio.pe/economia/dia-1/dia1-summit-2025-cementos-inka-crece-y-pone-la-mira-en-mas-plantas-y-nuevos-destinos-cementos-inka-cemento-construccion-plantas-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Renunció a todo y viajó al Líbano para conectar con sus raíces: así nació Ezzem, el nuevo templo de la cocina de Medio Oriente en Lima</strong></p>
+                    <a href="https://elcomercio.pe/provecho/tendencias/ezzem-el-nuevo-restaurante-con-cocina-del-medio-oriente-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>A casi dos años del crimen en la fiesta organizada por la congresista Amuruz, principal acusado a un paso de salir libre</strong></p>
+                    <a href="https://elcomercio.pe/lima/a-casi-dos-anos-del-crimen-en-la-fiesta-organizada-por-la-congresista-amuruz-principal-acusado-a-un-paso-de-salir-libre-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>Larissa Vesterbacka, la chef rusa que asume el mando del emblemático El Tupay: “Perú es como el sueño de todo chef”</strong></p>
+                    <a href="https://elcomercio.pe/provecho/chefs/el-tupay-asi-es-la-nueva-carta-del-restaurante-del-hotel-monasterio-a-cargo-de-la-chef-larissa-vesterbacka-cusco-restaurantes-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>New Balance Lima 15K Powered by El Comercio: Conoce los tres tips para evitar calambres durante la carrera</strong></p>
+                    <a href="https://elcomercio.pe/deporte-total/polideportivo/new-balance-lima-15k-powered-by-el-comercio-conoce-los-tres-tips-para-evitar-calambres-durante-la-carrera-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+
+                <div class="contenido-box noticia oculto">
+                    <p>📰 <strong>New Balance Lima 15K Powered by El Comercio: súmate al reconocimiento de la ruta con energía y buena vibra</strong></p>
+                    <a href="https://elcomercio.pe/deporte-total/new-balance-lima-15k-powered-by-el-comercio-sumate-al-reconocimiento-de-la-ruta-con-energia-y-buena-vibra-noticia/" target="_blank">Ver noticia</a>
+                    
+                </div>
+            
+      <button id="botonNoticias" class="boton-vermas" onclick="mostrarNoticias()">Ver más noticias</button>
+    </div>
+    <div class="media-column">
+      <h3>📺 Videos</h3>
+      
+                <div class="contenido-box video ">
+                    <p>📺 <strong>🔥 Huamachuco, La Libertad: 8 lugares en 2 dias TODO INCLUIDO 🔥🏞️🚣‍♀️🏝️ Trujillo lugares turisticos</strong></p>
+                    <a href="https://www.youtube.com/watch?v=qhaGHyx41Ps&pp=ygUcdHVyaXNtbyBlbiBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank">Ver video</a>
+                    <a href="https://www.youtube.com/watch?v=qhaGHyx41Ps&pp=ygUcdHVyaXNtbyBlbiBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/qhaGHyx41Ps/0.jpg"></a>
+                </div>
+            
+
+                <div class="contenido-box video ">
+                    <p>📺 <strong>10 lugares que debes conocer, si visitas TRUJILLO por primera vez.🇵🇪</strong></p>
+                    <a href="https://www.youtube.com/watch?v=yrnIlr5LJAM&pp=ygUcdHVyaXNtbyBlbiBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank">Ver video</a>
+                    <a href="https://www.youtube.com/watch?v=yrnIlr5LJAM&pp=ygUcdHVyaXNtbyBlbiBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/yrnIlr5LJAM/0.jpg"></a>
+                </div>
+            
+
+                <div class="contenido-box video ">
+                    <p>📺 <strong>LA LIBERTAD PERÚ</strong></p>
+                    <a href="https://www.youtube.com/watch?v=cvZUci3l6yw&pp=ygUcdHVyaXNtbyBlbiBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank">Ver video</a>
+                    <a href="https://www.youtube.com/watch?v=cvZUci3l6yw&pp=ygUcdHVyaXNtbyBlbiBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/cvZUci3l6yw/0.jpg"></a>
+                </div>
+            
+    </div>
+  </div>
+
+  <a class="volver" href="index.html">← Volver al recomendador</a>
+
+  <script>
+    function mostrarNoticias() {
+      document.querySelectorAll('.oculto').forEach(e => e.style.display = 'block');
+      const boton = document.getElementById('botonNoticias');
+      if (boton) boton.style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>
