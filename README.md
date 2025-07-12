@@ -7,3 +7,8 @@ Se trabajó con:
 	Para webscrapeo de últimas noticias importantes de cada departamento.
 - Open-Meteo API: https://open-meteo.com  
 	Para webscrapeo de clima promedio por mes en cada departamento.
+- Rome2Rio : https://www.rome2rio.com  
+Para webscrapeo de transporte y tiempo para departamento desde lima.
+- Perú Info : https://peru.info/es-pe/turismo/blogperu/3/18/conoce-los-24-departamentos-del-peru  
+  Para webscrapeo de la descripión de cada departamento.
+
