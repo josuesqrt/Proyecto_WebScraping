@@ -1,0 +1,85 @@
+﻿Origen,Destino,Transporte,Duración Estimada
+Lima,Amazonas,plane,6h 23min
+Lima,Amazonas,bus,77h 54min
+Lima,Amazonas,bus,7d 2h
+Lima,Amazonas,car,95h 14min
+Lima,Ancash,plane,2h 51min
+Lima,Ancash,bus,6h 27min
+Lima,Ancash,car,6h 16min
+Lima,Ancash,plane,5h 39min
+Lima,Apurímac,plane,4h 13min
+Lima,Apurímac,bus,13h 16min
+Lima,Apurímac,car,12h 21min
+Lima,Apurímac,plane,8h 20min
+Lima,Apurímac,bus,13h 30min
+Lima,Arequipa,plane,2h 26min
+Lima,Arequipa,bus,13h 30min
+Lima,Arequipa,car,12h 52min
+Lima,Ayacucho,plane,1h 11min
+Lima,Ayacucho,bus,8h 48min
+Lima,Ayacucho,car,9h 7min
+Lima,Cajamarca,plane,1h 21min
+Lima,Cajamarca,bus,17h 47min
+Lima,Cajamarca,car,13h 31min
+Lima,Callao,bus,23min
+Lima,Callao,taxi,15min
+Lima,Callao,car,15min
+Lima,Callao,walk,2h 24min
+Lima,Cusco,plane,2h 3min
+Lima,Cusco,bus,22h
+Lima,Cusco,car,16h 42min
+Lima,Huancavelica,bus,7h 18min
+Lima,Huancavelica,car,6h 35min
+Lima,Huancavelica,plane,4h 28min
+Lima,Huancavelica,bus,10h 1min
+Lima,Huánuco,plane,1h 3min
+Lima,Huánuco,bus,7h 3min
+Lima,Huánuco,car,6h 26min
+Lima,Huánuco,bus,9h
+Lima,Ica,bus,4h 30min
+Lima,Ica,car,3h 52min
+Lima,Ica,plane,7h 48min
+Lima,Junín,plane,10h 1min
+Lima,Junín,bus,71h 22min
+Lima,Junín,car,48h 11min
+Lima,Junín,plane,9h 43min
+Lima,La Libertad,plane,9h 39min
+Lima,La Libertad,bus,26h 10min
+Lima,La Libertad,car,22h 21min
+Lima,La Libertad,plane,9h 13min
+Lima,Lambayeque,plane,1h 41min
+Lima,Lambayeque,bus,10h 40min
+Lima,Lambayeque,car,11h 44min
+Lima,Lambayeque,bus,10h 43min
+Lima,Lambayeque,bus,13h 54min
+Lima,Loreto,plane,13h 58min
+Lima,Loreto,plane,19h 42min
+Lima,Madre de Dios,plane,1h 51min
+Lima,Madre de Dios,bus,29h 4min
+Lima,Madre de Dios,car,29h 14min
+Lima,Madre de Dios,bus,36h 0min
+Lima,Madre de Dios,bus,31h 39min
+Lima,Moquegua,plane,5h 33min
+Lima,Moquegua,bus,19h
+Lima,Moquegua,car,13h 47min
+Lima,Moquegua,plane,4h 48min
+Lima,Moquegua,bus,24h 6min
+Lima,Pasco,plane,14h 10min
+Lima,Pasco,plane,19h 33min
+Lima,Pasco,plane,17h 25min
+Lima,Piura,plane,1h 46min
+Lima,Piura,bus,13h 45min
+Lima,Piura,car,14h 11min
+Lima,Puno,plane,2h 56min
+Lima,Puno,bus,24h 26min
+Lima,Puno,car,17h 26min
+Lima,Puno,bus,30h 51min
+Lima,San Martín,plane,14h 38min
+Lima,San Martín,plane,19h 38min
+Lima,Tacna,plane,2h 3min
+Lima,Tacna,bus,20h 36min
+Lima,Tacna,car,15h 52min
+Lima,Tumbes,plane,2h 12min
+Lima,Tumbes,bus,17h 10min
+Lima,Tumbes,car,17h 46min
+Lima,Tumbes,plane,6h 58min
