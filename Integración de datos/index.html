@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Recomendador Turístico Perú</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+      margin: 40px auto;
+      max-width: 800px;
+      padding: 20px;
+      border-radius: 12px;
+      border: 2px solid #e0d4c6;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #b30000;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+
+    select {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button {
+      margin-top: 20px;
+      background-color: #007b33;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #005f26;
+    }
+
+    .result {
+      background-color: #fff;
+      border-left: 5px solid #b30000;
+      padding: 15px;
+      margin-top: 15px;
+      border-radius: 8px;
+    }
+
+    .result h3 {
+      margin: 0;
+      color: #007b33;
+    }
+
+    .btn-link {
+      margin-top: 8px;
+      display: inline-block;
+      background: #b30000;
+      color: white;
+      padding: 6px 12px;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    .btn-link:hover {
+      background: #8c0000;
+    }
+
+    #resultados {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🇵🇪 Recomendador turístico del Perú</h1>
+
+  <label for="mes">Selecciona un mes:</label>
+  <select id="mes">
+    <option value="Ene">Enero</option>
+    <option value="Feb">Febrero</option>
+    <option value="Mar">Marzo</option>
+    <option value="Abr">Abril</option>
+    <option value="May">Mayo</option>
+    <option value="Jun">Junio</option>
+    <option value="Jul">Julio</option>
+    <option value="Ago">Agosto</option>
+    <option value="Sep">Septiembre</option>
+    <option value="Oct">Octubre</option>
+    <option value="Nov">Noviembre</option>
+    <option value="Dic">Diciembre</option>
+  </select>
+
+  <label for="clima">Selecciona el tipo de clima deseado:</label>
+  <select id="clima">
+    <option value="Muy frío">Muy frío ( < 10°C)</option>
+    <option value="Frío">Frío (10°C – 14.9°C)</option>
+    <option value="Templado">Templado (15°C – 19.9°C)</option>
+    <option value="Caluroso">Caluroso (20°C – 24.9°C)</option>
+    <option value="Muy caluroso">Muy caluroso ( ≥ 25°C)</option>
+  </select>
+
+  <button id="buscarBtn">Buscar recomendaciones</button>
+
+  <div id="resultados"></div>
+
+  <!-- Carga PapaParse para leer CSV -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script>
+    const mesInput = document.getElementById("mes");
+    const climaInput = document.getElementById("clima");
+    const buscarBtn = document.getElementById("buscarBtn");
+    const resultadosDiv = document.getElementById("resultados");
+
+    const rangosTemperatura = {
+      "Muy frío": [0, 9.99],
+      "Frío": [10, 14.99],
+      "Templado": [15, 19.99],
+      "Caluroso": [20, 24.99],
+      "Muy caluroso": [25, 50]
+    };
+
+    buscarBtn.addEventListener("click", () => {
+      resultadosDiv.innerHTML = "<p>Cargando resultados...</p>";
+      const mes = mesInput.value;
+      const clima = climaInput.value;
+      const [min, max] = rangosTemperatura[clima];
+
+      Papa.parse("datos_recomendacion_turismo.csv", {
+        download: true,
+        header: true,
+        complete: function(results) {
+          const datos = results.data;
+          const filtrados = datos.filter(d =>
+            d.Mes === mes &&
+            parseFloat(d.Temperatura) >= min &&
+            parseFloat(d.Temperatura) <= max
+          );
+
+          if (filtrados.length === 0) {
+            resultadosDiv.innerHTML = `<p>No se encontraron departamentos con clima <strong>${clima}</strong> en <strong>${mes}</strong>.</p>`;
+            return;
+          }
+
+          resultadosDiv.innerHTML = `<h2>Departamentos recomendados para <span style="color:#b30000">${mes}</span> con clima <span style="color:#007b33">${clima}</span>:</h2>`;
+          filtrados.forEach(d => {
+            const depHtml = d.Departamento.trim().toLowerCase().replace(/ /g, "_");
+            resultadosDiv.innerHTML += `
+              <div class="result">
+                <h3>🏞️ ${d.Departamento} — ${d.Clima} (${parseFloat(d.Temperatura).toFixed(1)} °C)</h3>
+                <p>${d.descripcion}</p>
+                <a class="btn-link" href="info_${depHtml}.html">Ver más</a>
+              </div>
+            `;
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
