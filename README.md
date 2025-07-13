@@ -51,7 +51,7 @@ Nuestro trabajo contribuye a visibilizar y valorar cada región del Perú, facil
 
 ## 💻 Integrantes
 
-|Coódigo                            | Apellidos y Nombres                               |  GitHub |
+|Coódigo                            | Apellidos y Nombres                                 |  GitHub |
 |-----------------------------------|----------------------------------------------------|--------------------|
 | 20231513       		    | Ventura Pezantes, Elias Josué                       | josuesqrt|			
 | 20231512                          | Valenzuela Villalobos, Eduardo Jesús                | eduardovalenzuela3107|
