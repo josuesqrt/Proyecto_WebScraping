@@ -15,7 +15,10 @@ Se trabajó con:
   	Para webscrapeo de los lugares más recomendados disponibles por departamento.
 - Serperuano : https://www.serperuano.com/  
   	Para webscrapeo de las festividades por mes y lugar por cada departamento.
-- Youtube : https://www.youtube.com/
-  	Para webscrapeo de los videos más recomendados por cada departamento.
+- Youtube : https://www.youtube.com/  
+  	Para webscrapeo de los videos más recomendados por cada departamento.  
+- wikipedia :https://es.wikipedia.org/w/api.php  
+    	Para webscrapeo de imagenes por departamento.
+  
 
 
