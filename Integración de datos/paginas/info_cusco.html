@@ -17,7 +17,14 @@
     }
     h1 { color: #c0392b; }
     h2 { color: #2c3e50; margin-top: 40px; }
-    img { max-width: 100%; border-radius: 8px; }
+    img { max-width: 100%; }
+    .banner-img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
     .descripcion { font-size: 17px; margin: 20px 0; line-height: 1.6; }
     .info-box {
       background: #f0fff4;
@@ -90,25 +97,237 @@
     .boton-vermas:hover {
       background-color: #0056b3;
     }
+    .festividad-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .festividad {
+      background: #fdfde7;
+      border-left: 5px solid #f39c12;
+    }
   </style>
 </head>
 <body>
-
   <h1>🌄 Cusco</h1>
   <h2>Información turística</h2>
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bandera_del_Per%C3%BA.png/640px-Bandera_del_Per%C3%BA.png" alt="Imagen de Cusco">
+  <img class="banner-img" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Ciudadela_de_Machu_Picchu_al_atardecer_2.jpg" alt="Imagen de Cusco">
   <div class="descripcion">Capital del imponente Imperio del Tahuantinsuyo y sede de la ciudadela de Machu Picchu, una de las 7 maravillas del mundo moderno, Cusco es considerado como el ombligo del mundo por haber sido el centro político y territorial del Imperio Incaico. A lo largo de la historia, Cusco ha recibido importantes distinciones como ser declarada Patrimonio Cultural de la Humanidad por la UNESCO en 1981, en Argentina fue distinguida como la "Capital Arqueológica de América del Sur" en 1933, en Italia como "Herencia Cultural del Mundo" en 1978, y en Perú, se le nombró la "Capital Histórica del Perú" en la Constitución de 1993. Por otro lado, Cusco posee otros atractivos turísticos como Valle Sagrado, el Barrio de San Blas, las minas de Sal de Maras y el pueblo de Paucartambo.</div>
-
   <div class="info-box">
     <strong>Clima promedio estimado:</strong> 11.9 °C<br>
     <strong>Clasificación del clima:</strong> Frío<br>
     <strong>Mes de referencia:</strong> Ene
   </div>
-
+  <h2>🎉 Festividades en Cusco</h2>
+  <div class="festividad-grid">
+    
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DEL SEÑOR DEL CALVARIO</strong> (03 de enero)</p>
+            <p>📍 Provincia de Cusco</p>
+            <p><strong>RETORNO A CASA DEL SEÑOR DEL CALVARIO EN CALCA</strong></p>
+            <a href="https://www.youtube.com/watch?v=ZBI3uKAm5Zg&pp=ygUqRmllc3RhIGRlbCBTZcOxb3IgZGVsIENhbHZhcmlvIEN1c2NvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=ZBI3uKAm5Zg&pp=ygUqRmllc3RhIGRlbCBTZcOxb3IgZGVsIENhbHZhcmlvIEN1c2NvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/ZBI3uKAm5Zg/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>BAJADA DE LOS REYES MAGOS</strong> (06 de enero)</p>
+            <p>📍 Anta, Ollantaytambo</p>
+            <p><strong>Adoración Reyes Magos - San Blas Cusco</strong></p>
+            <a href="https://www.youtube.com/watch?v=XmKV9toipIQ&pp=ygUlQmFqYWRhIGRlIGxvcyBSZXllcyBNYWdvcyBDdXNjbyBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=XmKV9toipIQ&pp=ygUlQmFqYWRhIGRlIGxvcyBSZXllcyBNYWdvcyBDdXNjbyBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/XmKV9toipIQ/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>ENFRENTAMIENTO RITUAL O CHIARAQE</strong> (20 de enero)</p>
+            <p>📍 Canas</p>
+            <p><strong>CHIARAJE 2018! Un MUERTO! en Batalla Sangrienta[ Canas-Cusco-Perú ]</strong></p>
+            <a href="https://www.youtube.com/watch?v=OCewvxFsIYQ&pp=ygUsRW5mcmVudGFtaWVudG8gcml0dWFsIG8gQ2hpYXJhcWUgQ3VzY28gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=OCewvxFsIYQ&pp=ygUsRW5mcmVudGFtaWVudG8gcml0dWFsIG8gQ2hpYXJhcWUgQ3VzY28gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/OCewvxFsIYQ/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE SAN SEBASTIÁN</strong> (20 de enero)</p>
+            <p>📍 Toda la región</p>
+            <p><strong>La Fiesta de San Sebastián</strong></p>
+            <a href="https://www.youtube.com/watch?v=lKniEKWW1-c&pp=ygUkRmllc3RhIGRlIFNhbiBTZWJhc3Rpw6FuIEN1c2NvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=lKniEKWW1-c&pp=ygUkRmllc3RhIGRlIFNhbiBTZWJhc3Rpw6FuIEN1c2NvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/lKniEKWW1-c/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DEL DULCE NOMBRE DE JESÚS</strong> (03 de febrero)</p>
+            <p>📍 Barrio de San Blas, ciudad del Cusco</p>
+            <p><strong>FIESTA DEL SEÑOR "DULCE NOMBRE DE JESÚS"</strong></p>
+            <a href="https://www.youtube.com/watch?v=VqB1NrEsIpk&pp=ygUtRmllc3RhIGRlbCBEdWxjZSBOb21icmUgZGUgSmVzw7pzIEN1c2NvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=VqB1NrEsIpk&pp=ygUtRmllc3RhIGRlbCBEdWxjZSBOb21icmUgZGUgSmVzw7pzIEN1c2NvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/VqB1NrEsIpk/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>CARNAVALES</strong> (Febrero (móvil))</p>
+            <p>📍 Toda la región</p>
+            <p><strong>ASI SON LOS CARNAVALES EN CUSCO 2024 / Plaza de armas Cusco</strong></p>
+            <a href="https://www.youtube.com/watch?v=fHhynOlKyig&pp=ygUWQ2FybmF2YWxlcyBDdXNjbyBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=fHhynOlKyig&pp=ygUWQ2FybmF2YWxlcyBDdXNjbyBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/fHhynOlKyig/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>SEMANA SANTA</strong> (Marzo-abril (móvil))</p>
+            <p>📍 Toda la región</p>
+            <p><strong>🟣 Semana Santa en Cusco: Tradición, Fe y Destinos Turísticos Imperdibles</strong></p>
+            <a href="https://www.youtube.com/watch?v=NxgVhqrUpKw&pp=ygUYU2VtYW5hIFNhbnRhIEN1c2NvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=NxgVhqrUpKw&pp=ygUYU2VtYW5hIFNhbnRhIEN1c2NvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/NxgVhqrUpKw/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>CRUZVELACUT O FIESTA DE LA CRUZ</strong> (1 de mayo)</p>
+            <p>📍 Toda la región</p>
+            <p><strong>FIESTA ANDINA DE LA CRUZ "CRUZVELAKUY" | Perú | Cusco 🇵🇪</strong></p>
+            <a href="https://www.youtube.com/watch?v=RKlDrKTJeS8&pp=ygUrQ3J1enZlbGFjdXQgbyBmaWVzdGEgZGUgbGEgY3J1eiBDdXNjbyBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=RKlDrKTJeS8&pp=ygUrQ3J1enZlbGFjdXQgbyBmaWVzdGEgZGUgbGEgY3J1eiBDdXNjbyBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/RKlDrKTJeS8/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FESTIVAL INTERNACIONAL DE LA CERVEZA CUSQUEÑA</strong> (Mayo (móvil))</p>
+            <p>📍 Cusco</p>
+            <p><strong>Pedro Suárez-Vertiz Festival Cerveza Cusqueña '98</strong></p>
+            <a href="https://www.youtube.com/watch?v=554nOQOFRqY&list=RD554nOQOFRqY&start_radio=1&pp=ygU6RmVzdGl2YWwgSW50ZXJuYWNpb25hbCBkZSBsYSBjZXJ2ZXphIEN1c3F1ZcOxYSBDdXNjbyBQZXLDuqAHAQ%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=554nOQOFRqY&list=RD554nOQOFRqY&start_radio=1&pp=ygU6RmVzdGl2YWwgSW50ZXJuYWNpb25hbCBkZSBsYSBjZXJ2ZXphIEN1c3F1ZcOxYSBDdXNjbyBQZXLDuqAHAQ%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/554nOQOFRqY/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA Y PEREGRINACIÓN DEL SEÑOR
+DE QOYLLUR RIT’ I</strong> (Mayo-junio (móvil))</p>
+            <p>📍 Ocongate</p>
+            <p><strong>Cusco: la impresionante peregrinación al Señor de Qoyllur Riti</strong></p>
+            <a href="https://www.youtube.com/watch?v=2wrBckIdAsE&pp=ygVBRmllc3RhIHkgcGVyZWdyaW5hY2nDs24gZGVsIFNlw7FvcmRlIFFveWxsdXIgUml04oCZIGkgQ3VzY28gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=2wrBckIdAsE&pp=ygVBRmllc3RhIHkgcGVyZWdyaW5hY2nDs24gZGVsIFNlw7FvcmRlIFFveWxsdXIgUml04oCZIGkgQ3VzY28gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/2wrBckIdAsE/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DEL CORPUS CHRISTI</strong> (1 quincena de junio)</p>
+            <p>📍 Cusco, Sacsayhuamán</p>
+            <p><strong>MUNDOS SONOROS 1: LA FIESTA DEL CORPUS CHRISTI EN CUSCO</strong></p>
+            <a href="https://www.youtube.com/watch?v=ykFDiaKzB2g&pp=ygUlRmllc3RhIGRlbCBDb3JwdXMgQ2hyaXN0aSBDdXNjbyBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=ykFDiaKzB2g&pp=ygUlRmllc3RhIGRlbCBDb3JwdXMgQ2hyaXN0aSBDdXNjbyBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/ykFDiaKzB2g/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE OLLANTAY RAYMI</strong> (24 de junio)</p>
+            <p>📍 Ollantaytambo</p>
+            <p><strong>EN VIVO: OLLANTAYRAYMI "LA FIESTA DE OLLANTAY" CUSCO PERU 2021, 29 de junio - DRAMA INCA I PERÚ VIP</strong></p>
+            <a href="https://www.youtube.com/watch?v=7vrzhk1dCDQ&pp=ygUkRmllc3RhIGRlIE9sbGFudGF5IFJheW1pIEN1c2NvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=7vrzhk1dCDQ&pp=ygUkRmllc3RhIGRlIE9sbGFudGF5IFJheW1pIEN1c2NvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/7vrzhk1dCDQ/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DEL INTI RAYMI</strong> (16 de julio)</p>
+            <p>📍 Cusco, Sacsayhuamán</p>
+            <p><strong>🔴 EN VIVO | Inti Raymi 2025: ceremonia central desde Cusco | Fiesta del Sol por TVPerú</strong></p>
+            <a href="https://www.youtube.com/watch?v=rnCVqJD9_rI&pp=ygUhRmllc3RhIGRlbCBJbnRpIFJheW1pIEN1c2NvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=rnCVqJD9_rI&pp=ygUhRmllc3RhIGRlbCBJbnRpIFJheW1pIEN1c2NvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/rnCVqJD9_rI/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA VIRGEN DEL CARMEN</strong> (24 de junio)</p>
+            <p>📍 Paucartambo</p>
+            <p><strong>ASÍ SON LAS FIESTAS DE LA VIRGEN DEL CARMEN (MAMACHA CARMEN) DE PAUCARTAMBO - CUSCO - PERÚ</strong></p>
+            <a href="https://www.youtube.com/watch?v=mdAei6g6o0c&pp=ygUqRmllc3RhIGRlIGxhIFZpcmdlbiBkZWwgQ2FybWVuIEN1c2NvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=mdAei6g6o0c&pp=ygUqRmllc3RhIGRlIGxhIFZpcmdlbiBkZWwgQ2FybWVuIEN1c2NvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/mdAei6g6o0c/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DEL BAUTIZO DEL GANADO</strong> (31 de julio)</p>
+            <p>📍 Diversas provincias</p>
+            <p><strong>BAUTIZO ELMER Y LEYSA - BRINDIS DE HONOR Y PALABRAS DE LOS PADRINOS (POTOSI ) PRODUCCIONES QUIROGA</strong></p>
+            <a href="https://www.youtube.com/watch?v=lBmIDNm4Bxc&pp=ygUpRmllc3RhIGRlbCBiYXV0aXpvIGRlbCBnYW5hZG8gQ3VzY28gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=lBmIDNm4Bxc&pp=ygUpRmllc3RhIGRlbCBiYXV0aXpvIGRlbCBnYW5hZG8gQ3VzY28gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/lBmIDNm4Bxc/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>HUARACHIKUY</strong> (Agosto (móvil))</p>
+            <p>📍 Cusco</p>
+            <p><strong>Warachikuy: Una celebración de origen inca que contiene las más duras y arduas pruebas</strong></p>
+            <a href="https://www.youtube.com/watch?v=_DhSDYnTydQ&pp=ygUXSHVhcmFjaGlrdXkgQ3VzY28gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=_DhSDYnTydQ&pp=ygUXSHVhcmFjaGlrdXkgQ3VzY28gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/_DhSDYnTydQ/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE NUESTRA SEÑORA DE LAS NIEVES</strong> (04 de agosto)</p>
+            <p>📍 Ollantaytambo</p>
+            <p><strong>Festividad en Honor a la Virgen de las Nieves distrito de Tinta provincia de Canchis Region Cusco</strong></p>
+            <a href="https://www.youtube.com/watch?v=jaOqik2Gf_o&pp=ygUzRmllc3RhIGRlIE51ZXN0cmEgU2XDsW9yYSBkZSBsYXMgTmlldmVzIEN1c2NvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=jaOqik2Gf_o&pp=ygUzRmllc3RhIGRlIE51ZXN0cmEgU2XDsW9yYSBkZSBsYXMgTmlldmVzIEN1c2NvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/jaOqik2Gf_o/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE SANTA ROSA</strong> (30 de agosto)</p>
+            <p>📍 Toda la región</p>
+            <p><strong>Así celebra Lamay - Cusco a Santa Rosa | Celebra Perú</strong></p>
+            <a href="https://www.youtube.com/watch?v=EMeIdcXudCw&pp=ygUgRmllc3RhIGRlIFNhbnRhIFJvc2EgQ3VzY28gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=EMeIdcXudCw&pp=ygUgRmllc3RhIGRlIFNhbnRhIFJvc2EgQ3VzY28gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/EMeIdcXudCw/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA VIRGEN DE LA NATIVIDAD</strong> (08 de setiembre)</p>
+            <p>📍 Urubamba (Chinchero)</p>
+            <p><strong>Fiesta de la Virgen de Natividad en Almudena Cusco 2023</strong></p>
+            <a href="https://www.youtube.com/watch?v=gYaeQYvzQEs&pp=ygUvRmllc3RhIGRlIGxhIFZpcmdlbiBkZSBsYSBOYXRpdmlkYWQgQ3VzY28gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=gYaeQYvzQEs&pp=ygUvRmllc3RhIGRlIGxhIFZpcmdlbiBkZSBsYSBOYXRpdmlkYWQgQ3VzY28gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/gYaeQYvzQEs/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SEMANA TURÍSTICA DEL CUSCO</strong> (Octubre (móvil))</p>
+            <p>📍 Cusco</p>
+            <p><strong>👉 CUSCO en 7 días ⛰️🇵🇪 ... GUÍA DE VIAJE y lugares imperdibles 😉 ... #recomendaciones #viajes</strong></p>
+            <a href="https://www.youtube.com/watch?v=b0DtwUq386Y&pp=ygUnU2VtYW5hIFR1csOtc3RpY2EgZGVsIEN1c2NvIEN1c2NvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=b0DtwUq386Y&pp=ygUnU2VtYW5hIFR1csOtc3RpY2EgZGVsIEN1c2NvIEN1c2NvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/b0DtwUq386Y/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FESTIVIDAD DE TODOS LOS SANTOS Y DÍA
+DE LOS DIFUNTOS</strong> (01 – 02 de noviembre)</p>
+            <p>📍 Toda la región</p>
+            <p><strong>todos santos y día de los muertos en Cusco</strong></p>
+            <a href="https://www.youtube.com/watch?v=c8LYZCX0z8Q&pp=ygVARmVzdGl2aWRhZCBkZSBUb2RvcyBsb3MgU2FudG9zIHkgRMOtYWRlIGxvcyBEaWZ1bnRvcyBDdXNjbyBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=c8LYZCX0z8Q&pp=ygVARmVzdGl2aWRhZCBkZSBUb2RvcyBsb3MgU2FudG9zIHkgRMOtYWRlIGxvcyBEaWZ1bnRvcyBDdXNjbyBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/c8LYZCX0z8Q/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA INMACULADA CONCEPCIÓN</strong> (08 de diciembre)</p>
+            <p>📍 Toda la región</p>
+            <p><strong>𝐒𝐨𝐥𝐞𝐦𝐧𝐢𝐝𝐚𝐝 𝐝𝐞 𝐥𝐚 𝐈𝐧𝐦𝐚𝐜𝐮𝐥𝐚𝐝𝐚 𝐂𝐨𝐧𝐜𝐞𝐩𝐜𝐢𝐨́𝐧</strong></p>
+            <a href="https://www.youtube.com/watch?v=NcnBQgD50IE&list=RDNcnBQgD50IE&start_radio=1&pp=ygUvRmllc3RhIGRlIGxhIElubWFjdWxhZGEgQ29uY2VwY2nDs24gQ3VzY28gUGVyw7qgBwE%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=NcnBQgD50IE&list=RDNcnBQgD50IE&start_radio=1&pp=ygUvRmllc3RhIGRlIGxhIElubWFjdWxhZGEgQ29uY2VwY2nDs24gQ3VzY28gUGVyw7qgBwE%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/NcnBQgD50IE/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE SAN BLAS</strong> (18 de diciembre)</p>
+            <p>📍 Cusco</p>
+            <p><strong>Patrón San Blas - Cusco 2025 // (Paso procesional)</strong></p>
+            <a href="https://www.youtube.com/watch?v=grH7Xga7H4A&pp=ygUeRmllc3RhIGRlIFNhbiBCbGFzIEN1c2NvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=grH7Xga7H4A&pp=ygUeRmllc3RhIGRlIFNhbiBCbGFzIEN1c2NvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/grH7Xga7H4A/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SANTURANTICUY</strong> (24 de diciembre)</p>
+            <p>📍 Cusco</p>
+            <p><strong>SANTURANTIKUY 2020 - CUSCO ✅</strong></p>
+            <a href="https://www.youtube.com/watch?v=rkAqCkdLrRg&pp=ygUZU2FudHVyYW50aWN1eSBDdXNjbyBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=rkAqCkdLrRg&pp=ygUZU2FudHVyYW50aWN1eSBDdXNjbyBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/rkAqCkdLrRg/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DEL NIÑO HUAYNA CÁPAC</strong> (31 de diciembre)</p>
+            <p>📍 Quiquijana, Quispicanchis</p>
+            <p><strong>🇵🇪El Mejor Documental "MOMIAS EN LAS MONTAÑAS SAGRADAS DE LOS INCAS" | Machu Picchu | Perú Vip 🇲🇽🇧🇷</strong></p>
+            <a href="https://www.youtube.com/watch?v=m_VWTfB31gs&pp=ygUqRmllc3RhIGRlbCBOacOxbyBIdWF5bmEgQ8OhcGFjIEN1c2NvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=m_VWTfB31gs&pp=ygUqRmllc3RhIGRlbCBOacOxbyBIdWF5bmEgQ8OhcGFjIEN1c2NvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/m_VWTfB31gs/0.jpg"></a>
+        </div>
+        
+  </div>
+  <button id="botonFestividades" class="boton-vermas" onclick="mostrarFestividades()">Ver más festividades</button>
   <h2>🌡️ Clima mensual en Cusco</h2>
   <img src="clima_cusco.png" alt="Gráfico del clima en Cusco">
-
   <h2>📰 Noticias y 📺 Videos recomendados</h2>
   <div class="media-grid">
     <div class="media-column">
@@ -350,16 +569,16 @@
             
     </div>
   </div>
-
   <a class="volver" href="index.html">← Volver al recomendador</a>
-
   <script>
     function mostrarNoticias() {
-      document.querySelectorAll('.oculto').forEach(e => e.style.display = 'block');
-      const boton = document.getElementById('botonNoticias');
-      if (boton) boton.style.display = 'none';
+      document.querySelectorAll('.noticia.oculto').forEach(e => e.style.display = 'block');
+      document.getElementById('botonNoticias').style.display = 'none';
+    }
+    function mostrarFestividades() {
+      document.querySelectorAll('.festividad.oculto').forEach(e => e.style.display = 'block');
+      document.getElementById('botonFestividades').style.display = 'none';
     }
   </script>
-
 </body>
 </html>

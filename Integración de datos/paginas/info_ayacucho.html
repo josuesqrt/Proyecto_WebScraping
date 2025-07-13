@@ -17,7 +17,14 @@
     }
     h1 { color: #c0392b; }
     h2 { color: #2c3e50; margin-top: 40px; }
-    img { max-width: 100%; border-radius: 8px; }
+    img { max-width: 100%; }
+    .banner-img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
     .descripcion { font-size: 17px; margin: 20px 0; line-height: 1.6; }
     .info-box {
       background: #f0fff4;
@@ -90,25 +97,279 @@
     .boton-vermas:hover {
       background-color: #0056b3;
     }
+    .festividad-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .festividad {
+      background: #fdfde7;
+      border-left: 5px solid #f39c12;
+    }
   </style>
 </head>
 <body>
-
   <h1>🌄 Ayacucho</h1>
   <h2>Información turística</h2>
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bandera_del_Per%C3%BA.png/640px-Bandera_del_Per%C3%BA.png" alt="Imagen de Ayacucho">
+  <img class="banner-img" src="https://upload.wikimedia.org/wikipedia/commons/8/88/Pampa_de_la_Quinua.jpg" alt="Imagen de Ayacucho">
   <div class="descripcion">Con ubicación en la sierra central del Perú y atravesada por la Cordillera de los Andes, Ayacucho es tierra de iglesias y casonas de marcada arquitectura; asimismo, es tierra de artesanos, donde destaca la fabricación de los retablos ayacuchanos. Este departamento de la sierra tiene como característica su gran fervor religioso, siendo uno de los puntos favoritos para peruanos y extranjeros en Semana Santa. Entre las 33 iglesias de arquitectura colonial que posee, presenta una imperdible ruta para visitar ocho de ellas iniciando con La Catedral, ubicada en la Plaza Mayor.</div>
-
   <div class="info-box">
     <strong>Clima promedio estimado:</strong> 15.7 °C<br>
     <strong>Clasificación del clima:</strong> Templado<br>
     <strong>Mes de referencia:</strong> Ene
   </div>
-
+  <h2>🎉 Festividades en Ayacucho</h2>
+  <div class="festividad-grid">
+    
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>ADORACIÓN DEL NIÑO Y DANZAS DE
+LA HUAYLIJÍA Y DE HUERA</strong> (2 de enero)</p>
+            <p>📍 Huamanga (Ayacucho)</p>
+            <p><strong>Esí es nuestra cultura, adoración al niño Dios</strong></p>
+            <a href="https://www.youtube.com/watch?v=Tuxf8XxugIo&pp=ygVHQWRvcmFjacOzbiBkZWwgTmnDsW8geSBkYW56YXMgZGVsYSBodWF5bGlqw61hIHkgZGUgaHVlcmEgQXlhY3VjaG8gUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=Tuxf8XxugIo&pp=ygVHQWRvcmFjacOzbiBkZWwgTmnDsW8geSBkYW56YXMgZGVsYSBodWF5bGlqw61hIHkgZGUgaHVlcmEgQXlhY3VjaG8gUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/Tuxf8XxugIo/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>BAJADA DE REYES</strong> (2-9 de enero)</p>
+            <p>📍 Huamanga</p>
+            <p><strong>Ayacucho _ Bajada de Reyes de Huancapi 2010</strong></p>
+            <a href="https://www.youtube.com/watch?v=vLd6kQKPGic&list=RDvLd6kQKPGic&start_radio=1&pp=ygUeQmFqYWRhIGRlIFJleWVzIEF5YWN1Y2hvIFBlcsO6oAcB0gcJCdgJAYcqIYzv" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=vLd6kQKPGic&list=RDvLd6kQKPGic&start_radio=1&pp=ygUeQmFqYWRhIGRlIFJleWVzIEF5YWN1Y2hvIFBlcsO6oAcB0gcJCdgJAYcqIYzv" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/vLd6kQKPGic/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE SAN SEBASTIÁN</strong> (20 de enero)</p>
+            <p>📍 Huamanga</p>
+            <p><strong>Fiesta de San Sebastian Ayacucho</strong></p>
+            <a href="https://www.youtube.com/watch?v=V8NdNctdNMU&pp=ygUnRmllc3RhIGRlIFNhbiBTZWJhc3Rpw6FuIEF5YWN1Y2hvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=V8NdNctdNMU&pp=ygUnRmllc3RhIGRlIFNhbiBTZWJhc3Rpw6FuIEF5YWN1Y2hvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/V8NdNctdNMU/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE LA VIRGEN DE LA CANDELARIA</strong> (2-14 de febrero)</p>
+            <p>📍 Ayacucho</p>
+            <p><strong>PROCESIÓN VIRGEN DE LA CANDELARIA (templo Calvario Ayacucho)</strong></p>
+            <a href="https://www.youtube.com/watch?v=N46yB19qh9c&pp=ygUzRmllc3RhIGRlIGxhIFZpcmdlbiBkZSBsYSBDYW5kZWxhcmlhIEF5YWN1Y2hvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=N46yB19qh9c&pp=ygUzRmllc3RhIGRlIGxhIFZpcmdlbiBkZSBsYSBDYW5kZWxhcmlhIEF5YWN1Y2hvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/N46yB19qh9c/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>CARNAVALES</strong> (Febrero)</p>
+            <p>📍 Ayacucho</p>
+            <p><strong>Los Carnavales de Ayacucho</strong></p>
+            <a href="https://www.youtube.com/watch?v=4S-Va_Yy21Q&pp=ygUZQ2FybmF2YWxlcyBBeWFjdWNobyBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=4S-Va_Yy21Q&pp=ygUZQ2FybmF2YWxlcyBBeWFjdWNobyBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/4S-Va_Yy21Q/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>ESCENIFICACIÓN DEL FUSILAMIENTO DE MARÍA
+PARADO DE BELLIDO</strong> (14 de febrero)</p>
+            <p>📍 Huamanga</p>
+            <p><strong>ÑUQANCHIK- TV PERU - ESCENIFICACION DEL FUSILAMIENTO DE MARIA PARADO DE BELLIDO EN AYACUCHO</strong></p>
+            <a href="https://www.youtube.com/watch?v=rtWZI66rKXk&pp=ygVKRXNjZW5pZmljYWNpw7NuIGRlbCBmdXNpbGFtaWVudG8gZGUgTWFyw61hUGFyYWRvIGRlIEJlbGxpZG8gQXlhY3VjaG8gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=rtWZI66rKXk&pp=ygVKRXNjZW5pZmljYWNpw7NuIGRlbCBmdXNpbGFtaWVudG8gZGUgTWFyw61hUGFyYWRvIGRlIEJlbGxpZG8gQXlhY3VjaG8gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/rtWZI66rKXk/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA PATRONAL DEL SEÑOR DE UNTURA</strong> (01 de mayo)</p>
+            <p>📍 Lucanas</p>
+            <p><strong>Toro se escapa y deja más de 30 heridos en fiesta patronal</strong></p>
+            <a href="https://www.youtube.com/watch?v=Kk1ZwBKJ_qQ&pp=ygUzRmllc3RhIFBhdHJvbmFsIGRlbCBTZcOxb3IgZGUgVW50dXJhIEF5YWN1Y2hvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=Kk1ZwBKJ_qQ&pp=ygUzRmllc3RhIFBhdHJvbmFsIGRlbCBTZcOxb3IgZGUgVW50dXJhIEF5YWN1Y2hvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/Kk1ZwBKJ_qQ/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE LAS CRUCES</strong> (01 – 06 de mayo)</p>
+            <p>📍 Huanta, La Mar, Lucanas</p>
+            <p><strong>Antiq Chunchus en la Fiesta de las Cruces. Luricocha, Huanta, Ayacucho, Perú [ALPACA]</strong></p>
+            <a href="https://www.youtube.com/watch?v=CJDshm7_7Lk&pp=ygUjRmllc3RhIGRlIGxhcyBDcnVjZXMgQXlhY3VjaG8gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=CJDshm7_7Lk&pp=ygUjRmllc3RhIGRlIGxhcyBDcnVjZXMgQXlhY3VjaG8gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/CJDshm7_7Lk/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE LA VIRGEN DE FÁTIMA</strong> (16 de mayo)</p>
+            <p>📍 Ayacucho</p>
+            <p><strong>VIRGEN DE LAS NIEVES 💐 4°A Festival de Danzas FATIMA DE AYACUCHO 2024</strong></p>
+            <a href="https://www.youtube.com/watch?v=80lnj6cp8tI&pp=ygUtRmllc3RhIGRlIGxhIFZpcmdlbiBkZSBGw6F0aW1hIEF5YWN1Y2hvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=80lnj6cp8tI&pp=ygUtRmllc3RhIGRlIGxhIFZpcmdlbiBkZSBGw6F0aW1hIEF5YWN1Y2hvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/80lnj6cp8tI/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE SAN JUAN</strong> (06 de junio)</p>
+            <p>📍 Huamanga</p>
+            <p><strong>FIESTA PATRONAL DE SAN JUAN - AYACUCHO 2019 (02)</strong></p>
+            <a href="https://www.youtube.com/watch?v=Ov6NwVfcR2s&list=RDOv6NwVfcR2s&start_radio=1&pp=ygUhRmllc3RhIGRlIFNhbiBKdWFuIEF5YWN1Y2hvIFBlcsO6oAcB" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=Ov6NwVfcR2s&list=RDOv6NwVfcR2s&start_radio=1&pp=ygUhRmllc3RhIGRlIFNhbiBKdWFuIEF5YWN1Y2hvIFBlcsO6oAcB" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/Ov6NwVfcR2s/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>CORPUS CHRISTI</strong> (16 de junio)</p>
+            <p>📍 Huamanga</p>
+            <p><strong>corpus Christi Colca Ayacucho 2023</strong></p>
+            <a href="https://www.youtube.com/shorts/thsZeeQ9u4E" target="_blank">Ver video</a>
+            
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA VIRGEN DEL CARMEN</strong> (18 de julio)</p>
+            <p>📍 Páucar del Sara Sara</p>
+            <p><strong>SANTÍSIMA VIRGEN DEL CARMEN (2024) - AYACUCHO | BLOQUE 01</strong></p>
+            <a href="https://www.youtube.com/watch?v=EjEj9Wfebh0&list=RDEjEj9Wfebh0&start_radio=1&pp=ygUtRmllc3RhIGRlIGxhIFZpcmdlbiBkZWwgQ2FybWVuIEF5YWN1Y2hvIFBlcsO6oAcB" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=EjEj9Wfebh0&list=RDEjEj9Wfebh0&start_radio=1&pp=ygUtRmllc3RhIGRlIGxhIFZpcmdlbiBkZWwgQ2FybWVuIEF5YWN1Y2hvIFBlcsO6oAcB" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/EjEj9Wfebh0/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA PATRONAL DE SANTIAGO</strong> (25-28 de julio)</p>
+            <p>📍 Páucar del Sara Sara</p>
+            <p><strong>🟥fiesta patronal ✔️santiago de huatatas Ayacucho</strong></p>
+            <a href="https://www.youtube.com/watch?v=xv7S7JhBz8U&pp=ygUqRmllc3RhIHBhdHJvbmFsIGRlIFNhbnRpYWdvIEF5YWN1Y2hvIFBlcsO60gcJCdgJAYcqIYzv" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=xv7S7JhBz8U&pp=ygUqRmllc3RhIHBhdHJvbmFsIGRlIFNhbnRpYWdvIEF5YWN1Y2hvIFBlcsO60gcJCdgJAYcqIYzv" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/xv7S7JhBz8U/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTAS, PATRIAS, TOROS Y WAQRAPUKUS</strong> (28 de julio)</p>
+            <p>📍 Huamanga</p>
+            <p><strong>Ayacucho: toro se escapa de fiesta patronal y deja tres heridos tras su paso por la ciudad</strong></p>
+            <a href="https://www.youtube.com/watch?v=KnCQperVF4c&pp=ygUzRmllc3RhcywgUGF0cmlhcywgVG9yb3MgeSB3YXFyYXB1a3VzIEF5YWN1Y2hvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=KnCQperVF4c&pp=ygUzRmllc3RhcywgUGF0cmlhcywgVG9yb3MgeSB3YXFyYXB1a3VzIEF5YWN1Y2hvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/KnCQperVF4c/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA VIRGEN DE LAS NIEVES</strong> (29 de julio-5 de agosto)</p>
+            <p>📍 Parinacochas</p>
+            <p><strong>La Virgen de las Nieves (Coracora)</strong></p>
+            <a href="https://www.youtube.com/watch?v=1sxok_d7aVE&t=1141s&pp=ygUwRmllc3RhIGRlIGxhIHZpcmdlbiBkZSBsYXMgTmlldmVzIEF5YWN1Y2hvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=1sxok_d7aVE&t=1141s&pp=ygUwRmllc3RhIGRlIGxhIHZpcmdlbiBkZSBsYXMgTmlldmVzIEF5YWN1Y2hvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/1sxok_d7aVE/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>RITUAL DE LA HERRANZA O MARCACIÓN DEL
+GANADO</strong> (Julio o agosto)</p>
+            <p>📍 Cangallo, Huanta, Víctor Fajardo</p>
+            <p><strong>El ritual de la "herranza"</strong></p>
+            <a href="https://www.youtube.com/watch?v=64wIiT2_pkg&pp=ygU7Uml0dWFsIGRlIGxhIGhlcnJhbnphIG8gbWFyY2FjacOzbiBkZWxnYW5hZG8gQXlhY3VjaG8gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=64wIiT2_pkg&pp=ygU7Uml0dWFsIGRlIGxhIGhlcnJhbnphIG8gbWFyY2FjacOzbiBkZWxnYW5hZG8gQXlhY3VjaG8gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/64wIiT2_pkg/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA VIRGEN DE LA ASUNCIÓN</strong> (15 de agosto)</p>
+            <p>📍 Cangallo, Víctor Fajardo, Castrovirreyna</p>
+            <p><strong>IMTAAMPAC. Presenta Las Festividades de la Virgen de La Asunción en Ayacucho 2016</strong></p>
+            <a href="https://www.youtube.com/watch?v=bfppbSd4is0&pp=ygUyRmllc3RhIGRlIGxhIFZpcmdlbiBkZSBsYSBBc3VuY2nDs24gQXlhY3VjaG8gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=bfppbSd4is0&pp=ygUyRmllc3RhIGRlIGxhIFZpcmdlbiBkZSBsYSBBc3VuY2nDs24gQXlhY3VjaG8gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/bfppbSd4is0/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>PROCESIÓN DE SAN ISIDRO LABRADOR</strong> (21-27 de agosto)</p>
+            <p>📍 Lucanas</p>
+            <p><strong>🌷🎶💘 PROCESION de SAN ISIDRO LABRADOR de CABANA SUR AYACUCHO 💞🌺🎵</strong></p>
+            <a href="https://www.youtube.com/watch?v=t_xfch1zebs&pp=ygUwUHJvY2VzacOzbiBkZSBTYW4gSXNpZHJvIExhYnJhZG9yIEF5YWN1Y2hvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=t_xfch1zebs&pp=ygUwUHJvY2VzacOzbiBkZSBTYW4gSXNpZHJvIExhYnJhZG9yIEF5YWN1Y2hvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/t_xfch1zebs/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE SAN BARTOLOMÉ</strong> (24 de agosto)</p>
+            <p>📍 Cangallo</p>
+            <p><strong>FIESTA COSTUMBRISTA EN HOMENAJE AL SANTO PATRON " SAN BARTOLOME DE SORAS " 2014</strong></p>
+            <a href="https://www.youtube.com/watch?v=R7414_NTrzk&pp=ygUnRmllc3RhIGRlIFNhbiBCYXJ0b2xvbcOpIEF5YWN1Y2hvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=R7414_NTrzk&pp=ygUnRmllc3RhIGRlIFNhbiBCYXJ0b2xvbcOpIEF5YWN1Y2hvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/R7414_NTrzk/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA PATRONAL DE SAN MIGUEL</strong> (26-30 de agosto)</p>
+            <p>📍 La Mar</p>
+            <p><strong>Fiesta Patronal De San Miguel La Mar Ayacucho 2022 | TitoRamirez</strong></p>
+            <a href="https://www.youtube.com/watch?v=nn7w-AYWd10&pp=ygUsRmllc3RhIHBhdHJvbmFsIGRlIFNhbiBNaWd1ZWwgQXlhY3VjaG8gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=nn7w-AYWd10&pp=ygUsRmllc3RhIHBhdHJvbmFsIGRlIFNhbiBNaWd1ZWwgQXlhY3VjaG8gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/nn7w-AYWd10/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA VIRGEN DE COCHARCAS</strong> (7 de diciembre)</p>
+            <p>📍 Huamanga</p>
+            <p><strong>FIESTA VIRGEN DE COCHARCAS 2017 - SAN DIEGO DE ISHUA- AYACUCHO - PARTE 1</strong></p>
+            <a href="https://www.youtube.com/watch?v=URTHswU0BZo&pp=ygUvRmllc3RhIGRlIGxhIFZpcmdlbiBkZSBDb2NoYXJjYXMgQXlhY3VjaG8gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=URTHswU0BZo&pp=ygUvRmllc3RhIGRlIGxhIFZpcmdlbiBkZSBDb2NoYXJjYXMgQXlhY3VjaG8gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/URTHswU0BZo/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>YARQA ASI O LIMPIEZA DE ACEQUIAS</strong> (8-9 de setiembre)</p>
+            <p>📍 Lucanas</p>
+            <p><strong>YARQA ASPIY: LIMPIEZA DE ACEQUIAS</strong></p>
+            <a href="https://www.youtube.com/watch?v=8goJSbuHYtk&pp=ygUvWWFycWEgYXNpIG8gbGltcGllemEgZGUgYWNlcXVpYXMgQXlhY3VjaG8gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=8goJSbuHYtk&pp=ygUvWWFycWEgYXNpIG8gbGltcGllemEgZGUgYWNlcXVpYXMgQXlhY3VjaG8gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/8goJSbuHYtk/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DEL SEÑOR DE QUINUAPATA</strong> (12 al 16 de setiembre)</p>
+            <p>📍 Huamanga</p>
+            <p><strong>UNSCH 2023: VIDEO REPORTAJE AL SANTUARIO DEL SANTÍSIMO SEÑOR DE QUINUAPATA</strong></p>
+            <a href="https://www.youtube.com/watch?v=REP43c32RTw&pp=ygUuRmllc3RhIGRlbCBTZcOxb3IgZGUgUXVpbnVhcGF0YSBBeWFjdWNobyBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=REP43c32RTw&pp=ygUuRmllc3RhIGRlbCBTZcOxb3IgZGUgUXVpbnVhcGF0YSBBeWFjdWNobyBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/REP43c32RTw/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE AGUA</strong> (14 de setiembre)</p>
+            <p>📍 Lucanas</p>
+            <p><strong>Así se vive la FIESTA del AGUA en Puquio Querido | Ayacucho</strong></p>
+            <a href="https://www.youtube.com/watch?v=vRoEPmpxylI&pp=ygUdRmllc3RhIGRlIGFndWEgQXlhY3VjaG8gUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=vRoEPmpxylI&pp=ygUdRmllc3RhIGRlIGFndWEgQXlhY3VjaG8gUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/vRoEPmpxylI/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA VIRGEN DE LAS MERCEDES</strong> (24 de setiembre)</p>
+            <p>📍 Cangallo</p>
+            <p><strong>FIESTA PATRONAL VIRGEN DE LAS MERCEDES DEL PUEBLO DE CCAYANTO</strong></p>
+            <a href="https://www.youtube.com/watch?v=rbjDEeuYrrA&pp=ygUyRmllc3RhIGRlIGxhIFZpcmdlbiBkZSBsYXMgTWVyY2VkZXMgQXlhY3VjaG8gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=rbjDEeuYrrA&pp=ygUyRmllc3RhIGRlIGxhIFZpcmdlbiBkZSBsYXMgTWVyY2VkZXMgQXlhY3VjaG8gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/rbjDEeuYrrA/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA PATRONAL DE SAN FRANCISCO</strong> (4 de octubre)</p>
+            <p>📍 Parinacochas</p>
+            <p><strong>FIESTA PATRONAL SAN FRANCISCO ASIS EN EL DISTRITO AYNA SAN FRANCISCO AYACUCHO</strong></p>
+            <a href="https://www.youtube.com/watch?v=elddtPyuBCU&pp=ygUvRmllc3RhIHBhdHJvbmFsIGRlIFNhbiBGcmFuY2lzY28gQXlhY3VjaG8gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=elddtPyuBCU&pp=ygUvRmllc3RhIHBhdHJvbmFsIGRlIFNhbiBGcmFuY2lzY28gQXlhY3VjaG8gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/elddtPyuBCU/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>CELEBRACIÓN DE TODOS LOS SANTOS</strong> (1 de noviembre)</p>
+            <p>📍 Huamanga</p>
+            <p><strong>UNSCH 2023: CONOZCAMOS LA TRADICIONAL FIESTA DE TODOS LOS SANTOS EN HUAMANGA</strong></p>
+            <a href="https://www.youtube.com/watch?v=l-Gkl3PW0cs&pp=ygUvQ2VsZWJyYWNpw7NuIGRlIFRvZG9zIGxvcyBTYW50b3MgQXlhY3VjaG8gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=l-Gkl3PW0cs&pp=ygUvQ2VsZWJyYWNpw7NuIGRlIFRvZG9zIGxvcyBTYW50b3MgQXlhY3VjaG8gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/l-Gkl3PW0cs/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>DÍA DEL FOLCLOR AYACUCHANO</strong> (7 de noviembre)</p>
+            <p>📍 Ayacucho</p>
+            <p><strong>Día del Folklore en A.C. Llaqta Ayacucho (◕‿◕)♡ Sarita Garcia del Perú ♡</strong></p>
+            <a href="https://www.youtube.com/watch?v=ziIE3Vpjx4E&pp=ygUqRMOtYSBkZWwgZm9sY2xvciBheWFjdWNoYW5vIEF5YWN1Y2hvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=ziIE3Vpjx4E&pp=ygUqRMOtYSBkZWwgZm9sY2xvciBheWFjdWNoYW5vIEF5YWN1Y2hvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/ziIE3Vpjx4E/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>ANIVERSARIO DE LA BATALLA DE AYACUCHO Y DANZA
+DEL TUSUY Y NICHIK</strong> (8-10 de diciembre)</p>
+            <p>📍 Huamanga, Ayacucho</p>
+            <p><strong>Conmemoración del 198.º aniversario de la Batalla de Ayacucho y Día del Ejército del Perú</strong></p>
+            <a href="https://www.youtube.com/watch?v=YtaFvETOo1M&pp=ygVOQW5pdmVyc2FyaW8gZGUgbGEgYmF0YWxsYSBkZSBBeWFjdWNobyB5IGRhbnphZGVsIHR1c3V5IHkgbmljaGlrIEF5YWN1Y2hvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=YtaFvETOo1M&pp=ygVOQW5pdmVyc2FyaW8gZGUgbGEgYmF0YWxsYSBkZSBBeWFjdWNobyB5IGRhbnphZGVsIHR1c3V5IHkgbmljaGlrIEF5YWN1Y2hvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/YtaFvETOo1M/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA INMACULADA CONCEPCIÓN</strong> (8 de diciembre)</p>
+            <p>📍 Huamanga, Sucre</p>
+            <p><strong>INMACULADA CONCEPCIÓN - AYACUCHO 2015</strong></p>
+            <a href="https://www.youtube.com/watch?v=8yQYYUEioW0&list=RD8yQYYUEioW0&start_radio=1&pp=ygUyRmllc3RhIGRlIGxhIElubWFjdWxhZGEgQ29uY2VwY2nDs24gQXlhY3VjaG8gUGVyw7qgBwE%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=8yQYYUEioW0&list=RD8yQYYUEioW0&start_radio=1&pp=ygUyRmllc3RhIGRlIGxhIElubWFjdWxhZGEgQ29uY2VwY2nDs24gQXlhY3VjaG8gUGVyw7qgBwE%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/8yQYYUEioW0/0.jpg"></a>
+        </div>
+        
+  </div>
+  <button id="botonFestividades" class="boton-vermas" onclick="mostrarFestividades()">Ver más festividades</button>
   <h2>🌡️ Clima mensual en Ayacucho</h2>
   <img src="clima_ayacucho.png" alt="Gráfico del clima en Ayacucho">
-
   <h2>📰 Noticias y 📺 Videos recomendados</h2>
   <div class="media-grid">
     <div class="media-column">
@@ -350,16 +611,16 @@
             
     </div>
   </div>
-
   <a class="volver" href="index.html">← Volver al recomendador</a>
-
   <script>
     function mostrarNoticias() {
-      document.querySelectorAll('.oculto').forEach(e => e.style.display = 'block');
-      const boton = document.getElementById('botonNoticias');
-      if (boton) boton.style.display = 'none';
+      document.querySelectorAll('.noticia.oculto').forEach(e => e.style.display = 'block');
+      document.getElementById('botonNoticias').style.display = 'none';
+    }
+    function mostrarFestividades() {
+      document.querySelectorAll('.festividad.oculto').forEach(e => e.style.display = 'block');
+      document.getElementById('botonFestividades').style.display = 'none';
     }
   </script>
-
 </body>
 </html>

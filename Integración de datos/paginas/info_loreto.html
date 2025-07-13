@@ -17,7 +17,14 @@
     }
     h1 { color: #c0392b; }
     h2 { color: #2c3e50; margin-top: 40px; }
-    img { max-width: 100%; border-radius: 8px; }
+    img { max-width: 100%; }
+    .banner-img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
     .descripcion { font-size: 17px; margin: 20px 0; line-height: 1.6; }
     .info-box {
       background: #f0fff4;
@@ -90,25 +97,165 @@
     .boton-vermas:hover {
       background-color: #0056b3;
     }
+    .festividad-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .festividad {
+      background: #fdfde7;
+      border-left: 5px solid #f39c12;
+    }
   </style>
 </head>
 <body>
-
   <h1>🌄 Loreto</h1>
   <h2>Información turística</h2>
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bandera_del_Per%C3%BA.png/640px-Bandera_del_Per%C3%BA.png" alt="Imagen de Loreto">
+  <img class="banner-img" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Puente_colgante_en_Maynas%2C_Loreto.jpg" alt="Imagen de Loreto">
   <div class="descripcion">Departamento peruano famoso por cruzar el caudaloso río Amazonas, que es el más largo del mundo. En Loreto podemos encontrar paisajes exóticos con flora y fauna diversa, como en la Reserva Nacional Pacaya Samiria, que alberga a los delfines rosados, y la Reserva Nacional Allpahuayo Mishana, que se caracteriza por sus tipos de suelos y aves endémicas.</div>
-
   <div class="info-box">
     <strong>Clima promedio estimado:</strong> 26.5 °C<br>
     <strong>Clasificación del clima:</strong> Muy caluroso<br>
     <strong>Mes de referencia:</strong> Ene
   </div>
-
+  <h2>🎉 Festividades en Loreto</h2>
+  <div class="festividad-grid">
+    
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>ANIVERSARIO DEL ARRIBO AL PUERTO DE LOS BUQUES
+DE LA MARINA DE GUERRA (EL BERGANTÍN PRÓSPERO)</strong> (5 de enero)</p>
+            <p>📍 Iquitos</p>
+            <p><strong>CORBETA MISILERA DE LA MARINA DE GUERRA DEL PERÚ 🇵🇪</strong></p>
+            <a href="https://www.youtube.com/shorts/Tmo767Xmrk4" target="_blank">Ver video</a>
+            
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>CREACIÓN POLÍTICA DEL DEPARTAMENTO
+MARÍTIMO MILITAR DE LORETO</strong> (7 de febrero)</p>
+            <p>📍 7 de febrero</p>
+            <p><strong>Poponen la creación de la zona económica especial de Loreto</strong></p>
+            <a href="https://www.youtube.com/watch?v=CbGaE8viAPA&pp=ygVMQ3JlYWNpw7NuIHBvbMOtdGljYSBkZWwgRGVwYXJ0YW1lbnRvTWFyw610aW1vIE1pbGl0YXIgZGUgTG9yZXRvIExvcmV0byBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=CbGaE8viAPA&pp=ygVMQ3JlYWNpw7NuIHBvbMOtdGljYSBkZWwgRGVwYXJ0YW1lbnRvTWFyw610aW1vIE1pbGl0YXIgZGUgTG9yZXRvIExvcmV0byBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/CbGaE8viAPA/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE CARNAVALES</strong> (13 de febrero)</p>
+            <p>📍 Iquitos</p>
+            <p><strong>Fiesta Loretana - Loreto // Sangre Leonardina // Saltur Tierra Hermosa - Renovación Folklorica</strong></p>
+            <a href="https://www.youtube.com/watch?v=W9qFdM0MnWk&list=RDW9qFdM0MnWk&start_radio=1&pp=ygUhRmllc3RhIGRlIGNhcm5hdmFsZXMgTG9yZXRvIFBlcsO6oAcB" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=W9qFdM0MnWk&list=RDW9qFdM0MnWk&start_radio=1&pp=ygUhRmllc3RhIGRlIGNhcm5hdmFsZXMgTG9yZXRvIFBlcsO6oAcB" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/W9qFdM0MnWk/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>PROCESIÓN DE PALMAS</strong> (Domingo de Ramos)</p>
+            <p>📍 Iquitos</p>
+            <p><strong>domingo de ramos Jesus de las palmas El Templo de capuchinas 2023</strong></p>
+            <a href="https://www.youtube.com/shorts/TIi5wCZSdiI" target="_blank">Ver video</a>
+            
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>SAN ANTONIO, DANZA DE LOS CABEZONES</strong> (5 de junio)</p>
+            <p>📍 Maynas</p>
+            <p><strong>Fiesta a la Llariwa - Danza Loreto - Perú</strong></p>
+            <a href="https://www.youtube.com/watch?v=g_Uk_UYMlU0&list=RDg_Uk_UYMlU0&start_radio=1&pp=ygUwU2FuIEFudG9uaW8sIGRhbnphIGRlIGxvcyBjYWJlem9uZXMgTG9yZXRvIFBlcsO6oAcB" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=g_Uk_UYMlU0&list=RDg_Uk_UYMlU0&start_radio=1&pp=ygUwU2FuIEFudG9uaW8sIGRhbnphIGRlIGxvcyBjYWJlem9uZXMgTG9yZXRvIFBlcsO6oAcB" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/g_Uk_UYMlU0/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE SAN JUAN</strong> (24 de junio)</p>
+            <p>📍 Región Amazónica</p>
+            <p><strong>La fiesta más feliz de Loreto: San Juan DE IQUITOS | Perú Pe</strong></p>
+            <a href="https://www.youtube.com/watch?v=5AC6NfaUJ3A&pp=ygUfRmllc3RhIGRlIFNhbiBKdWFuIExvcmV0byBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=5AC6NfaUJ3A&pp=ygUfRmllc3RhIGRlIFNhbiBKdWFuIExvcmV0byBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/5AC6NfaUJ3A/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE SAN PEDRO Y SAN PABLO</strong> (25-29 de junio)</p>
+            <p>📍 Iquitos</p>
+            <p><strong>Ancón celebra con fe y alegría a San Pedro y San Pablo en su tradicional fiesta en el mar</strong></p>
+            <a href="https://www.youtube.com/watch?v=-gUd0esRyVg&pp=ygUsRmllc3RhIGRlIFNhbiBQZWRybyB5IFNhbiBQYWJsbyBMb3JldG8gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=-gUd0esRyVg&pp=ygUsRmllc3RhIGRlIFNhbiBQZWRybyB5IFNhbiBQYWJsbyBMb3JldG8gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/-gUd0esRyVg/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA PATRONAL DE LA VIRGEN DEL CARMEN</strong> (16 de julio)</p>
+            <p>📍 16 de julio</p>
+            <p><strong>FIESTA PATRONAL HONOR A LA SANTISIMA VIRGEN DEL CARMEN - PATRONA DE LOS LACHAQUINOS - PARTE 1</strong></p>
+            <a href="https://www.youtube.com/watch?v=W2VPtBtRpUA&pp=ygU0Rmllc3RhIFBhdHJvbmFsIGRlIGxhIFZpcmdlbiBkZWwgQ2FybWVuIExvcmV0byBQZXLDutIHCQnYCQGHKiGM7w%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=W2VPtBtRpUA&pp=ygU0Rmllc3RhIFBhdHJvbmFsIGRlIGxhIFZpcmdlbiBkZWwgQ2FybWVuIExvcmV0byBQZXLDutIHCQnYCQGHKiGM7w%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/W2VPtBtRpUA/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE LA SANTA CRUZ DE LOS MOTILONES</strong> (Julio o agosto)</p>
+            <p>📍 Lamas</p>
+            <p><strong>Celebran fiesta patronal en honor a la santa cruz de los motilones en San Martín</strong></p>
+            <a href="https://www.youtube.com/watch?v=dyLOlndHmkE&pp=ygU1Rmllc3RhIGRlIGxhIFNhbnRhIENydXogZGUgbG9zIE1vdGlsb25lcyBMb3JldG8gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=dyLOlndHmkE&pp=ygU1Rmllc3RhIGRlIGxhIFNhbnRhIENydXogZGUgbG9zIE1vdGlsb25lcyBMb3JldG8gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/dyLOlndHmkE/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FERIA AGROPECUARIA ARTESANAL DE JENARO HERRERA</strong> (27-29 de julio)</p>
+            <p>📍 Requena</p>
+            <p><strong>Agricultura en Jenaro Herrera - Requena - Loreto - Perú</strong></p>
+            <a href="https://www.youtube.com/watch?v=f2Gf1rAUhyM&pp=ygU7RmVyaWEgQWdyb3BlY3VhcmlhIEFydGVzYW5hbCBkZSBKZW5hcm8gSGVycmVyYSBMb3JldG8gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=f2Gf1rAUhyM&pp=ygU7RmVyaWEgQWdyb3BlY3VhcmlhIEFydGVzYW5hbCBkZSBKZW5hcm8gSGVycmVyYSBMb3JldG8gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/f2Gf1rAUhyM/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>LA VIRGEN DE LAS NIEVES</strong> (4-15 de agosto)</p>
+            <p>📍 Yurimaguas</p>
+            <p><strong>PADRE CARLOS NARRA BREVE HISTORIA DE LA IGLESIA MATRIZ DE YURIMAGUAS VIRGEN DE LAS NIEVES</strong></p>
+            <a href="https://www.youtube.com/watch?v=Qr3SIMkW-84&pp=ygUkTGEgVmlyZ2VuIGRlIGxhcyBOaWV2ZXMgTG9yZXRvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=Qr3SIMkW-84&pp=ygUkTGEgVmlyZ2VuIGRlIGxhcyBOaWV2ZXMgTG9yZXRvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/Qr3SIMkW-84/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LOS CHAYAHUITAS</strong> (30 de agosto)</p>
+            <p>📍 Loreto</p>
+            <p><strong>CHAYAHUITAS</strong></p>
+            <a href="https://www.youtube.com/watch?v=yR7bOGExn_E&pp=ygUmRmllc3RhIGRlIGxvcyBDaGF5YWh1aXRhcyBMb3JldG8gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=yR7bOGExn_E&pp=ygUmRmllc3RhIGRlIGxvcyBDaGF5YWh1aXRhcyBMb3JldG8gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/yR7bOGExn_E/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>NUESTRA SEÑORA DE LA NATIVIDAD</strong> (8 de setiembre)</p>
+            <p>📍 Maynas</p>
+            <p><strong>FESTIVIDAD DE LA NATIVIDAD DE MARÍA Y VIRGEN DE LORETO 2016</strong></p>
+            <a href="https://www.youtube.com/watch?v=WhS_v38keTI&pp=ygUsTnVlc3RyYSBTZcOxb3JhIGRlIGxhIE5hdGl2aWRhZCBMb3JldG8gUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=WhS_v38keTI&pp=ygUsTnVlc3RyYSBTZcOxb3JhIGRlIGxhIE5hdGl2aWRhZCBMb3JldG8gUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/WhS_v38keTI/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SANTO TOMÁS</strong> (22-26 de setiembre)</p>
+            <p>📍 Iquitos</p>
+            <p><strong>LORETO: Carretera de Santo Tomás en 90% + La Libertad: Centro de salud de Pósope Alto en 90%</strong></p>
+            <a href="https://www.youtube.com/watch?v=ODMR6OJLDas&pp=ygUZU2FudG8gVG9tw6FzIExvcmV0byBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=ODMR6OJLDas&pp=ygUZU2FudG8gVG9tw6FzIExvcmV0byBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/ODMR6OJLDas/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LOS TELENTENOS Y DEL AMANA</strong> (1 de noviembre)</p>
+            <p>📍 Iquitos</p>
+            <p><strong>Fiesta a la Llariwa - Danza Loreto - Perú</strong></p>
+            <a href="https://www.youtube.com/watch?v=g_Uk_UYMlU0&list=RDg_Uk_UYMlU0&start_radio=1&pp=ygUxRmllc3RhIGRlIGxvcyBUZWxlbnRlbm9zIHkgZGVsIEFtYW5hIExvcmV0byBQZXLDuqAHAQ%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=g_Uk_UYMlU0&list=RDg_Uk_UYMlU0&start_radio=1&pp=ygUxRmllc3RhIGRlIGxvcyBUZWxlbnRlbm9zIHkgZGVsIEFtYW5hIExvcmV0byBQZXLDuqAHAQ%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/g_Uk_UYMlU0/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA INMACULADA CONCEPCIÓN</strong> (7-9 de diciembre)</p>
+            <p>📍 Loreto</p>
+            <p><strong>FIESTA PATRONAL VILLA LAGUNAS 2015 DEL 1 AL 8 DE DICIEMBRE</strong></p>
+            <a href="https://www.youtube.com/watch?v=nsjVBsdBGiw&pp=ygUwRmllc3RhIGRlIGxhIElubWFjdWxhZGEgQ29uY2VwY2nDs24gTG9yZXRvIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=nsjVBsdBGiw&pp=ygUwRmllc3RhIGRlIGxhIElubWFjdWxhZGEgQ29uY2VwY2nDs24gTG9yZXRvIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/nsjVBsdBGiw/0.jpg"></a>
+        </div>
+        
+  </div>
+  <button id="botonFestividades" class="boton-vermas" onclick="mostrarFestividades()">Ver más festividades</button>
   <h2>🌡️ Clima mensual en Loreto</h2>
   <img src="clima_loreto.png" alt="Gráfico del clima en Loreto">
-
   <h2>📰 Noticias y 📺 Videos recomendados</h2>
   <div class="media-grid">
     <div class="media-column">
@@ -350,16 +497,16 @@
             
     </div>
   </div>
-
   <a class="volver" href="index.html">← Volver al recomendador</a>
-
   <script>
     function mostrarNoticias() {
-      document.querySelectorAll('.oculto').forEach(e => e.style.display = 'block');
-      const boton = document.getElementById('botonNoticias');
-      if (boton) boton.style.display = 'none';
+      document.querySelectorAll('.noticia.oculto').forEach(e => e.style.display = 'block');
+      document.getElementById('botonNoticias').style.display = 'none';
+    }
+    function mostrarFestividades() {
+      document.querySelectorAll('.festividad.oculto').forEach(e => e.style.display = 'block');
+      document.getElementById('botonFestividades').style.display = 'none';
     }
   </script>
-
 </body>
 </html>

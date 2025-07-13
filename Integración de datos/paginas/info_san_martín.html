@@ -17,7 +17,14 @@
     }
     h1 { color: #c0392b; }
     h2 { color: #2c3e50; margin-top: 40px; }
-    img { max-width: 100%; border-radius: 8px; }
+    img { max-width: 100%; }
+    .banner-img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
     .descripcion { font-size: 17px; margin: 20px 0; line-height: 1.6; }
     .info-box {
       background: #f0fff4;
@@ -90,25 +97,181 @@
     .boton-vermas:hover {
       background-color: #0056b3;
     }
+    .festividad-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .festividad {
+      background: #fdfde7;
+      border-left: 5px solid #f39c12;
+    }
   </style>
 </head>
 <body>
-
   <h1>🌄 San Martín</h1>
   <h2>Información turística</h2>
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bandera_del_Per%C3%BA.png/640px-Bandera_del_Per%C3%BA.png" alt="Imagen de San Martín">
+  <img class="banner-img" src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Riu_Huallaga_des_de_la_carretera_de_Sauce04.jpg" alt="Imagen de San Martín">
   <div class="descripcion">El departamento de San Martín está ubicado en el noreste del Perú. Entre sus principales atracciones naturales se encuentran cataratas, orquídeas y mariposas. Es reserva de especies en peligro de extinción que están protegidas en el Parque Nacional Río Abiseo y el Parque Nacional de la Cordillera Azul. Posee interesantes sitios arqueológicos como la ciudadela del Gran Pajatén.</div>
-
   <div class="info-box">
     <strong>Clima promedio estimado:</strong> 21.6 °C<br>
     <strong>Clasificación del clima:</strong> Caluroso<br>
     <strong>Mes de referencia:</strong> Ene
   </div>
-
+  <h2>🎉 Festividades en San Martín</h2>
+  <div class="festividad-grid">
+    
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>CARNAVAL Y JUNSHÍA O MATRIMONIO NATIVO</strong> (Febrero o marzo)</p>
+            <p>📍 Lamas</p>
+            <p><strong>LA JUNCIA, MATRIMONIO NATIVO LAMISTA</strong></p>
+            <a href="https://www.youtube.com/watch?v=S6SrWcpIze4&pp=ygU4Q2FybmF2YWwgeSBqdW5zaMOtYSBvIG1hdHJpbW9uaW8gbmF0aXZvIFNhbiBNYXJ0aW4gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=S6SrWcpIze4&pp=ygU4Q2FybmF2YWwgeSBqdW5zaMOtYSBvIG1hdHJpbW9uaW8gbmF0aXZvIFNhbiBNYXJ0aW4gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/S6SrWcpIze4/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>CARNAVAL</strong> (Fecha movible)</p>
+            <p>📍 Mariscal Cáceres (Juanjuí)</p>
+            <p><strong>Carnaval de Lamas - San Martin - Sonqo Wayna (Cani Cruz de Oro 2021 - Union Independiente)</strong></p>
+            <a href="https://www.youtube.com/watch?v=p1gQVxZ5DOs&list=RDp1gQVxZ5DOs&start_radio=1&pp=ygUZQ2FybmF2YWwgU2FuIE1hcnRpbiBQZXLDuqAHAQ%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=p1gQVxZ5DOs&list=RDp1gQVxZ5DOs&start_radio=1&pp=ygUZQ2FybmF2YWwgU2FuIE1hcnRpbiBQZXLDuqAHAQ%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/p1gQVxZ5DOs/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA PATRONAL DE SANTO TORIBIO DE MORGROVEJO.</strong> (25 de abril)</p>
+            <p>📍 San Martín</p>
+            <p><strong>Fiesta Patronal de Santo Toribio (Costumbres parte 1)</strong></p>
+            <a href="https://www.youtube.com/watch?v=VQ4cePL6Chk&pp=ygVARmllc3RhIFBhdHJvbmFsIGRlIFNhbnRvIFRvcmliaW8gZGUgTW9yZ3JvdmVqby4gU2FuIE1hcnRpbiBQZXLDutIHCQnYCQGHKiGM7w%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=VQ4cePL6Chk&pp=ygVARmllc3RhIFBhdHJvbmFsIGRlIFNhbnRvIFRvcmliaW8gZGUgTW9yZ3JvdmVqby4gU2FuIE1hcnRpbiBQZXLDutIHCQnYCQGHKiGM7w%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/VQ4cePL6Chk/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>CORPUS CHRISTI</strong> (Junio)</p>
+            <p>📍 Moyobamba</p>
+            <p><strong>🙏Corpus Christi en Cusco: 14 santos y vírgenes desfilan en solemne procesión. Música, danzas y fuego</strong></p>
+            <a href="https://www.youtube.com/shorts/W1c_L98Xhps" target="_blank">Ver video</a>
+            
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>DANZA NEGROS.</strong> (13 de junio)</p>
+            <p>📍 San Antonio</p>
+            <p><strong>Negros en Palenque LSM</strong></p>
+            <a href="https://www.youtube.com/watch?v=WoQCDfX2JAo&pp=ygUeRGFuemEgTmVncm9zLiBTYW4gTWFydGluIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=WoQCDfX2JAo&pp=ygUeRGFuemEgTmVncm9zLiBTYW4gTWFydGluIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/WoQCDfX2JAo/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>SAN JUAN.</strong> (24 de junio)</p>
+            <p>📍 Moyobamba</p>
+            <p><strong>Reportaje al Perú: La fiesta de San Juan en Moyobamba (09/07/2023) | TVPerú</strong></p>
+            <a href="https://www.youtube.com/watch?v=c8uBKOazQaY&pp=ygUaU2FuIEp1YW4uIFNhbiBNYXJ0aW4gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=c8uBKOazQaY&pp=ygUaU2FuIEp1YW4uIFNhbiBNYXJ0aW4gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/c8uBKOazQaY/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>SAN PEDRO.</strong> (29 de junio)</p>
+            <p>📍 Moyobamba</p>
+            <p><strong>Recorrido desde la Iglesia San Pedro a la Plaza San Martín, Lima Perú 🇵🇪, Abril 2022</strong></p>
+            <a href="https://www.youtube.com/watch?v=TUUjnQKFMb0&pp=ygUbU2FuIFBlZHJvLiBTYW4gTWFydGluIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=TUUjnQKFMb0&pp=ygUbU2FuIFBlZHJvLiBTYW4gTWFydGluIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/TUUjnQKFMb0/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>SEMANA TURÍSTICA.</strong> (14-20 de julio)</p>
+            <p>📍 Huallaga(Tarapoto)</p>
+            <p><strong>Región San Martín, atractivos turísticos para visitar</strong></p>
+            <a href="https://www.youtube.com/watch?v=3n3Yc1JF1AU&pp=ygUjU2VtYW5hIFR1csOtc3RpY2EuIFNhbiBNYXJ0aW4gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=3n3Yc1JF1AU&pp=ygUjU2VtYW5hIFR1csOtc3RpY2EuIFNhbiBNYXJ0aW4gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/3n3Yc1JF1AU/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA PATRONAL DE LA VIRGEN DEL CARMEN.</strong> (16 de julio)</p>
+            <p>📍 Lamas</p>
+            <p><strong>FIESTA PATRONAL DE LA SANTISIMA VIRGEN DEL CARMEN / EL AMANECER DEL PERU PROFUNDO PRODUCCIONES</strong></p>
+            <a href="https://www.youtube.com/watch?v=YtwyLl_pwl4&pp=ygU5Rmllc3RhIFBhdHJvbmFsIGRlIGxhIFZpcmdlbiBkZWwgQ2FybWVuLiBTYW4gTWFydGluIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=YtwyLl_pwl4&pp=ygU5Rmllc3RhIFBhdHJvbmFsIGRlIGxhIFZpcmdlbiBkZWwgQ2FybWVuLiBTYW4gTWFydGluIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/YtwyLl_pwl4/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SANTA ANA.</strong> (26 de julio)</p>
+            <p>📍 Moyobamba</p>
+            <p><strong>Santa Ana - San Martín - Perú</strong></p>
+            <a href="https://www.youtube.com/watch?v=rtxV19CI_Lc&pp=ygUbU2FudGEgQW5hLiBTYW4gTWFydGluIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=rtxV19CI_Lc&pp=ygUbU2FudGEgQW5hLiBTYW4gTWFydGluIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/rtxV19CI_Lc/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA SANTA CRUZ DE LOS MOTILONES.</strong> (Julio y agosto)</p>
+            <p>📍 Lamas</p>
+            <p><strong>Celebran fiesta patronal en honor a la santa cruz de los motilones en San Martín</strong></p>
+            <a href="https://www.youtube.com/watch?v=dyLOlndHmkE&pp=ygU6Rmllc3RhIGRlIGxhIFNhbnRhIENydXogZGUgbG9zIE1vdGlsb25lcy4gU2FuIE1hcnRpbiBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=dyLOlndHmkE&pp=ygU6Rmllc3RhIGRlIGxhIFNhbnRhIENydXogZGUgbG9zIE1vdGlsb25lcy4gU2FuIE1hcnRpbiBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/dyLOlndHmkE/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FUNDACIÓN ESPAÑOLA DE TARAPOTO
+(1782)</strong> (14-22 de agosto)</p>
+            <p>📍 San Martín, Tarapoto</p>
+            <p><strong>Fundación de Tarapoto - Perú (1782)</strong></p>
+            <a href="https://www.youtube.com/watch?v=rDSTJpDUgbY&pp=ygU3RnVuZGFjacOzbiBlc3Bhw7FvbGEgZGUgVGFyYXBvdG8oMTc4MikgU2FuIE1hcnRpbiBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=rDSTJpDUgbY&pp=ygU3RnVuZGFjacOzbiBlc3Bhw7FvbGEgZGUgVGFyYXBvdG8oMTc4MikgU2FuIE1hcnRpbiBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/rDSTJpDUgbY/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA PATRONAL DE SANTA ROSA.</strong> (30 de agosto)</p>
+            <p>📍 Lamas, Moyobamba</p>
+            <p><strong>fiesta patronal 2023 santa rosa de lima, bellavista, san martin, peru</strong></p>
+            <a href="https://www.youtube.com/watch?v=GwqWyK93Ar8&pp=ygUvRmllc3RhIFBhdHJvbmFsIGRlIFNhbnRhIFJvc2EuIFNhbiBNYXJ0aW4gUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=GwqWyK93Ar8&pp=ygUvRmllc3RhIFBhdHJvbmFsIGRlIFNhbnRhIFJvc2EuIFNhbiBNYXJ0aW4gUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/GwqWyK93Ar8/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>NUESTRA SEÑORA DE LA NATIVIDAD.</strong> (8 de setiembre)</p>
+            <p>📍 Lamas (Tabalosos</p>
+            <p><strong>Así celebra Tabalosos - San Martín a la Virgen de la Natividad | Celebra Perú</strong></p>
+            <a href="https://www.youtube.com/watch?v=nInMA_Qwmfs&pp=ygUxTnVlc3RyYSBTZcOxb3JhIGRlIGxhIE5hdGl2aWRhZC4gU2FuIE1hcnRpbiBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=nInMA_Qwmfs&pp=ygUxTnVlc3RyYSBTZcOxb3JhIGRlIGxhIE5hdGl2aWRhZC4gU2FuIE1hcnRpbiBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/nInMA_Qwmfs/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>CREACIÓN DEL DEPARTAMENTO DE SAN MARTÍN.</strong> (14 de agosto)</p>
+            <p>📍 San Martín</p>
+            <p><strong>Creación Política del Departamento de San Martín | Perú Profundo en #PBO</strong></p>
+            <a href="https://www.youtube.com/watch?v=-LY7PkWMm7k&pp=ygU7Q3JlYWNpw7NuIGRlbCBkZXBhcnRhbWVudG8gZGUgU2FuIE1hcnTDrW4uIFNhbiBNYXJ0aW4gUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=-LY7PkWMm7k&pp=ygU7Q3JlYWNpw7NuIGRlbCBkZXBhcnRhbWVudG8gZGUgU2FuIE1hcnTDrW4uIFNhbiBNYXJ0aW4gUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/-LY7PkWMm7k/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA PATRONAL.</strong> (17-28 de setiembre)</p>
+            <p>📍 Mariscal Cáceres</p>
+            <p><strong>Fiesta en la Vírgen del Rosario y San Martín de Porres (Sancos, Ayacucho)</strong></p>
+            <a href="https://www.youtube.com/watch?v=VdsBBSjgsXs&pp=ygUhRmllc3RhIFBhdHJvbmFsLiBTYW4gTWFydGluIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=VdsBBSjgsXs&pp=ygUhRmllc3RhIFBhdHJvbmFsLiBTYW4gTWFydGluIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/VdsBBSjgsXs/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FUNDACIÓN ESPAÑOLA DE RIOJA (1772).
+FECHA CENTRAL: 22.</strong> (18-28 de setiembre)</p>
+            <p>📍 Rioja</p>
+            <p><strong>Fundación de Ciudad de Rioja, San Martín | Perú Profundo en #PBO</strong></p>
+            <a href="https://www.youtube.com/watch?v=v5oqRc7VLQ8&pp=ygVIRnVuZGFjacOzbiBlc3Bhw7FvbGEgZGUgUmlvamEgKDE3NzIpLkZlY2hhIGNlbnRyYWw6IDIyLiBTYW4gTWFydGluIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=v5oqRc7VLQ8&pp=ygVIRnVuZGFjacOzbiBlc3Bhw7FvbGEgZGUgUmlvamEgKDE3NzIpLkZlY2hhIGNlbnRyYWw6IDIyLiBTYW4gTWFydGluIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/v5oqRc7VLQ8/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>TODOS LOS SANTOS</strong> (1 de noviembre)</p>
+            <p>📍 Huallaga (Saposoa)</p>
+            <p><strong>San Martín de Porres (Santo peruano) ✨️🕊💘🐀💖🐈❤️‍🔥🐕✨️ #saints #sanmartindeporres #reflexion #lofi</strong></p>
+            <a href="https://www.youtube.com/shorts/bnQcrtTq8Yo" target="_blank">Ver video</a>
+            
+        </div>
+        
+  </div>
+  <button id="botonFestividades" class="boton-vermas" onclick="mostrarFestividades()">Ver más festividades</button>
   <h2>🌡️ Clima mensual en San Martín</h2>
   <img src="clima_san_martín.png" alt="Gráfico del clima en San Martín">
-
   <h2>📰 Noticias y 📺 Videos recomendados</h2>
   <div class="media-grid">
     <div class="media-column">
@@ -350,16 +513,16 @@
             
     </div>
   </div>
-
   <a class="volver" href="index.html">← Volver al recomendador</a>
-
   <script>
     function mostrarNoticias() {
-      document.querySelectorAll('.oculto').forEach(e => e.style.display = 'block');
-      const boton = document.getElementById('botonNoticias');
-      if (boton) boton.style.display = 'none';
+      document.querySelectorAll('.noticia.oculto').forEach(e => e.style.display = 'block');
+      document.getElementById('botonNoticias').style.display = 'none';
+    }
+    function mostrarFestividades() {
+      document.querySelectorAll('.festividad.oculto').forEach(e => e.style.display = 'block');
+      document.getElementById('botonFestividades').style.display = 'none';
     }
   </script>
-
 </body>
 </html>

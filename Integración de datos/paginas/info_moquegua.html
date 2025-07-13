@@ -17,7 +17,14 @@
     }
     h1 { color: #c0392b; }
     h2 { color: #2c3e50; margin-top: 40px; }
-    img { max-width: 100%; border-radius: 8px; }
+    img { max-width: 100%; }
+    .banner-img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
     .descripcion { font-size: 17px; margin: 20px 0; line-height: 1.6; }
     .info-box {
       background: #f0fff4;
@@ -90,25 +97,140 @@
     .boton-vermas:hover {
       background-color: #0056b3;
     }
+    .festividad-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .festividad {
+      background: #fdfde7;
+      border-left: 5px solid #f39c12;
+    }
   </style>
 </head>
 <body>
-
   <h1>🌄 Moquegua</h1>
   <h2>Información turística</h2>
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bandera_del_Per%C3%BA.png/640px-Bandera_del_Per%C3%BA.png" alt="Imagen de Moquegua">
+  <img class="banner-img" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Cerro_Ba%C3%BAl._Moquegua%2C_Peru.jpg" alt="Imagen de Moquegua">
   <div class="descripcion">Este departamento ubicado en la costa sur del Perú, posee quebradas, formaciones rocosas e inmensos desiertos. Sus casonas y calles han soportado, desde épocas de la colonia, terribles desastres naturales. En sus valles abundan ejemplares de frutas, la aceituna, el camarón y se producen exclusivos piscos y vinos. En Moquegua se encuentra el conocido Puerto de Ilo, por donde sale la carretera Interoceánica hacia el sur del Perú y los países vecinos de Brasil y Bolivia interconectando por estas vías al Océano Atlántico.</div>
-
   <div class="info-box">
     <strong>Clima promedio estimado:</strong> 19.8 °C<br>
     <strong>Clasificación del clima:</strong> Templado<br>
     <strong>Mes de referencia:</strong> Ene
   </div>
-
+  <h2>🎉 Festividades en Moquegua</h2>
+  <div class="festividad-grid">
+    
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>VIRGEN DE LA CANDELARIA.</strong> (2 de febrero)</p>
+            <p>📍 Mariscal Nieto</p>
+            <p><strong>Virgen de la Candelaria 2020 Torata-Moquegua</strong></p>
+            <a href="https://www.youtube.com/watch?v=ozQc9BqS3vg&list=RDozQc9BqS3vg&start_radio=1&pp=ygUnVmlyZ2VuIGRlIGxhIENhbmRlbGFyaWEuIE1vcXVlZ3VhIFBlcsO6oAcB0gcJCdgJAYcqIYzv" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=ozQc9BqS3vg&list=RDozQc9BqS3vg&start_radio=1&pp=ygUnVmlyZ2VuIGRlIGxhIENhbmRlbGFyaWEuIE1vcXVlZ3VhIFBlcsO6oAcB0gcJCdgJAYcqIYzv" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/ozQc9BqS3vg/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>SEMANA TURÍSTICA.</strong> (19 de febrero)</p>
+            <p>📍 Ilo</p>
+            <p><strong>MOQUEGUA: 5 maravillas ocultas que debes conocer | Turismo | Viajes</strong></p>
+            <a href="https://www.youtube.com/watch?v=99YAbhTGa-M&pp=ygUhU2VtYW5hIFR1csOtc3RpY2EuIE1vcXVlZ3VhIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=99YAbhTGa-M&pp=ygUhU2VtYW5hIFR1csOtc3RpY2EuIE1vcXVlZ3VhIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/99YAbhTGa-M/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>ANIVERSARIO DEL DEPARTAMENTO.</strong> (3 de abril)</p>
+            <p>📍 Moquegua</p>
+            <p><strong>475 aniversario de Moquegua</strong></p>
+            <a href="https://www.youtube.com/watch?v=OkXGAtYosMU&pp=ygUsQW5pdmVyc2FyaW8gZGVsIGRlcGFydGFtZW50by4gTW9xdWVndWEgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=OkXGAtYosMU&pp=ygUsQW5pdmVyc2FyaW8gZGVsIGRlcGFydGFtZW50by4gTW9xdWVndWEgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/OkXGAtYosMU/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE LAS CRUCES.</strong> (1era. semana de mayo)</p>
+            <p>📍 Todo Moquegua</p>
+            <p><strong>FIESTA DE LAS CRUCES - MOQUEGUA - VIDEO CLIP - CARUMARCA 2010 - PRODUCCIONES ISA</strong></p>
+            <a href="https://www.youtube.com/watch?v=OuRTxiNZM5Q&list=RDOuRTxiNZM5Q&start_radio=1&pp=ygUkRmllc3RhIGRlIGxhcyBDcnVjZXMuIE1vcXVlZ3VhIFBlcsO6oAcB" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=OuRTxiNZM5Q&list=RDOuRTxiNZM5Q&start_radio=1&pp=ygUkRmllc3RhIGRlIGxhcyBDcnVjZXMuIE1vcXVlZ3VhIFBlcsO6oAcB" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/OuRTxiNZM5Q/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE SAN ISIDRO LABRADOR.</strong> (15 de mayo)</p>
+            <p>📍 Mariscal Nieto</p>
+            <p><strong>SAN ISIDRO LABRADOR FIESTA PATRONAL DE CARUMAS 2024 MOQUEGUA PERU</strong></p>
+            <a href="https://www.youtube.com/watch?v=iGJWFrcsQzg&pp=ygUtRmllc3RhIGRlIFNhbiBJc2lkcm8gTGFicmFkb3IuIE1vcXVlZ3VhIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=iGJWFrcsQzg&pp=ygUtRmllc3RhIGRlIFNhbiBJc2lkcm8gTGFicmFkb3IuIE1vcXVlZ3VhIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/iGJWFrcsQzg/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>ANIVERSARIO DE LA PROVINCIA.</strong> (26 de mayo)</p>
+            <p>📍 Ilo</p>
+            <p><strong>Aniversario de la creación política de la provincia de Ilo (Moquegua) – 26 de mayo</strong></p>
+            <a href="https://www.youtube.com/watch?v=sZKeZaGmu2M&pp=ygUrQW5pdmVyc2FyaW8gZGUgbGEgcHJvdmluY2lhLiBNb3F1ZWd1YSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=sZKeZaGmu2M&pp=ygUrQW5pdmVyc2FyaW8gZGUgbGEgcHJvdmluY2lhLiBNb3F1ZWd1YSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/sZKeZaGmu2M/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>ANIVERSARIO.</strong> (5-6 de junio)</p>
+            <p>📍 Torata</p>
+            <p><strong>475 aniversario de Moquegua</strong></p>
+            <a href="https://www.youtube.com/watch?v=OkXGAtYosMU&pp=ygUbQW5pdmVyc2FyaW8uIE1vcXVlZ3VhIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=OkXGAtYosMU&pp=ygUbQW5pdmVyc2FyaW8uIE1vcXVlZ3VhIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/OkXGAtYosMU/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FESTIVIDAD DE LA VIRGEN DEL CARMEN.</strong> (16 de julio)</p>
+            <p>📍 Ilo</p>
+            <p><strong>Dia de fiesta en honor a nuestra Santísima Virgen del Carmen, Moquegua 13 de julio del 2024.</strong></p>
+            <a href="https://www.youtube.com/watch?v=44zPrCB1gME&pp=ygUyRmVzdGl2aWRhZCBkZSBsYSBWaXJnZW4gZGVsIENhcm1lbi4gTW9xdWVndWEgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=44zPrCB1gME&pp=ygUyRmVzdGl2aWRhZCBkZSBsYSBWaXJnZW4gZGVsIENhcm1lbi4gTW9xdWVndWEgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/44zPrCB1gME/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA PATRONAL DE SANTA FORTUNATA.</strong> (14 de octubre)</p>
+            <p>📍 Moquegua</p>
+            <p><strong>EN OCTUBRE MOQUEGUA CELEBRA FESTIVIDAD A SANTA FORTUNATA.14/09/17</strong></p>
+            <a href="https://www.youtube.com/watch?v=o441O9SXYwY&pp=ygUyRmllc3RhIFBhdHJvbmFsIGRlIFNhbnRhIEZvcnR1bmF0YS4gTW9xdWVndWEgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=o441O9SXYwY&pp=ygUyRmllc3RhIFBhdHJvbmFsIGRlIFNhbnRhIEZvcnR1bmF0YS4gTW9xdWVndWEgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/o441O9SXYwY/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>ANIVERSARIO DEL DISTRITO.</strong> (8 de noviembre)</p>
+            <p>📍 Mariscal Nieto</p>
+            <p><strong>Aniversario del Distrito de Coalaque 2019 - Moquegua</strong></p>
+            <a href="https://www.youtube.com/watch?v=5_NH4mMD5pI&pp=ygUoQW5pdmVyc2FyaW8gZGVsIGRpc3RyaXRvLiBNb3F1ZWd1YSBQZXLDutIHCQnYCQGHKiGM7w%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=5_NH4mMD5pI&pp=ygUoQW5pdmVyc2FyaW8gZGVsIGRpc3RyaXRvLiBNb3F1ZWd1YSBQZXLDutIHCQnYCQGHKiGM7w%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/5_NH4mMD5pI/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA INMACULADA CONCEPCIÓN.</strong> (19 de noviembre)</p>
+            <p>📍 Moquegua</p>
+            <p><strong>Ubinas Inmaculada Concepción, Lima 08 Dic 2013 (Parte 1)</strong></p>
+            <a href="https://www.youtube.com/watch?v=yHqH3eUuyx8&pp=ygUzRmllc3RhIGRlIGxhIElubWFjdWxhZGEgQ29uY2VwY2nDs24uIE1vcXVlZ3VhIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=yHqH3eUuyx8&pp=ygUzRmllc3RhIGRlIGxhIElubWFjdWxhZGEgQ29uY2VwY2nDs24uIE1vcXVlZ3VhIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/yHqH3eUuyx8/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>ANIVERSARIO DE LA PROVINCIA Y SEMANA TURÍSTICA
+DE MOQUEGUA</strong> (25 de noviembre)</p>
+            <p>📍 Moquegua</p>
+            <p><strong>ANIVERSARIO COMTUR MOQUEGUA</strong></p>
+            <a href="https://www.youtube.com/watch?v=B58saHv8LjI&pp=ygVJQW5pdmVyc2FyaW8gZGUgbGEgcHJvdmluY2lhIHkgU2VtYW5hIFR1csOtc3RpY2FkZSBNb3F1ZWd1YSBNb3F1ZWd1YSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=B58saHv8LjI&pp=ygVJQW5pdmVyc2FyaW8gZGUgbGEgcHJvdmluY2lhIHkgU2VtYW5hIFR1csOtc3RpY2FkZSBNb3F1ZWd1YSBNb3F1ZWd1YSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/B58saHv8LjI/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>LA INMACULADA CONCEPCIÓN.</strong> (8 de diciembre)</p>
+            <p>📍 Mariscal Nieto, General Sánchez Cerro</p>
+            <p><strong>CONOCIENDO EL MIRADOR INMACULADA CONCEPCION - SAMEGUA MOQUEGUA 2023</strong></p>
+            <a href="https://www.youtube.com/watch?v=05h73epcR-w&pp=ygUpTGEgSW5tYWN1bGFkYSBDb25jZXBjacOzbi4gTW9xdWVndWEgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=05h73epcR-w&pp=ygUpTGEgSW5tYWN1bGFkYSBDb25jZXBjacOzbi4gTW9xdWVndWEgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/05h73epcR-w/0.jpg"></a>
+        </div>
+        
+  </div>
+  <button id="botonFestividades" class="boton-vermas" onclick="mostrarFestividades()">Ver más festividades</button>
   <h2>🌡️ Clima mensual en Moquegua</h2>
   <img src="clima_moquegua.png" alt="Gráfico del clima en Moquegua">
-
   <h2>📰 Noticias y 📺 Videos recomendados</h2>
   <div class="media-grid">
     <div class="media-column">
@@ -350,16 +472,16 @@
             
     </div>
   </div>
-
   <a class="volver" href="index.html">← Volver al recomendador</a>
-
   <script>
     function mostrarNoticias() {
-      document.querySelectorAll('.oculto').forEach(e => e.style.display = 'block');
-      const boton = document.getElementById('botonNoticias');
-      if (boton) boton.style.display = 'none';
+      document.querySelectorAll('.noticia.oculto').forEach(e => e.style.display = 'block');
+      document.getElementById('botonNoticias').style.display = 'none';
+    }
+    function mostrarFestividades() {
+      document.querySelectorAll('.festividad.oculto').forEach(e => e.style.display = 'block');
+      document.getElementById('botonFestividades').style.display = 'none';
     }
   </script>
-
 </body>
 </html>

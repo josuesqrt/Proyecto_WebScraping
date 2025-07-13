@@ -17,7 +17,14 @@
     }
     h1 { color: #c0392b; }
     h2 { color: #2c3e50; margin-top: 40px; }
-    img { max-width: 100%; border-radius: 8px; }
+    img { max-width: 100%; }
+    .banner-img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
     .descripcion { font-size: 17px; margin: 20px 0; line-height: 1.6; }
     .info-box {
       background: #f0fff4;
@@ -90,25 +97,184 @@
     .boton-vermas:hover {
       background-color: #0056b3;
     }
+    .festividad-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .festividad {
+      background: #fdfde7;
+      border-left: 5px solid #f39c12;
+    }
   </style>
 </head>
 <body>
-
   <h1>🌄 Lima</h1>
   <h2>Información turística</h2>
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bandera_del_Per%C3%BA.png/640px-Bandera_del_Per%C3%BA.png" alt="Imagen de Lima">
+  <img class="banner-img" src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Lomas_de_Lachay.jpg" alt="Imagen de Lima">
   <div class="descripcion">Lima es la capital del Perú, ubicada en la costa central. Es la única capital sudamericana con salida al mar. Su arquitectura colonial se mantiene en gran estado, respetando su historia y logrando una armonía perfecta entre la tradición y sus edificaciones contemporáneas. El Centro Histórico de Lima fue declarado Patrimonio Cultural de la Humanidad por la UNESCO en 1991. Además, por la excelente calidad y pasión de cocineros peruanos como Gastón Acurio, Virgilio Martínez, entre otros, Lima ha sido denominada como la Capital Gastronómica de Latinoamérica.</div>
-
   <div class="info-box">
     <strong>Clima promedio estimado:</strong> 21.5 °C<br>
     <strong>Clasificación del clima:</strong> Caluroso<br>
     <strong>Mes de referencia:</strong> Ene
   </div>
-
+  <h2>🎉 Festividades en Lima</h2>
+  <div class="festividad-grid">
+    
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FESTIVAL DE LA UVA, EL VINO Y EL CANOTAJE</strong> (1° semana de marzo)</p>
+            <p>📍 Lunahuaná</p>
+            <p><strong>Lunahuaná celebró el Festival de la uva, el vino y el canotaje</strong></p>
+            <a href="https://www.youtube.com/watch?v=r_xUD6nzf5k&pp=ygU0RmVzdGl2YWwgZGUgbGEgdXZhLCBlbCBWaW5vIHkgZWwgY2Fub3RhamUgTGltYSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=r_xUD6nzf5k&pp=ygU0RmVzdGl2YWwgZGUgbGEgdXZhLCBlbCBWaW5vIHkgZWwgY2Fub3RhamUgTGltYSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/r_xUD6nzf5k/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE LAS CRUCES, PEREGRINACIÓN AL
+CERRO SAN CRISTÓBAL DE LIMA</strong> (3 de mayo)</p>
+            <p>📍 Lima</p>
+            <p><strong>Fieles realizaron masiva peregrinación al Cerro San Cristóbal</strong></p>
+            <a href="https://www.youtube.com/watch?v=V_mjScgGz6Y&pp=ygVORmllc3RhIGRlIGxhcyBDcnVjZXMsIFBlcmVncmluYWNpw7NuIGFsQ2Vycm8gU2FuIENyaXN0w7NiYWwgZGUgTGltYSBMaW1hIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=V_mjScgGz6Y&pp=ygVORmllc3RhIGRlIGxhcyBDcnVjZXMsIFBlcmVncmluYWNpw7NuIGFsQ2Vycm8gU2FuIENyaXN0w7NiYWwgZGUgTGltYSBMaW1hIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/V_mjScgGz6Y/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DEL SEÑOR DE HUAMANTANGA</strong> (3 de mayo)</p>
+            <p>📍 Canta</p>
+            <p><strong>Fiesta del señor de Huamantanga Lima - 2022</strong></p>
+            <a href="https://www.youtube.com/watch?v=eej3rMoGLpU&pp=ygUrRmllc3RhIGRlbCBTZcOxb3IgZGUgSHVhbWFudGFuZ2EgTGltYSBQZXLDutIHCQnYCQGHKiGM7w%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=eej3rMoGLpU&pp=ygUrRmllc3RhIGRlbCBTZcOxb3IgZGUgSHVhbWFudGFuZ2EgTGltYSBQZXLDutIHCQnYCQGHKiGM7w%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/eej3rMoGLpU/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FESTIVAL DEL PISCO</strong> (5 de mayo)</p>
+            <p>📍 Cañete</p>
+            <p><strong>Celebran con festival el ‘Día del Pisco’ en Perú</strong></p>
+            <a href="https://www.youtube.com/watch?v=spDDwYQv0J4&pp=ygUdRmVzdGl2YWwgZGVsIFBpc2NvIExpbWEgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=spDDwYQv0J4&pp=ygUdRmVzdGl2YWwgZGVsIFBpc2NvIExpbWEgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/spDDwYQv0J4/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE SAN PEDRO Y SAN PABLO</strong> (29 de junio)</p>
+            <p>📍 Chimbote,Chorrillos, Callao</p>
+            <p><strong>Ancón celebra con fe y alegría a San Pedro y San Pablo en su tradicional fiesta en el mar</strong></p>
+            <a href="https://www.youtube.com/watch?v=-gUd0esRyVg&pp=ygUqRmllc3RhIGRlIFNhbiBQZWRybyB5IFNhbiBQYWJsbyBMaW1hIFBlcsO60gcJCdgJAYcqIYzv" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=-gUd0esRyVg&pp=ygUqRmllc3RhIGRlIFNhbiBQZWRybyB5IFNhbiBQYWJsbyBMaW1hIFBlcsO60gcJCdgJAYcqIYzv" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/-gUd0esRyVg/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE MARÍA MAGDALENA</strong> (22 de julio)</p>
+            <p>📍 Casma</p>
+            <p><strong>Plus-TV - Celebra Perú - Fiesta de María Magdalena</strong></p>
+            <a href="https://www.youtube.com/watch?v=Fa5eCnDjheI&pp=ygUlRmllc3RhIGRlIG1hcsOtYSBNYWdkYWxlbmEgTGltYSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=Fa5eCnDjheI&pp=ygUlRmllc3RhIGRlIG1hcsOtYSBNYWdkYWxlbmEgTGltYSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/Fa5eCnDjheI/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DEL PATRÓN SANTIAGO</strong> (25 de julio)</p>
+            <p>📍 Huarochirí</p>
+            <p><strong>FESTIVIDAD DE PATRÓN SANTIAGO DE PAIRACA - LIMA 2015</strong></p>
+            <a href="https://www.youtube.com/watch?v=E1vwJ3w-QwE&pp=ygUmRmllc3RhIGRlbCBwYXRyw7NuIFNhbnRpYWdvIExpbWEgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=E1vwJ3w-QwE&pp=ygUmRmllc3RhIGRlbCBwYXRyw7NuIFNhbnRpYWdvIExpbWEgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/E1vwJ3w-QwE/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE LA NARANJA</strong> (1° quincena de agosto)</p>
+            <p>📍 Nasca</p>
+            <p><strong>Asi es una fiesta en un pueblo de Perú 【Lima Perú 4K】</strong></p>
+            <a href="https://www.youtube.com/watch?v=syMtTCAp7V8&pp=ygUfRmllc3RhIGRlIGxhIE5hcmFuamEgTGltYSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=syMtTCAp7V8&pp=ygUfRmllc3RhIGRlIGxhIE5hcmFuamEgTGltYSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/syMtTCAp7V8/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE SANTA ROSA DE LIMA</strong> (30 de agosto)</p>
+            <p>📍 Lima</p>
+            <p><strong>CARHUAMAYO - FIESTA EN HONOR A SANTA ROSA DE LIMA - LIMA PERU</strong></p>
+            <a href="https://www.youtube.com/watch?v=bxYL5QXPR9A&list=RDbxYL5QXPR9A&start_radio=1&pp=ygUnRmllc3RhIGRlIFNhbnRhIFJvc2EgZGUgTGltYSBMaW1hIFBlcsO6oAcB" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=bxYL5QXPR9A&list=RDbxYL5QXPR9A&start_radio=1&pp=ygUnRmllc3RhIGRlIFNhbnRhIFJvc2EgZGUgTGltYSBMaW1hIFBlcsO6oAcB" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/bxYL5QXPR9A/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>ESCENIFICACIÓN DE LA MUERTE DEL INCA</strong> (30 de agosto)</p>
+            <p>📍 Huarochirí</p>
+            <p><strong>Escenificación de la captura y muerte del Inca Atahualpa (Pomabamba Áncash 26/06/2022)</strong></p>
+            <a href="https://www.youtube.com/watch?v=1ns3YuZO3O0&pp=ygUwRXNjZW5pZmljYWNpw7NuIGRlIGxhIG11ZXJ0ZSBkZWwgaW5jYSBMaW1hIFBlcsO60gcJCdgJAYcqIYzv" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=1ns3YuZO3O0&pp=ygUwRXNjZW5pZmljYWNpw7NuIGRlIGxhIG11ZXJ0ZSBkZWwgaW5jYSBMaW1hIFBlcsO60gcJCdgJAYcqIYzv" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/1ns3YuZO3O0/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SEMANA DE CAÑETE Y FESTIVAL DE ARTE NEGRO</strong> (21-31 de agosto)</p>
+            <p>📍 Cañete</p>
+            <p><strong>EP. 40: SEMANA DE CAÑETE 2022 | FIESTA DE CAÑETE | Y EL FESTIVAL DEL ARTE NEGRO??</strong></p>
+            <a href="https://www.youtube.com/watch?v=Ywa__Bntvg8&pp=ygU1U2VtYW5hIGRlIGNhw7FldGUgeSBmZXN0aXZhbCBkZSBhcnRlIG5lZ3JvIExpbWEgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=Ywa__Bntvg8&pp=ygU1U2VtYW5hIGRlIGNhw7FldGUgeSBmZXN0aXZhbCBkZSBhcnRlIG5lZ3JvIExpbWEgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/Ywa__Bntvg8/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FESTIVIDAD DE LA VIRGEN DE COCHARCAS</strong> (8 de setiembre)</p>
+            <p>📍 Canta</p>
+            <p><strong>Procesión extraordinaria de la Virgen de Cocharcas de Lima - Perú 28/08/22</strong></p>
+            <a href="https://www.youtube.com/watch?v=-Ej8PhY8v-w&pp=ygUvRmVzdGl2aWRhZCBkZSBsYSBWaXJnZW4gZGUgQ29jaGFyY2FzIExpbWEgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=-Ej8PhY8v-w&pp=ygUvRmVzdGl2aWRhZCBkZSBsYSBWaXJnZW4gZGUgQ29jaGFyY2FzIExpbWEgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/-Ej8PhY8v-w/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FESTIVIDAD DE LA VIRGEN PURÍSIMA Y ESCENIFICACIÓN
+DE LA MUERTE DEL INCA</strong> (8 de setiembre)</p>
+            <p>📍 Yauyos</p>
+            <p><strong>Festividad en honor a la Virgen Purísima Concepción Túcume | PERÚ PROFUNDO 🇵🇪</strong></p>
+            <a href="https://www.youtube.com/watch?v=x86F0Jdsd6w&pp=ygVTRmVzdGl2aWRhZCBkZSBsYSBWaXJnZW4gUHVyw61zaW1hIHkgZXNjZW5pZmljYWNpw7NuZGUgbGEgbXVlcnRlIGRlbCBJbmNhIExpbWEgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=x86F0Jdsd6w&pp=ygVTRmVzdGl2aWRhZCBkZSBsYSBWaXJnZW4gUHVyw61zaW1hIHkgZXNjZW5pZmljYWNpw7NuZGUgbGEgbXVlcnRlIGRlbCBJbmNhIExpbWEgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/x86F0Jdsd6w/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>ESCENIFICACIÓN DE LA MUERTE DEL INCA
+Y FIESTA DE SAN JERÓNIMO DE COPAOCTUBRE-NOVIEMBRE LIMA TEMPORADA DE TOROS EN LA
+PLAZA DE ACHO</strong> (29 de setiembre)</p>
+            <p>📍 Cajatambo</p>
+            <p><strong>😱INCREÍBLE LA CORNAMENTA‼️DE ESTE TORO BRAVO DE HERMANOS CAMBRONELL.💯</strong></p>
+            <a href="https://www.youtube.com/shorts/ClEd3Tx3SSs" target="_blank">Ver video</a>
+            
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DEL AGUA. MOROS Y CRISTIANOS</strong> (6.7 de octubre)</p>
+            <p>📍 Canta</p>
+            <p><strong>Fábula infantil de la fiesta de Moros y Cristianos de Dénia</strong></p>
+            <a href="https://www.youtube.com/watch?v=YacOzOwvDhQ&pp=ygUuRmllc3RhIGRlbCBBZ3VhLiBNb3JvcyB5IGNyaXN0aWFub3MgTGltYSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=YacOzOwvDhQ&pp=ygUuRmllc3RhIGRlbCBBZ3VhLiBNb3JvcyB5IGNyaXN0aWFub3MgTGltYSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/YacOzOwvDhQ/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DEL AGUA O CHAMPERÍA EN SAN PEDRO
+DE CASTA</strong> (2° semana de octubre)</p>
+            <p>📍 Huarochirí</p>
+            <p><strong>san pedro de casta fiesta del agua carrera especial champeria 2011</strong></p>
+            <a href="https://www.youtube.com/watch?v=Vaeq3VqogQM&pp=ygU8Rmllc3RhIGRlbCBBZ3VhIG8gQ2hhbXBlcsOtYSBlbiBTYW4gUGVkcm9kZSBjYXN0YSBMaW1hIFBlcsO60gcJCdgJAYcqIYzv" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=Vaeq3VqogQM&pp=ygU8Rmllc3RhIGRlbCBBZ3VhIG8gQ2hhbXBlcsOtYSBlbiBTYW4gUGVkcm9kZSBjYXN0YSBMaW1hIFBlcsO60gcJCdgJAYcqIYzv" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/Vaeq3VqogQM/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>PROCESIONES DEL SEÑOR DE LOS MILAGROS</strong> (18-28 de octubre)</p>
+            <p>📍 Lima</p>
+            <p><strong>🇵🇪 LA PROCESIÓN MÁS GRANDE, El Señor de los Milagros | Lima, Perú</strong></p>
+            <a href="https://www.youtube.com/watch?v=wzDOPCumcJs&pp=ygUxUHJvY2VzaW9uZXMgZGVsIFNlw7FvciBkZSBsb3MgTWlsYWdyb3MgTGltYSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=wzDOPCumcJs&pp=ygUxUHJvY2VzaW9uZXMgZGVsIFNlw7FvciBkZSBsb3MgTWlsYWdyb3MgTGltYSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/wzDOPCumcJs/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>DÍA DE LA CANCIÓN CRIOLLA</strong> (31 de octubre)</p>
+            <p>📍 Lima</p>
+            <p><strong>Día de la canción Criolla | Recorrímos las peñas criollas de Lima</strong></p>
+            <a href="https://www.youtube.com/watch?v=r2Flz522u8g&pp=ygUmRMOtYSBkZSBsYSBDYW5jacOzbiBDcmlvbGxhIExpbWEgUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=r2Flz522u8g&pp=ygUmRMOtYSBkZSBsYSBDYW5jacOzbiBDcmlvbGxhIExpbWEgUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/r2Flz522u8g/0.jpg"></a>
+        </div>
+        
+  </div>
+  <button id="botonFestividades" class="boton-vermas" onclick="mostrarFestividades()">Ver más festividades</button>
   <h2>🌡️ Clima mensual en Lima</h2>
   <img src="clima_lima.png" alt="Gráfico del clima en Lima">
-
   <h2>📰 Noticias y 📺 Videos recomendados</h2>
   <div class="media-grid">
     <div class="media-column">
@@ -350,16 +516,16 @@
             
     </div>
   </div>
-
   <a class="volver" href="index.html">← Volver al recomendador</a>
-
   <script>
     function mostrarNoticias() {
-      document.querySelectorAll('.oculto').forEach(e => e.style.display = 'block');
-      const boton = document.getElementById('botonNoticias');
-      if (boton) boton.style.display = 'none';
+      document.querySelectorAll('.noticia.oculto').forEach(e => e.style.display = 'block');
+      document.getElementById('botonNoticias').style.display = 'none';
+    }
+    function mostrarFestividades() {
+      document.querySelectorAll('.festividad.oculto').forEach(e => e.style.display = 'block');
+      document.getElementById('botonFestividades').style.display = 'none';
     }
   </script>
-
 </body>
 </html>

@@ -17,7 +17,14 @@
     }
     h1 { color: #c0392b; }
     h2 { color: #2c3e50; margin-top: 40px; }
-    img { max-width: 100%; border-radius: 8px; }
+    img { max-width: 100%; }
+    .banner-img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
     .descripcion { font-size: 17px; margin: 20px 0; line-height: 1.6; }
     .info-box {
       background: #f0fff4;
@@ -90,25 +97,76 @@
     .boton-vermas:hover {
       background-color: #0056b3;
     }
+    .festividad-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .festividad {
+      background: #fdfde7;
+      border-left: 5px solid #f39c12;
+    }
   </style>
 </head>
 <body>
-
   <h1>🌄 Ucayali</h1>
   <h2>Información turística</h2>
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bandera_del_Per%C3%BA.png/640px-Bandera_del_Per%C3%BA.png" alt="Imagen de Ucayali">
+  <img class="banner-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bandera_del_Per%C3%BA.png/640px-Bandera_del_Per%C3%BA.png" alt="Imagen de Ucayali">
   <div class="descripcion">Ubicado en la selva central del Perú, es un departamento donde habitan muchas comunidades nativas que viven en la Amazonía sin renunciar a las costumbres y tradiciones. Ucayali posee paisajes bañados por ríos caudalosos, además de gigantes cataratas. La diversidad de especies de flora y fauna de Ucayali asombra permanentemente al planeta.</div>
-
   <div class="info-box">
     <strong>Clima promedio estimado:</strong> 26.2 °C<br>
     <strong>Clasificación del clima:</strong> Muy caluroso<br>
     <strong>Mes de referencia:</strong> Ene
   </div>
-
+  <h2>🎉 Festividades en Ucayali</h2>
+  <div class="festividad-grid">
+    
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTAS DE CARNAVALES</strong> (15-21 de febrero)</p>
+            <p>📍 Ucayali</p>
+            <p><strong>Carnaval en Ucayali: Corso carnavalesco llenó de color y alegria calles de Pucallpa</strong></p>
+            <a href="https://www.youtube.com/watch?v=SXcsBW_mBnw&pp=ygUjRmllc3RhcyBkZSBjYXJuYXZhbGVzIFVjYXlhbGkgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=SXcsBW_mBnw&pp=ygUjRmllc3RhcyBkZSBjYXJuYXZhbGVzIFVjYXlhbGkgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/SXcsBW_mBnw/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>ANIVERSARIO DE LA DECLARACIÓN DE INDEPENDENCIA
+DE TUMBES ANIVERSARIO DEL DISTRITO</strong> (07 de enero)</p>
+            <p>📍 Tumbes</p>
+            <p><strong>Aniversario de Tumbes: la región celebra 204 años de independencia</strong></p>
+            <a href="https://www.youtube.com/watch?v=E_Gaa9SL37c&pp=ygVfQW5pdmVyc2FyaW8gZGUgbGEgRGVjbGFyYWNpw7NuIGRlIEluZGVwZW5kZW5jaWFkZSBUdW1iZXMgQW5pdmVyc2FyaW8gZGVsIGRpc3RyaXRvIFVjYXlhbGkgUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=E_Gaa9SL37c&pp=ygVfQW5pdmVyc2FyaW8gZGUgbGEgRGVjbGFyYWNpw7NuIGRlIEluZGVwZW5kZW5jaWFkZSBUdW1iZXMgQW5pdmVyc2FyaW8gZGVsIGRpc3RyaXRvIFVjYXlhbGkgUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/E_Gaa9SL37c/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FESTIVIDAD DE LA VIRGEN MARÍA O LA PEREGRINA</strong> (13 de mayo)</p>
+            <p>📍 Pucallpa</p>
+            <p><strong>ALERTA MUNDIAL! Asís Tiene la Clave para Detener la Guerra #forosdelavirgenmaria</strong></p>
+            <a href="https://www.youtube.com/shorts/F1zIqI3pXx8" target="_blank">Ver video</a>
+            
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE SAN JUAN</strong> (24 de junio)</p>
+            <p>📍 Región Amazónica</p>
+            <p><strong>Así se vivió la Fiesta de San Juan en Pucallpa | Domingo al Día | Perú</strong></p>
+            <a href="https://www.youtube.com/watch?v=EFBMCGj9sKg&pp=ygUgRmllc3RhIGRlIFNhbiBKdWFuIFVjYXlhbGkgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=EFBMCGj9sKg&pp=ygUgRmllc3RhIGRlIFNhbiBKdWFuIFVjYXlhbGkgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/EFBMCGj9sKg/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>SEMANA DE PUCALLPA</strong> (10-17 de octubre)</p>
+            <p>📍 Pucallpa</p>
+            <p><strong>Reportaje al Perú: Ucayali (04/08/2024) | TVPerú</strong></p>
+            <a href="https://www.youtube.com/watch?v=D3mENqKVxhM&pp=ygUgU2VtYW5hIGRlIFB1Y2FsbHBhIFVjYXlhbGkgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=D3mENqKVxhM&pp=ygUgU2VtYW5hIGRlIFB1Y2FsbHBhIFVjYXlhbGkgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/D3mENqKVxhM/0.jpg"></a>
+        </div>
+        
+  </div>
+  
   <h2>🌡️ Clima mensual en Ucayali</h2>
   <img src="clima_ucayali.png" alt="Gráfico del clima en Ucayali">
-
   <h2>📰 Noticias y 📺 Videos recomendados</h2>
   <div class="media-grid">
     <div class="media-column">
@@ -350,16 +408,16 @@
             
     </div>
   </div>
-
   <a class="volver" href="index.html">← Volver al recomendador</a>
-
   <script>
     function mostrarNoticias() {
-      document.querySelectorAll('.oculto').forEach(e => e.style.display = 'block');
-      const boton = document.getElementById('botonNoticias');
-      if (boton) boton.style.display = 'none';
+      document.querySelectorAll('.noticia.oculto').forEach(e => e.style.display = 'block');
+      document.getElementById('botonNoticias').style.display = 'none';
+    }
+    function mostrarFestividades() {
+      document.querySelectorAll('.festividad.oculto').forEach(e => e.style.display = 'block');
+      document.getElementById('botonFestividades').style.display = 'none';
     }
   </script>
-
 </body>
 </html>

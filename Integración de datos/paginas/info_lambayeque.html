@@ -17,7 +17,14 @@
     }
     h1 { color: #c0392b; }
     h2 { color: #2c3e50; margin-top: 40px; }
-    img { max-width: 100%; border-radius: 8px; }
+    img { max-width: 100%; }
+    .banner-img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
     .descripcion { font-size: 17px; margin: 20px 0; line-height: 1.6; }
     .info-box {
       background: #f0fff4;
@@ -90,25 +97,479 @@
     .boton-vermas:hover {
       background-color: #0056b3;
     }
+    .festividad-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .festividad {
+      background: #fdfde7;
+      border-left: 5px solid #f39c12;
+    }
   </style>
 </head>
 <body>
-
   <h1>🌄 Lambayeque</h1>
   <h2>Información turística</h2>
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bandera_del_Per%C3%BA.png/640px-Bandera_del_Per%C3%BA.png" alt="Imagen de Lambayeque">
+  <img class="banner-img" src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Za%C3%B1a_-_Iglesia_de_San_Agustin.jpg" alt="Imagen de Lambayeque">
   <div class="descripcion">Lambayeque es la tierra del famoso Señor de Sipán, antiguo gobernante Mochica de siglo lll. Departamento en la costa norte del Perú, sede de importantes sitios arqueológicos aún por explorar como Sicán, Túcume y Chotuna; así como también museos con invalorables colecciones. Destaca también por sus playas como el balneario de Pimentel, Puerto Eten, San José y Santa Rosa.</div>
-
   <div class="info-box">
     <strong>Clima promedio estimado:</strong> 23.4 °C<br>
     <strong>Clasificación del clima:</strong> Caluroso<br>
     <strong>Mes de referencia:</strong> Ene
   </div>
-
+  <h2>🎉 Festividades en Lambayeque</h2>
+  <div class="festividad-grid">
+    
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>SAN PABLITO.</strong> (2 de enero)</p>
+            <p>📍 Lambayeque</p>
+            <p><strong>Feria en Honor al apóstol San Pablo Y San Pedro Pacora-Lambayeque</strong></p>
+            <a href="https://www.youtube.com/watch?v=flgRqd9r7j0&pp=ygUdU2FuIFBhYmxpdG8uIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=flgRqd9r7j0&pp=ygUdU2FuIFBhYmxpdG8uIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/flgRqd9r7j0/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>EL NIÑO DIOS DE REYES Y LOS REYES MAGOS.</strong> (6 de enero)</p>
+            <p>📍 Lambayeque</p>
+            <p><strong>Así se celebra la feria del Niño Dios de Reyes. SALAS, Lambayeque, Perú.</strong></p>
+            <a href="https://www.youtube.com/watch?v=oUcCzJPmzfs&pp=ygU6RWwgTmnDsW8gRGlvcyBkZSBSZXllcyB5IGxvcyBSZXllcyBNYWdvcy4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=oUcCzJPmzfs&pp=ygU6RWwgTmnDsW8gRGlvcyBkZSBSZXllcyB5IGxvcyBSZXllcyBNYWdvcy4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/oUcCzJPmzfs/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FESTIVIDAD DEL DIVINO NIÑO DEL MILAGRO.</strong> (22 de enero)</p>
+            <p>📍 Eten</p>
+            <p><strong>Perú profundo #PBO | 22 de julio: Festividad del Divino Niño del Milagro en la ciudad Eten</strong></p>
+            <a href="https://www.youtube.com/watch?v=OdzxritJ_q0&pp=ygU5RmVzdGl2aWRhZCBkZWwgRGl2aW5vIE5pw7FvIGRlbCBNaWxhZ3JvLiBMYW1iYXllcXVlIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=OdzxritJ_q0&pp=ygU5RmVzdGl2aWRhZCBkZWwgRGl2aW5vIE5pw7FvIGRlbCBNaWxhZ3JvLiBMYW1iYXllcXVlIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/OdzxritJ_q0/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE LA PURÍSIMA CONCEPCION.</strong> (Febrero)</p>
+            <p>📍 Lambayeque (Movible)</p>
+            <p><strong>Festividad en honor a la Virgen Purísima Concepción Túcume | PERÚ PROFUNDO 🇵🇪</strong></p>
+            <a href="https://www.youtube.com/watch?v=x86F0Jdsd6w&pp=ygUzRmllc3RhIGRlIGxhIFB1csOtc2ltYSBDb25jZXBjaW9uLiBMYW1iYXllcXVlIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=x86F0Jdsd6w&pp=ygUzRmllc3RhIGRlIGxhIFB1csOtc2ltYSBDb25jZXBjaW9uLiBMYW1iYXllcXVlIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/x86F0Jdsd6w/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>LA VIRGEN DE LA CANDELARIA.</strong> (2 de febrero)</p>
+            <p>📍 Lambayeque</p>
+            <p><strong>Así celebran la VIRGEN DE LA CANDELARIA en Ferreñafe | Pueblo Nuevo | Brayan CHUL</strong></p>
+            <a href="https://www.youtube.com/watch?v=WAql1oX4h_A&pp=ygUsTGEgVmlyZ2VuIGRlIGxhIENhbmRlbGFyaWEuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=WAql1oX4h_A&pp=ygUsTGEgVmlyZ2VuIGRlIGxhIENhbmRlbGFyaWEuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/WAql1oX4h_A/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FESTIVIDAD DE SAN ANDRÉS CORSINO.</strong> (4 de febrero)</p>
+            <p>📍 Lambayeque</p>
+            <p><strong>LAMBAYEQUE: PÁRROCO DE PACORA SE ROBA EL ESPECTÁCULO BAILANDO EN LA FIESTA DE SAN PABLO</strong></p>
+            <a href="https://www.youtube.com/watch?v=nL3WrJ5s1c8&pp=ygUzRmVzdGl2aWRhZCBkZSBTYW4gQW5kcsOpcyBDb3JzaW5vLiBMYW1iYXllcXVlIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=nL3WrJ5s1c8&pp=ygUzRmVzdGl2aWRhZCBkZSBTYW4gQW5kcsOpcyBDb3JzaW5vLiBMYW1iYXllcXVlIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/nL3WrJ5s1c8/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE LA CRUZ DE CHALPÓN.</strong> (9 de febrero)</p>
+            <p>📍 Chiclayo</p>
+            <p><strong>Festividad de la Santísima Cruz de Chalpón en Motupe, Lambayeque | Perú Profundo en #PBO</strong></p>
+            <a href="https://www.youtube.com/watch?v=__Hu4zbGiE8&pp=ygUvRmllc3RhIGRlIGxhIENydXogZGUgQ2hhbHDDs24uIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=__Hu4zbGiE8&pp=ygUvRmllc3RhIGRlIGxhIENydXogZGUgQ2hhbHDDs24uIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/__Hu4zbGiE8/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FESTIVAL DEL ARROZ.</strong> (21-28 de febrero)</p>
+            <p>📍 Chiclayo</p>
+            <p><strong>COSECHA DEL ARROZ- OYOTÚN - LAMBAYEQUE - PERÚ.</strong></p>
+            <a href="https://www.youtube.com/watch?v=F1tv5B2SdFM&pp=ygUkRmVzdGl2YWwgZGVsIEFycm96LiBMYW1iYXllcXVlIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=F1tv5B2SdFM&pp=ygUkRmVzdGl2YWwgZGVsIEFycm96LiBMYW1iYXllcXVlIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/F1tv5B2SdFM/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FESTIVIDAD DE LA VIRGEN VIAJERA.</strong> (Última Semana)</p>
+            <p>📍 Lambayeque</p>
+            <p><strong>Diablicos de Túcume: Fiesta en Lambayeque | Celebra Perú</strong></p>
+            <a href="https://www.youtube.com/watch?v=u6Rnb_UJ9x8&pp=ygUxRmVzdGl2aWRhZCBkZSBsYSBWaXJnZW4gVmlhamVyYS4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=u6Rnb_UJ9x8&pp=ygUxRmVzdGl2aWRhZCBkZSBsYSBWaXJnZW4gVmlhamVyYS4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/u6Rnb_UJ9x8/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DEL SEÑOR CAUTIVO.</strong> (14 de marzo)</p>
+            <p>📍 Monsefú</p>
+            <p><strong>Bonito recuerdo de la festividad de nuestro Señor Cautivo de Ayabaca en el mes de Octubre 2024</strong></p>
+            <a href="https://www.youtube.com/watch?v=IFF5ak5PlFQ&pp=ygUrRmllc3RhIGRlbCBTZcOxb3IgQ2F1dGl2by4gTGFtYmF5ZXF1ZSBQZXLDutIHCQnYCQGHKiGM7w%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=IFF5ak5PlFQ&pp=ygUrRmllc3RhIGRlbCBTZcOxb3IgQ2F1dGl2by4gTGFtYmF5ZXF1ZSBQZXLDutIHCQnYCQGHKiGM7w%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/IFF5ak5PlFQ/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SAN JOSÉ PATRIARCA.</strong> (18 de marzo)</p>
+            <p>📍 Chiclayo</p>
+            <p><strong>FESTIVIDAD EN HONOR AL PATRÓN SAN JOSÉ PATRIARCA EN PACORA-LAMBAYEQUE.</strong></p>
+            <a href="https://www.youtube.com/watch?v=l0FQdHrpPOE&pp=ygUlU2FuIEpvc8OpIFBhdHJpYXJjYS4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=l0FQdHrpPOE&pp=ygUlU2FuIEpvc8OpIFBhdHJpYXJjYS4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/l0FQdHrpPOE/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE SAN JOSÉ.</strong> (19 de marzo)</p>
+            <p>📍 Chiclayo</p>
+            <p><strong>SERENATA POR EL 319 ANIV. DEL DISTRITO DE SAN JOSE PART. 1</strong></p>
+            <a href="https://www.youtube.com/watch?v=saW9mlrmL20&list=RDsaW9mlrmL20&start_radio=1&pp=ygUlRmllc3RhIGRlIFNhbiBKb3PDqS4gTGFtYmF5ZXF1ZSBQZXLDuqAHAQ%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=saW9mlrmL20&list=RDsaW9mlrmL20&start_radio=1&pp=ygUlRmllc3RhIGRlIFNhbiBKb3PDqS4gTGFtYmF5ZXF1ZSBQZXLDuqAHAQ%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/saW9mlrmL20/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>ANIVERSARIO DE LA FUNDACION DE CHICLAYO. LA
+VIRGEN DE LOS DOLORES.</strong> (18 de abril)</p>
+            <p>📍 Chiclayo</p>
+            <p><strong>Chiclayo y su 188 aniversario: BDP destaca su irresistible gastronomía y hospitalidad única</strong></p>
+            <a href="https://www.youtube.com/watch?v=0aMVUKee6-w&pp=ygVSQW5pdmVyc2FyaW8gZGUgbGEgRnVuZGFjaW9uIGRlIENoaWNsYXlvLiBMYVZpcmdlbiBkZSBsb3MgRG9sb3Jlcy4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=0aMVUKee6-w&pp=ygVSQW5pdmVyc2FyaW8gZGUgbGEgRnVuZGFjaW9uIGRlIENoaWNsYXlvLiBMYVZpcmdlbiBkZSBsb3MgRG9sb3Jlcy4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/0aMVUKee6-w/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DEL SEÑOR DE LA JUSTICIA.</strong> (25 de abril)</p>
+            <p>📍 Ferreñafe</p>
+            <p><strong>FERREÑAFE CELEBRA AÑO DE LA FERIA SEÑOR DE LA JUSTICIA</strong></p>
+            <a href="https://www.youtube.com/watch?v=LaZvUU-u7y4&pp=ygUyRmllc3RhIGRlbCBTZcOxb3IgZGUgbGEgSnVzdGljaWEuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=LaZvUU-u7y4&pp=ygUyRmllc3RhIGRlbCBTZcOxb3IgZGUgbGEgSnVzdGljaWEuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/LaZvUU-u7y4/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>LA CRUZ DE MAYO.</strong> (1 de mayo)</p>
+            <p>📍 Chiclayo</p>
+            <p><strong>Cruces de Mayo | Fe y Tradición</strong></p>
+            <a href="https://www.youtube.com/watch?v=j3L2oln4d70&pp=ygUhTGEgQ3J1eiBkZSBNYXlvLiBMYW1iYXllcXVlIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=j3L2oln4d70&pp=ygUhTGEgQ3J1eiBkZSBNYXlvLiBMYW1iYXllcXVlIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/j3L2oln4d70/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>LA CRUZ VELACUY.</strong> (2 de mayo)</p>
+            <p>📍 Chiclayo</p>
+            <p><strong>Cruz Velacuy Cusco - Perú.</strong></p>
+            <a href="https://www.youtube.com/watch?v=mnuhRPepraY&pp=ygUhTGEgQ3J1eiBWZWxhY3V5LiBMYW1iYXllcXVlIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=mnuhRPepraY&pp=ygUhTGEgQ3J1eiBWZWxhY3V5LiBMYW1iYXllcXVlIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/mnuhRPepraY/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>LA CRUZ DE MAYO.</strong> (3 de mayo)</p>
+            <p>📍 Chiclayo, Eten</p>
+            <p><strong>Feria en Honor al apóstol San Pablo Y San Pedro Pacora-Lambayeque</strong></p>
+            <a href="https://www.youtube.com/watch?v=flgRqd9r7j0&pp=ygUdU2FuIFBhYmxpdG8uIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=flgRqd9r7j0&pp=ygUdU2FuIFBhYmxpdG8uIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/flgRqd9r7j0/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FESTIVIDAD DE LA SANTÍSIMA CRUZ DE UCUPE.</strong> (4 de mayo)</p>
+            <p>📍 Chiclayo</p>
+            <p><strong>Festividad de la Santísima Cruz de Chalpón en Motupe, Lambayeque | Perú Profundo en #PBO</strong></p>
+            <a href="https://www.youtube.com/watch?v=__Hu4zbGiE8&pp=ygU7RmVzdGl2aWRhZCBkZSBsYSBTYW50w61zaW1hIENydXogZGUgVWN1cGUuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=__Hu4zbGiE8&pp=ygU7RmVzdGl2aWRhZCBkZSBsYSBTYW50w61zaW1hIENydXogZGUgVWN1cGUuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/__Hu4zbGiE8/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FESTIVIDAD DE LA CRUZ DEL RÍO.</strong> (5 de mayo)</p>
+            <p>📍 Lambayeque</p>
+            <p><strong>Festividad de la Santísima Cruz de Chalpón en Motupe, Lambayeque | Perú Profundo en #PBO</strong></p>
+            <a href="https://www.youtube.com/watch?v=__Hu4zbGiE8&pp=ygUwRmVzdGl2aWRhZCBkZSBsYSBDcnV6IGRlbCBSw61vLiBMYW1iYXllcXVlIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=__Hu4zbGiE8&pp=ygUwRmVzdGl2aWRhZCBkZSBsYSBDcnV6IGRlbCBSw61vLiBMYW1iYXllcXVlIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/__Hu4zbGiE8/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FESTIVIDAD DE LA CRUZ DE PAÑALÁ.</strong> (10 de mayo)</p>
+            <p>📍 Lambayeque</p>
+            <p><strong>Santísima Cruz de Pañalá - Documental</strong></p>
+            <a href="https://www.youtube.com/watch?v=qJGlnd2Zksg&pp=ygUzRmVzdGl2aWRhZCBkZSBsYSBDcnV6IGRlIFBhw7FhbMOhLiBMYW1iYXllcXVlIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=qJGlnd2Zksg&pp=ygUzRmVzdGl2aWRhZCBkZSBsYSBDcnV6IGRlIFBhw7FhbMOhLiBMYW1iYXllcXVlIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/qJGlnd2Zksg/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SAN ISIDRO LABRADOR.</strong> (15 de mayo)</p>
+            <p>📍 Saña, Lambayeque</p>
+            <p><strong>PASEO DE YUNTAS EN HONOR A SAN ISIDRO LABRADOR, COSTUMBRE ANCESTRAL DEL DISTRITO DE CHUGAY-REPORTAJE</strong></p>
+            <a href="https://www.youtube.com/watch?v=ggeDBWC7i3g&pp=ygUlU2FuIElzaWRybyBMYWJyYWRvci4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=ggeDBWC7i3g&pp=ygUlU2FuIElzaWRybyBMYWJyYWRvci4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/ggeDBWC7i3g/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FESTIVIDAD DE LA CRUZ DEL CAMAL.</strong> (18 de mayo)</p>
+            <p>📍 Lambayeque</p>
+            <p><strong>"Cruz del Camal, principal religión de Jayanca" Cátedra Sipan-USS</strong></p>
+            <a href="https://www.youtube.com/watch?v=dja5sPhPung&pp=ygUxRmVzdGl2aWRhZCBkZSBsYSBDcnV6IGRlbCBDYW1hbC4gTGFtYmF5ZXF1ZSBQZXLDutIHCQnYCQGHKiGM7w%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=dja5sPhPung&pp=ygUxRmVzdGl2aWRhZCBkZSBsYSBDcnV6IGRlbCBDYW1hbC4gTGFtYmF5ZXF1ZSBQZXLDutIHCQnYCQGHKiGM7w%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/dja5sPhPung/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>LA CRUZ DE MAYO.</strong> (29 de mayo)</p>
+            <p>📍 Eten</p>
+            <p><strong>Feria en Honor al apóstol San Pablo Y San Pedro Pacora-Lambayeque</strong></p>
+            <a href="https://www.youtube.com/watch?v=flgRqd9r7j0&pp=ygUdU2FuIFBhYmxpdG8uIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=flgRqd9r7j0&pp=ygUdU2FuIFBhYmxpdG8uIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/flgRqd9r7j0/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>CORPUS CHRISTI.</strong> (Junio)</p>
+            <p>📍 Lambayeque (Movible)</p>
+            <p><strong>Captura2xFranxyz - CUERPO DE CRISTO 2016 - Lambayeque</strong></p>
+            <a href="https://www.youtube.com/watch?v=EM6mHaXQmqw&pp=ygUgQ29ycHVzIENocmlzdGkuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=EM6mHaXQmqw&pp=ygUgQ29ycHVzIENocmlzdGkuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/EM6mHaXQmqw/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SAN JUAN.</strong> (24 de junio)</p>
+            <p>📍 Chiclayo, Lambayeque</p>
+            <p><strong>Inauguramos el Centro de Educación Básica Alternativa (CEBA) ‘San Juan’ en Lambayeque</strong></p>
+            <a href="https://www.youtube.com/watch?v=C6jHWiC1MqA&pp=ygUaU2FuIEp1YW4uIExhbWJheWVxdWUgUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=C6jHWiC1MqA&pp=ygUaU2FuIEp1YW4uIExhbWJheWVxdWUgUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/C6jHWiC1MqA/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SAN PEDRO. SAN PABLO.</strong> (29 de juni)</p>
+            <p>📍 Chiclayo, Lambayeque</p>
+            <p><strong>Feria en Honor al apóstol San Pablo Y San Pedro Pacora-Lambayeque</strong></p>
+            <a href="https://www.youtube.com/watch?v=flgRqd9r7j0&pp=ygUmU2FuIFBlZHJvLiBTYW4gUGFibG8uIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=flgRqd9r7j0&pp=ygUmU2FuIFBlZHJvLiBTYW4gUGFibG8uIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/flgRqd9r7j0/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SAN PABLO.</strong> (30 de junio)</p>
+            <p>📍 Lambayeque</p>
+            <p><strong>LAMBAYEQUE: PÁRROCO DE PACORA SE ROBA EL ESPECTÁCULO BAILANDO EN LA FIESTA DE SAN PABLO</strong></p>
+            <a href="https://www.youtube.com/watch?v=nL3WrJ5s1c8&pp=ygUbU2FuIFBhYmxvLiBMYW1iYXllcXVlIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=nL3WrJ5s1c8&pp=ygUbU2FuIFBhYmxvLiBMYW1iYXllcXVlIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/nL3WrJ5s1c8/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FESTIVAL DEL LIMÓN.</strong> (Última Semana)</p>
+            <p>📍 Olmos</p>
+            <p><strong>Lambayeque: anuncian festival del limón en Olmos</strong></p>
+            <a href="https://www.youtube.com/watch?v=ZyAIblMAA9A&pp=ygUlRmVzdGl2YWwgZGVsIExpbcOzbi4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=ZyAIblMAA9A&pp=ygUlRmVzdGl2YWwgZGVsIExpbcOzbi4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/ZyAIblMAA9A/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE SAN BENITO DE PALERMO.</strong> (1 de julio)</p>
+            <p>📍 Chiclayo</p>
+            <p><strong>Festividad de San Benito - Callanca - Box Norte</strong></p>
+            <a href="https://www.youtube.com/watch?v=_1xtrHFLDvM&pp=ygUxRmllc3RhIGRlIFNhbiBCZW5pdG8gZGUgUGFsZXJtby4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=_1xtrHFLDvM&pp=ygUxRmllc3RhIGRlIFNhbiBCZW5pdG8gZGUgUGFsZXJtby4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/_1xtrHFLDvM/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FESTIVIDAD DE LA VIRGEN DEL CARMEN.</strong> (16 de julio)</p>
+            <p>📍 Chiclayo, Ferreñafe, Lambayeque</p>
+            <p><strong>🎥 Festividad de la Virgen del Carmen en Paucartambo | Transmisión oficial por TV Perú 🙌</strong></p>
+            <a href="https://www.youtube.com/watch?v=-Jtuhe3TS70&pp=ygU0RmVzdGl2aWRhZCBkZSBsYSBWaXJnZW4gZGVsIENhcm1lbi4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=-Jtuhe3TS70&pp=ygU0RmVzdGl2aWRhZCBkZSBsYSBWaXJnZW4gZGVsIENhcm1lbi4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/-Jtuhe3TS70/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FESTIVIDAD DEL DIVINO NIÑO DEL MILAGRO.</strong> (22 de julio)</p>
+            <p>📍 Eten</p>
+            <p><strong>Feria en Honor al apóstol San Pablo Y San Pedro Pacora-Lambayeque</strong></p>
+            <a href="https://www.youtube.com/watch?v=flgRqd9r7j0&pp=ygUdU2FuIFBhYmxpdG8uIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=flgRqd9r7j0&pp=ygUdU2FuIFBhYmxpdG8uIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/flgRqd9r7j0/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FERIA DE EXPOSICIONES TÍPICO-CULTURALES
+DE MONSEFÚ (FEXTICUM).</strong> (Última Semana)</p>
+            <p>📍 Chiclayo</p>
+            <p><strong>FEXTICUM: FERIA DE EXPOSICIONES TÍPICO CULTURALES DE MONSEFÚ | 20 DE JULIO | PERÚ</strong></p>
+            <a href="https://www.youtube.com/watch?v=R9YH9JjncmE&pp=ygVQRmVyaWEgZGUgRXhwb3NpY2lvbmVzIFTDrXBpY28tQ3VsdHVyYWxlc2RlIE1vbnNlZsO6IChGRVhUSUNVTSkuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=R9YH9JjncmE&pp=ygVQRmVyaWEgZGUgRXhwb3NpY2lvbmVzIFTDrXBpY28tQ3VsdHVyYWxlc2RlIE1vbnNlZsO6IChGRVhUSUNVTSkuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/R9YH9JjncmE/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>ANIVERSARIO DEL DISTRITO DE SANTA ROSA.</strong> (2 de agosto)</p>
+            <p>📍 Chiclayo</p>
+            <p><strong>feliz 103 aniversario distrito de santa rosa chiclayo lambayeque</strong></p>
+            <a href="https://www.youtube.com/watch?v=m5pvuU4oVLg&pp=ygU4QW5pdmVyc2FyaW8gZGVsIGRpc3RyaXRvIGRlIFNhbnRhIFJvc2EuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=m5pvuU4oVLg&pp=ygU4QW5pdmVyc2FyaW8gZGVsIGRpc3RyaXRvIGRlIFNhbnRhIFJvc2EuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/m5pvuU4oVLg/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FESTIVIDAD DE SANTO DOMINGO.</strong> (4 de agosto)</p>
+            <p>📍 Lambayeque</p>
+            <p><strong>Diablicos de Túcume: Fiesta en Lambayeque | Celebra Perú</strong></p>
+            <a href="https://www.youtube.com/watch?v=u6Rnb_UJ9x8&pp=ygUtRmVzdGl2aWRhZCBkZSBTYW50byBEb21pbmdvLiBMYW1iYXllcXVlIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=u6Rnb_UJ9x8&pp=ygUtRmVzdGl2aWRhZCBkZSBTYW50byBEb21pbmdvLiBMYW1iYXllcXVlIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/u6Rnb_UJ9x8/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA SANTÍSIMA CRUZ DE CHALPÓN.</strong> (5 de agosto)</p>
+            <p>📍 Motupe</p>
+            <p><strong>Festividad de la Santísima Cruz de Chalpón en Motupe, Lambayeque | Perú Profundo en #PBO</strong></p>
+            <a href="https://www.youtube.com/watch?v=__Hu4zbGiE8&pp=ygU6Rmllc3RhIGRlIGxhIFNhbnTDrXNpbWEgQ3J1eiBkZSBDaGFscMOzbi4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=__Hu4zbGiE8&pp=ygU6Rmllc3RhIGRlIGxhIFNhbnTDrXNpbWEgQ3J1eiBkZSBDaGFscMOzbi4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/__Hu4zbGiE8/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FESTIVIDAD DE SAN ROQUE.</strong> (13 de agosto)</p>
+            <p>📍 Lambayeque</p>
+            <p><strong>San Roque, 99 años de tradición Lambayecana</strong></p>
+            <a href="https://www.youtube.com/watch?v=itPDOzJpy1A&pp=ygUpRmVzdGl2aWRhZCBkZSBTYW4gUm9xdWUuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=itPDOzJpy1A&pp=ygUpRmVzdGl2aWRhZCBkZSBTYW4gUm9xdWUuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/itPDOzJpy1A/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA CRUZ DE YANAHUANCA.</strong> (20 de agosto)</p>
+            <p>📍 Lambayeque</p>
+            <p><strong>Cruz de Yanahuanca (Lambayeque- Peru)</strong></p>
+            <a href="https://www.youtube.com/watch?v=lUiDsVY3YWw&pp=ygUxRmllc3RhIGRlIGxhIENydXogZGUgWWFuYWh1YW5jYS4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=lUiDsVY3YWw&pp=ygUxRmllc3RhIGRlIGxhIENydXogZGUgWWFuYWh1YW5jYS4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/lUiDsVY3YWw/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA CRUZ DE CHALPÓN.</strong> (25 de agosto)</p>
+            <p>📍 Lambayeque</p>
+            <p><strong>Feria en Honor al apóstol San Pablo Y San Pedro Pacora-Lambayeque</strong></p>
+            <a href="https://www.youtube.com/watch?v=flgRqd9r7j0&pp=ygUdU2FuIFBhYmxpdG8uIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=flgRqd9r7j0&pp=ygUdU2FuIFBhYmxpdG8uIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/flgRqd9r7j0/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FERIA PATRONAL.</strong> (14 de setiembre)</p>
+            <p>📍 Chiclayo</p>
+            <p><strong>feria patronal agosto 2024 penachi lambayeque peru</strong></p>
+            <a href="https://www.youtube.com/watch?v=8aGdf9ALGFk&pp=ygUgRmVyaWEgUGF0cm9uYWwuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=8aGdf9ALGFk&pp=ygUgRmVyaWEgUGF0cm9uYWwuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/8aGdf9ALGFk/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FESTIVIDAD DE SANTA LUCÍA.</strong> (16 de setiembre)</p>
+            <p>📍 Ferreñafe</p>
+            <p><strong>COLEGIO SANTA LUCIA DE LAMBAYEQUE</strong></p>
+            <a href="https://www.youtube.com/watch?v=xUosToEYdTc&pp=ygUsRmVzdGl2aWRhZCBkZSBTYW50YSBMdWPDrWEuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=xUosToEYdTc&pp=ygUsRmVzdGl2aWRhZCBkZSBTYW50YSBMdWPDrWEuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/xUosToEYdTc/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>LA VIRGEN DE LAS MERCEDES.</strong> (24 de setiembre)</p>
+            <p>📍 Ferreñafe, Lambayeque</p>
+            <p><strong>Lambayeque | El presidente Pedro Castillo inaugura el colegio Virgen de las Mercedes</strong></p>
+            <a href="https://www.youtube.com/watch?v=REqY0MsjlBI&pp=ygUrTGEgVmlyZ2VuIGRlIGxhcyBNZXJjZWRlcy4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=REqY0MsjlBI&pp=ygUrTGEgVmlyZ2VuIGRlIGxhcyBNZXJjZWRlcy4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/REqY0MsjlBI/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SAN FRANCISCO DE ASÍS.</strong> (4 de octubre)</p>
+            <p>📍 Lambayeque</p>
+            <p><strong>leandro en la I.E.P san francisco de asis. lambayeque concursando en su chocolatada navideña.</strong></p>
+            <a href="https://www.youtube.com/watch?v=zBXzZjX1I-I&pp=ygUoU2FuIEZyYW5jaXNjbyBkZSBBc8Otcy4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=zBXzZjX1I-I&pp=ygUoU2FuIEZyYW5jaXNjbyBkZSBBc8Otcy4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/zBXzZjX1I-I/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE SANTA ROSA DE LIMA. EL SEÑOR
+DE LOS MILAGROS.</strong> (18 de octubre)</p>
+            <p>📍 Chiclayo, Lambayeque</p>
+            <p><strong>Señor de los Milagros visita el santuario de Santa Rosa de Lima 2023</strong></p>
+            <a href="https://www.youtube.com/watch?v=Crjpgc34_4Y&pp=ygVIRmllc3RhIGRlIFNhbnRhIFJvc2EgZGUgTGltYS4gRWwgU2XDsW9yZGUgbG9zIE1pbGFncm9zLiBMYW1iYXllcXVlIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=Crjpgc34_4Y&pp=ygVIRmllc3RhIGRlIFNhbnRhIFJvc2EgZGUgTGltYS4gRWwgU2XDsW9yZGUgbG9zIE1pbGFncm9zLiBMYW1iYXllcXVlIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/Crjpgc34_4Y/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FESTIVIDAD DEL SEÑOR DE LA JUSTICIA.</strong> (25 de octubre)</p>
+            <p>📍 Ferreñafe</p>
+            <p><strong>“LA FESTIVIDAD DEL SEÑOR DE LA JUSTICIA EN FERREÑAFE”</strong></p>
+            <a href="https://www.youtube.com/watch?v=w64effebiJg&pp=ygU2RmVzdGl2aWRhZCBkZWwgU2XDsW9yIGRlIGxhIEp1c3RpY2lhLiBMYW1iYXllcXVlIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=w64effebiJg&pp=ygU2RmVzdGl2aWRhZCBkZWwgU2XDsW9yIGRlIGxhIEp1c3RpY2lhLiBMYW1iYXllcXVlIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/w64effebiJg/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE TODOS LOS SANTOS.</strong> (1 de noviembre)</p>
+            <p>📍 Lambayeque</p>
+            <p><strong>Ciudad Eten - Fiesta de todos los Santos</strong></p>
+            <a href="https://www.youtube.com/watch?v=fZVKF2hxULU&pp=ygUsRmllc3RhIGRlIFRvZG9zIGxvcyBTYW50b3MuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=fZVKF2hxULU&pp=ygUsRmllc3RhIGRlIFRvZG9zIGxvcyBTYW50b3MuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/fZVKF2hxULU/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FESTIVIDAD PATRONAL DEL SEÑOR DE LA BUENA
+MUERTE.</strong> (2 de noviembre)</p>
+            <p>📍 Eten</p>
+            <p><strong>semana santa lambayeque 2023 señor del buerto</strong></p>
+            <a href="https://www.youtube.com/shorts/DdiXJjBccfE" target="_blank">Ver video</a>
+            
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>ANIVERSARIO DEL PUEBLO.</strong> (4 de noviembre)</p>
+            <p>📍 Chiclayo</p>
+            <p><strong>Chiclayo y su 188 aniversario: BDP destaca su irresistible gastronomía y hospitalidad única</strong></p>
+            <a href="https://www.youtube.com/watch?v=0aMVUKee6-w&pp=ygUoQW5pdmVyc2FyaW8gZGVsIFB1ZWJsby4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=0aMVUKee6-w&pp=ygUoQW5pdmVyc2FyaW8gZGVsIFB1ZWJsby4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/0aMVUKee6-w/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SAN MARTÍN DE PORRAS.</strong> (Movible)</p>
+            <p>📍 Ferreñafe</p>
+            <p><strong>Procesión San Martín de Porres</strong></p>
+            <a href="https://www.youtube.com/watch?v=q7R2dPe6pmc&pp=ygUnU2FuIE1hcnTDrW4gZGUgUG9ycmFzLiBMYW1iYXllcXVlIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=q7R2dPe6pmc&pp=ygUnU2FuIE1hcnTDrW4gZGUgUG9ycmFzLiBMYW1iYXllcXVlIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/q7R2dPe6pmc/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FESTIVIDAD DE SAN MARTÍN DE TOURS.</strong> (11 de noviembre)</p>
+            <p>📍 Chiclayo</p>
+            <p><strong>💠 FESTIVIDAD DE SAN MARTÍN DE TOURS</strong></p>
+            <a href="https://www.youtube.com/watch?v=tDK4RZitxns&pp=ygU0RmVzdGl2aWRhZCBkZSBTYW4gTWFydMOtbiBkZSBUb3Vycy4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=tDK4RZitxns&pp=ygU0RmVzdGl2aWRhZCBkZSBTYW4gTWFydMOtbiBkZSBUb3Vycy4gTGFtYmF5ZXF1ZSBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/tDK4RZitxns/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SAN MARTÍN DE PORRAS.</strong> (18 de noviembre)</p>
+            <p>📍 Chiclayo</p>
+            <p><strong>Feria en Honor al apóstol San Pablo Y San Pedro Pacora-Lambayeque</strong></p>
+            <a href="https://www.youtube.com/watch?v=flgRqd9r7j0&pp=ygUdU2FuIFBhYmxpdG8uIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=flgRqd9r7j0&pp=ygUdU2FuIFBhYmxpdG8uIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/flgRqd9r7j0/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SANTA CATALINA.</strong> (25 de noviembre)</p>
+            <p>📍 Chiclayo</p>
+            <p><strong>Eco Museo - Comunidad Campesina “Santa Catalina de Chongoyape”</strong></p>
+            <a href="https://www.youtube.com/watch?v=mR_bDuaC3uI&pp=ygUgU2FudGEgQ2F0YWxpbmEuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=mR_bDuaC3uI&pp=ygUgU2FudGEgQ2F0YWxpbmEuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/mR_bDuaC3uI/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FUNDACIÓN ESPAÑOLA DE SAÑA.</strong> (29 de noviembre)</p>
+            <p>📍 Saña</p>
+            <p><strong>Fundación Española de la Ciudad De Zaña Lambayeque - 29 de Noviembre | PERÚ PROFUNDO 🇵🇪</strong></p>
+            <a href="https://www.youtube.com/watch?v=vyawcNXNKAI&pp=ygUvRnVuZGFjacOzbiBFc3Bhw7FvbGEgZGUgU2HDsWEuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=vyawcNXNKAI&pp=ygUvRnVuZGFjacOzbiBFc3Bhw7FvbGEgZGUgU2HDsWEuIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/vyawcNXNKAI/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SEMANA TURÍSTICA DE CHICLAYO.</strong> (1era. semana de diciembre)</p>
+            <p>📍 Chiclayo</p>
+            <p><strong>Chiclayo | Presentan semana turística por Fiestas Patrias</strong></p>
+            <a href="https://www.youtube.com/watch?v=ebfOo3_TjA4&pp=ygUvU2VtYW5hIFR1csOtc3RpY2EgZGUgQ2hpY2xheW8uIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=ebfOo3_TjA4&pp=ygUvU2VtYW5hIFR1csOtc3RpY2EgZGUgQ2hpY2xheW8uIExhbWJheWVxdWUgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/ebfOo3_TjA4/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA INMACULADA CONCEPCIÓN.</strong> (8 de diciembre)</p>
+            <p>📍 Chiclayo, Lambayeque</p>
+            <p><strong>Inmaculada virgen de la Puerta - Lambayeque 2021</strong></p>
+            <a href="https://www.youtube.com/watch?v=SdZBPuELzPA&list=RDSdZBPuELzPA&start_radio=1&pp=ygU1Rmllc3RhIGRlIGxhIElubWFjdWxhZGEgQ29uY2VwY2nDs24uIExhbWJheWVxdWUgUGVyw7qgBwE%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=SdZBPuELzPA&list=RDSdZBPuELzPA&start_radio=1&pp=ygU1Rmllc3RhIGRlIGxhIElubWFjdWxhZGEgQ29uY2VwY2nDs24uIExhbWJheWVxdWUgUGVyw7qgBwE%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/SdZBPuELzPA/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SANTA LUCÍA.</strong> (13 de diciembre)</p>
+            <p>📍 Ferreñafe</p>
+            <p><strong>COLEGIO SANTA LUCIA DE LAMBAYEQUE</strong></p>
+            <a href="https://www.youtube.com/watch?v=xUosToEYdTc&pp=ygUeU2FudGEgTHVjw61hLiBMYW1iYXllcXVlIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=xUosToEYdTc&pp=ygUeU2FudGEgTHVjw61hLiBMYW1iYXllcXVlIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/xUosToEYdTc/0.jpg"></a>
+        </div>
+        
+  </div>
+  <button id="botonFestividades" class="boton-vermas" onclick="mostrarFestividades()">Ver más festividades</button>
   <h2>🌡️ Clima mensual en Lambayeque</h2>
   <img src="clima_lambayeque.png" alt="Gráfico del clima en Lambayeque">
-
   <h2>📰 Noticias y 📺 Videos recomendados</h2>
   <div class="media-grid">
     <div class="media-column">
@@ -350,16 +811,16 @@
             
     </div>
   </div>
-
   <a class="volver" href="index.html">← Volver al recomendador</a>
-
   <script>
     function mostrarNoticias() {
-      document.querySelectorAll('.oculto').forEach(e => e.style.display = 'block');
-      const boton = document.getElementById('botonNoticias');
-      if (boton) boton.style.display = 'none';
+      document.querySelectorAll('.noticia.oculto').forEach(e => e.style.display = 'block');
+      document.getElementById('botonNoticias').style.display = 'none';
+    }
+    function mostrarFestividades() {
+      document.querySelectorAll('.festividad.oculto').forEach(e => e.style.display = 'block');
+      document.getElementById('botonFestividades').style.display = 'none';
     }
   </script>
-
 </body>
 </html>

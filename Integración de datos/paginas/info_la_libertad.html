@@ -17,7 +17,14 @@
     }
     h1 { color: #c0392b; }
     h2 { color: #2c3e50; margin-top: 40px; }
-    img { max-width: 100%; border-radius: 8px; }
+    img { max-width: 100%; }
+    .banner-img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
     .descripcion { font-size: 17px; margin: 20px 0; line-height: 1.6; }
     .info-box {
       background: #f0fff4;
@@ -90,25 +97,252 @@
     .boton-vermas:hover {
       background-color: #0056b3;
     }
+    .festividad-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .festividad {
+      background: #fdfde7;
+      border-left: 5px solid #f39c12;
+    }
   </style>
 </head>
 <body>
-
   <h1>🌄 La Libertad</h1>
   <h2>Información turística</h2>
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bandera_del_Per%C3%BA.png/640px-Bandera_del_Per%C3%BA.png" alt="Imagen de La Libertad">
+  <img class="banner-img" src="https://upload.wikimedia.org/wikipedia/commons/7/70/Ausgrabungsst%C3%A4tte_Huaca_de_la_Luna_78.jpg" alt="Imagen de La Libertad">
   <div class="descripcion">Sede de los impresionantes y famosos templos, pirámides y ciudades de barro de Chan Chan, La Libertad es un departamento ubicado en la costa norte del Perú. Su Imponente arquitectura colonial y costumbres arraigadas como la pesca en Caballitos de Totora (tradicionales embarcaciones de la costa norteña) son muestras claras que es un destino muy atractivo para el turismo en general. Asimismo, destaca por ser la cuna de la Marinera, baile nacional del Perú, y por sus playas, que atraen a miles de surfistas del mundo.</div>
-
   <div class="info-box">
     <strong>Clima promedio estimado:</strong> 21.8 °C<br>
     <strong>Clasificación del clima:</strong> Caluroso<br>
     <strong>Mes de referencia:</strong> Ene
   </div>
-
+  <h2>🎉 Festividades en La Libertad</h2>
+  <div class="festividad-grid">
+    
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DEL SEÑOR DEL CALVARIO</strong> (1 de enero)</p>
+            <p>📍 Ascope</p>
+            <p><strong>FACALÁ Inician fiestas en honor al Señor del Calvario</strong></p>
+            <a href="https://www.youtube.com/watch?v=x7APCidh9mU&pp=ygUwRmllc3RhIGRlbCBTZcOxb3IgZGVsIENhbHZhcmlvIExhIExpYmVydGFkIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=x7APCidh9mU&pp=ygUwRmllc3RhIGRlbCBTZcOxb3IgZGVsIENhbHZhcmlvIExhIExpYmVydGFkIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/x7APCidh9mU/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE SAN SEBASTIÁN</strong> (20 de enero)</p>
+            <p>📍 Chepén</p>
+            <p><strong>La Fiesta de San Sebastián</strong></p>
+            <a href="https://www.youtube.com/watch?v=lKniEKWW1-c&pp=ygUqRmllc3RhIGRlIFNhbiBTZWJhc3Rpw6FuIExhIExpYmVydGFkIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=lKniEKWW1-c&pp=ygUqRmllc3RhIGRlIFNhbiBTZWJhc3Rpw6FuIExhIExpYmVydGFkIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/lKniEKWW1-c/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FESTIVAL NACIONAL DE LA MARINERA</strong> (4° semana de enero)</p>
+            <p>📍 Trujillo</p>
+            <p><strong>Tuvo que desprenderse del saco para campeonar | FINAL SENIOR del Concurso Mundial de Marinera 2025</strong></p>
+            <a href="https://www.youtube.com/watch?v=FDhLLiNvSJI&pp=ygUyRmVzdGl2YWwgTmFjaW9uYWwgZGUgbGEgTWFyaW5lcmEgTGEgTGliZXJ0YWQgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=FDhLLiNvSJI&pp=ygUyRmVzdGl2YWwgTmFjaW9uYWwgZGUgbGEgTWFyaW5lcmEgTGEgTGliZXJ0YWQgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/FDhLLiNvSJI/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE LA VIRGEN DE LA CANDELARIA</strong> (2 de febrero)</p>
+            <p>📍 Trujillo</p>
+            <p><strong>Fiesta de La Virgen de la Candelaria (TV Perú) - 10/03/18 - (promo)</strong></p>
+            <a href="https://www.youtube.com/watch?v=Wvh1Mlygj_I&pp=ygU2Rmllc3RhIGRlIGxhIFZpcmdlbiBkZSBsYSBDYW5kZWxhcmlhIExhIExpYmVydGFkIFBlcsO60gcJCdgJAYcqIYzv" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=Wvh1Mlygj_I&pp=ygU2Rmllc3RhIGRlIGxhIFZpcmdlbiBkZSBsYSBDYW5kZWxhcmlhIExhIExpYmVydGFkIFBlcsO60gcJCdgJAYcqIYzv" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/Wvh1Mlygj_I/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE LA VIRGEN DEL SOCORRO</strong> (2-6 de febrero)</p>
+            <p>📍 Huamachuco</p>
+            <p><strong>Fiesta de la Virgen del Perpetuo socorro (27 de junio)</strong></p>
+            <a href="https://www.youtube.com/shorts/S5pjmGt9xlU" target="_blank">Ver video</a>
+            
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FESTIVAL DE CABALLITOS DE TOTORA Y OLIMPLAYA</strong> (13)</p>
+            <p>📍 Huanchaco</p>
+            <p><strong>Reliquia del Bicentenario: conoce la milenaria historia de los caballitos de Totora</strong></p>
+            <a href="https://www.youtube.com/watch?v=ousEPClY2wo&pp=ygU-RmVzdGl2YWwgZGUgY2FiYWxsaXRvcyBkZSB0b3RvcmEgeSBPbGltcGxheWEgTGEgTGliZXJ0YWQgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=ousEPClY2wo&pp=ygU-RmVzdGl2YWwgZGUgY2FiYWxsaXRvcyBkZSB0b3RvcmEgeSBPbGltcGxheWEgTGEgTGliZXJ0YWQgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/ousEPClY2wo/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FESTIVAL DE SAN PEDRO</strong> (2 marzo)</p>
+            <p>📍 Salaverry y Huanchaco</p>
+            <p><strong>La Libertad: inició la feria patronal en San Pedro de Lloc</strong></p>
+            <a href="https://www.youtube.com/watch?v=mfWCJ1EsaUk&pp=ygUnRmVzdGl2YWwgZGUgU2FuIFBlZHJvIExhIExpYmVydGFkIFBlcsO60gcJCdgJAYcqIYzv" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=mfWCJ1EsaUk&pp=ygUnRmVzdGl2YWwgZGUgU2FuIFBlZHJvIExhIExpYmVydGFkIFBlcsO60gcJCdgJAYcqIYzv" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/mfWCJ1EsaUk/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FUNDACIÓN ESPAÑOLA</strong> (5 marzo)</p>
+            <p>📍 Trujillo</p>
+            <p><strong>La Libertad: Guadalupe celebra 473 años de fundación española</strong></p>
+            <a href="https://www.youtube.com/watch?v=zwAwz7dZYkY&pp=ygUmRnVuZGFjacOzbiBlc3Bhw7FvbGEgTGEgTGliZXJ0YWQgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=zwAwz7dZYkY&pp=ygUmRnVuZGFjacOzbiBlc3Bhw7FvbGEgTGEgTGliZXJ0YWQgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/zwAwz7dZYkY/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad">
+            <p>🎊 <strong>FIESTA DE SANTO TORIBIO DE MOGROVEJO</strong> (24 marzo)</p>
+            <p>📍 Pataz</p>
+            <p><strong>Fiesta Patronal de Huaylas 2025 " SANTO TORIBIO - UNIÓN DE BANDAS</strong></p>
+            <a href="https://www.youtube.com/watch?v=KjkGQzJwFyQ&pp=ygU2Rmllc3RhIGRlIFNhbnRvIFRvcmliaW8gZGUgTW9ncm92ZWpvIExhIExpYmVydGFkIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=KjkGQzJwFyQ&pp=ygU2Rmllc3RhIGRlIFNhbnRvIFRvcmliaW8gZGUgTW9ncm92ZWpvIExhIExpYmVydGFkIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/KjkGQzJwFyQ/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SAN ANTONIO DE PADUA</strong> (13 de junio)</p>
+            <p>📍 Pataz (Taurija)</p>
+            <p><strong>San Antonio de Padua: El Santo de los Milagros | Los Santos: Amigos de Dios</strong></p>
+            <a href="https://www.youtube.com/watch?v=TyKw6wQoVvY&pp=ygUmU2FuIEFudG9uaW8gZGUgUGFkdWEgTGEgTGliZXJ0YWQgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=TyKw6wQoVvY&pp=ygUmU2FuIEFudG9uaW8gZGUgUGFkdWEgTGEgTGliZXJ0YWQgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/TyKw6wQoVvY/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA VIRGEN DEL ROSARIO</strong> (24 de junio)</p>
+            <p>📍 Otuzco (Julcán)</p>
+            <p><strong>Documental de la fiesta en honor a la Virgen del Rosario - Chilia 2016</strong></p>
+            <a href="https://www.youtube.com/watch?v=s8m-LZjF-qM&pp=ygUxRmllc3RhIGRlIGxhIFZpcmdlbiBkZWwgUm9zYXJpbyBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=s8m-LZjF-qM&pp=ygUxRmllc3RhIGRlIGxhIFZpcmdlbiBkZWwgUm9zYXJpbyBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/s8m-LZjF-qM/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE SAN PEDRO Y SAN PABLO</strong> (29 de junio)</p>
+            <p>📍 Huanchaco, San Pedro de Lloc</p>
+            <p><strong>Ancón celebra con fe y alegría a San Pedro y San Pablo en su tradicional fiesta en el mar</strong></p>
+            <a href="https://www.youtube.com/watch?v=-gUd0esRyVg&pp=ygUxRmllc3RhIGRlIFNhbiBQZWRybyB5IFNhbiBQYWJsbyBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=-gUd0esRyVg&pp=ygUxRmllc3RhIGRlIFNhbiBQZWRybyB5IFNhbiBQYWJsbyBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/-gUd0esRyVg/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>EL SEÑOR DE LA SANGRE</strong> (Primera semana de julio)</p>
+            <p>📍 Trujillo (Virú)</p>
+            <p><strong>Fiesta patronal en homenaje al "Señor de la Sangre" #Virú #Lalibertad #Perú</strong></p>
+            <a href="https://www.youtube.com/watch?v=J3zSle69lXM&pp=ygUoRWwgU2XDsW9yIGRlIGxhIFNhbmdyZSBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=J3zSle69lXM&pp=ygUoRWwgU2XDsW9yIGRlIGxhIFNhbmdyZSBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/J3zSle69lXM/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE SANTIAGO. FERIA REGIONAL</strong> (13 de julio)</p>
+            <p>📍 Santiago de Chuco</p>
+            <p><strong>DOCUMENTAL DE SANTIAGO DE CHUCO - LA LIBERTAD 2023</strong></p>
+            <a href="https://www.youtube.com/watch?v=z7_0pOwUUaQ&pp=ygU0Rmllc3RhIGRlIFNhbnRpYWdvLiBGZXJpYSBSZWdpb25hbCBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=z7_0pOwUUaQ&pp=ygU0Rmllc3RhIGRlIFNhbnRpYWdvLiBGZXJpYSBSZWdpb25hbCBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/z7_0pOwUUaQ/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA VIRGEN DE LA ALTA GRACIA</strong> (15 de agosto)</p>
+            <p>📍 Huamachuco</p>
+            <p><strong>Fiestas de la Virgen de Altagracia | Huamachuco, Perú | Mochilera que se respeta</strong></p>
+            <a href="https://www.youtube.com/watch?v=SwbUUHpcNzQ&pp=ygU3Rmllc3RhIGRlIGxhIFZpcmdlbiBkZSBsYSBBbHRhIEdyYWNpYSBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=SwbUUHpcNzQ&pp=ygU3Rmllc3RhIGRlIGxhIFZpcmdlbiBkZSBsYSBBbHRhIEdyYWNpYSBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/SwbUUHpcNzQ/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>VIRGEN DE LA ASUNCIÓN, PATRONA DE LOS
+PUEBLOS</strong> (26 de agosto)</p>
+            <p>📍 Otuzco, Santiago de Chuco</p>
+            <p><strong>Virgen de la Asunción la Patrona de Guatemala, 12 08 2022, Opinión en Libertad</strong></p>
+            <a href="https://www.youtube.com/watch?v=n_dbxp3NTvo&pp=ygU_VmlyZ2VuIGRlIGxhIEFzdW5jacOzbiwgcGF0cm9uYSBkZSBsb3NwdWVibG9zIExhIExpYmVydGFkIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=n_dbxp3NTvo&pp=ygU_VmlyZ2VuIGRlIGxhIEFzdW5jacOzbiwgcGF0cm9uYSBkZSBsb3NwdWVibG9zIExhIExpYmVydGFkIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/n_dbxp3NTvo/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA PATRONAL DEL SEÑOR DE LA MISERICORDIA</strong> (14 de setiembre)</p>
+            <p>📍 Otuzco</p>
+            <p><strong>La Cuesta Fiesta Patronal Sr de la Misericordia LA LIBERTAD PERU 2014</strong></p>
+            <a href="https://www.youtube.com/watch?v=POrp2kkkqT0&list=RDPOrp2kkkqT0&start_radio=1&pp=ygU_Rmllc3RhIFBhdHJvbmFsIGRlbCBTZcOxb3IgZGUgbGEgTWlzZXJpY29yZGlhIExhIExpYmVydGFkIFBlcsO6oAcB" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=POrp2kkkqT0&list=RDPOrp2kkkqT0&start_radio=1&pp=ygU_Rmllc3RhIFBhdHJvbmFsIGRlbCBTZcOxb3IgZGUgbGEgTWlzZXJpY29yZGlhIExhIExpYmVydGFkIFBlcsO6oAcB" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/POrp2kkkqT0/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FESTIVAL INTERNACIONAL DE LA PRIMAVERA</strong> (20-30 de setiembre)</p>
+            <p>📍 Trujillo</p>
+            <p><strong>La Libertad: regresó con éxito el Festival de la Primavera</strong></p>
+            <a href="https://www.youtube.com/watch?v=xSRqpLzGNQw&pp=ygU4RmVzdGl2YWwgSW50ZXJuYWNpb25hbCBkZSBsYSBQcmltYXZlcmEgTGEgTGliZXJ0YWQgUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=xSRqpLzGNQw&pp=ygU4RmVzdGl2YWwgSW50ZXJuYWNpb25hbCBkZSBsYSBQcmltYXZlcmEgTGEgTGliZXJ0YWQgUGVyw7rSBwkJ2AkBhyohjO8%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/xSRqpLzGNQw/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SAN FRANCISCO DE ASÍS</strong> (4 de octubre)</p>
+            <p>📍 Huamachuco</p>
+            <p><strong>Instituto Católico SAN FRANCISCO DE ASIS (La libertad) - 15 de septiembre</strong></p>
+            <a href="https://www.youtube.com/watch?v=cyj-FS5sqyk&pp=ygUoU2FuIEZyYW5jaXNjbyBkZSBBc8OtcyBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=cyj-FS5sqyk&pp=ygUoU2FuIEZyYW5jaXNjbyBkZSBBc8OtcyBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/cyj-FS5sqyk/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>VIRGEN DEL ROSARIO</strong> (27 de octubre)</p>
+            <p>📍 Pataz</p>
+            <p><strong>Documental de la fiesta en honor a la Virgen del Rosario - Chilia 2016</strong></p>
+            <a href="https://www.youtube.com/watch?v=s8m-LZjF-qM&pp=ygUkVmlyZ2VuIGRlbCBSb3NhcmlvIExhIExpYmVydGFkIFBlcsO6" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=s8m-LZjF-qM&pp=ygUkVmlyZ2VuIGRlbCBSb3NhcmlvIExhIExpYmVydGFkIFBlcsO6" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/s8m-LZjF-qM/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE TODOS LOS SANTOS</strong> (1 de noviembre)</p>
+            <p>📍 La Libertad</p>
+            <p><strong>Documental de la fiesta a Santo Toribio - Tayabamba 2016 HD</strong></p>
+            <a href="https://www.youtube.com/watch?v=QKvwG8NHOIU&pp=ygUsRmllc3RhIGRlIFRvZG9zIGxvcyBTYW50b3MgTGEgTGliZXJ0YWQgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=QKvwG8NHOIU&pp=ygUsRmllc3RhIGRlIFRvZG9zIGxvcyBTYW50b3MgTGEgTGliZXJ0YWQgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/QKvwG8NHOIU/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>SEMANA JUBILAR</strong> (8-15)</p>
+            <p>📍 Chepén</p>
+            <p><strong>La Libertad: tours turístico desde 20 soles por Semana Santa</strong></p>
+            <a href="https://www.youtube.com/watch?v=DCI3KmoyR3A&pp=ygUgU2VtYW5hIEp1YmlsYXIgTGEgTGliZXJ0YWQgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=DCI3KmoyR3A&pp=ygUgU2VtYW5hIEp1YmlsYXIgTGEgTGliZXJ0YWQgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/DCI3KmoyR3A/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>BAJADA DE LA VIRGEN DEL SOCORRO DE TRUJILLO</strong> (24)</p>
+            <p>📍 Huanchaco</p>
+            <p><strong>68° Bajada Quinquenal - Virgen Madre del Socorro - Huanchaco Perú</strong></p>
+            <a href="https://www.youtube.com/watch?v=Lst11s6pacc&pp=ygU9QmFqYWRhIGRlIGxhIFZpcmdlbiBkZWwgU29jb3JybyBkZSB0cnVqaWxsbyBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=Lst11s6pacc&pp=ygU9QmFqYWRhIGRlIGxhIFZpcmdlbiBkZWwgU29jb3JybyBkZSB0cnVqaWxsbyBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/Lst11s6pacc/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FESTIVAL DE LA VIRGEN DE GUADALUPE</strong> (3 de diciembre)</p>
+            <p>📍 Pacasmayo (Guadalupe)</p>
+            <p><strong>La Libertad: inicia fiesta patronal en honor a la Señora de Guadalupe</strong></p>
+            <a href="https://www.youtube.com/watch?v=J4zL5pdogk4&pp=ygU0RmVzdGl2YWwgZGUgbGEgVmlyZ2VuIGRlIEd1YWRhbHVwZSBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=J4zL5pdogk4&pp=ygU0RmVzdGl2YWwgZGUgbGEgVmlyZ2VuIGRlIEd1YWRhbHVwZSBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/J4zL5pdogk4/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>LA INMACULADO CONCEPCIÓN</strong> (8 de diciembre)</p>
+            <p>📍 Salaverry</p>
+            <p><strong>DOCUMENTAL DE LA FESTIVIDAD PATRONAL " INMACULADA VIRGEN DELA PUERTA " OTUZCO LA LIBERTAD 2023</strong></p>
+            <a href="https://www.youtube.com/watch?v=YY6wzdMMvBU&pp=ygUrTGEgSW5tYWN1bGFkbyBDb25jZXBjacOzbiBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=YY6wzdMMvBU&pp=ygUrTGEgSW5tYWN1bGFkbyBDb25jZXBjacOzbiBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/YY6wzdMMvBU/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>FIESTA DE LA VIRGEN DE LA PUERTA</strong> (14 y 15 de diciembre)</p>
+            <p>📍 Otuzco</p>
+            <p><strong>Fiesta Patronal de la Virgen de la Puerta en Otuzco La Libertad - 15 de Diciembre | PERÚ PROFUNDO 🇵🇪</strong></p>
+            <a href="https://www.youtube.com/watch?v=fPFkv3UNpQQ&pp=ygUyRmllc3RhIGRlIGxhIFZpcmdlbiBkZSBsYSBQdWVydGEgTGEgTGliZXJ0YWQgUGVyw7o%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=fPFkv3UNpQQ&pp=ygUyRmllc3RhIGRlIGxhIFZpcmdlbiBkZSBsYSBQdWVydGEgTGEgTGliZXJ0YWQgUGVyw7o%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/fPFkv3UNpQQ/0.jpg"></a>
+        </div>
+        
+        <div class="contenido-box festividad oculto">
+            <p>🎊 <strong>ANIVERSARIO DE LA INDEPENDENCIA DE TRUJILLO</strong> (29 de diciembre)</p>
+            <p>📍 Trujillo</p>
+            <p><strong>Trujillo celebra 202 aniversario de independencia</strong></p>
+            <a href="https://www.youtube.com/watch?v=KxfITepPGEU&pp=ygU9QW5pdmVyc2FyaW8gZGUgbGEgSW5kZXBlbmRlbmNpYSBkZSBUcnVqaWxsbyBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank">Ver video</a>
+            <a href="https://www.youtube.com/watch?v=KxfITepPGEU&pp=ygU9QW5pdmVyc2FyaW8gZGUgbGEgSW5kZXBlbmRlbmNpYSBkZSBUcnVqaWxsbyBMYSBMaWJlcnRhZCBQZXLDug%3D%3D" target="_blank"><img class="video-thumb" src="https://img.youtube.com/vi/KxfITepPGEU/0.jpg"></a>
+        </div>
+        
+  </div>
+  <button id="botonFestividades" class="boton-vermas" onclick="mostrarFestividades()">Ver más festividades</button>
   <h2>🌡️ Clima mensual en La Libertad</h2>
   <img src="clima_la_libertad.png" alt="Gráfico del clima en La Libertad">
-
   <h2>📰 Noticias y 📺 Videos recomendados</h2>
   <div class="media-grid">
     <div class="media-column">
@@ -350,16 +584,16 @@
             
     </div>
   </div>
-
   <a class="volver" href="index.html">← Volver al recomendador</a>
-
   <script>
     function mostrarNoticias() {
-      document.querySelectorAll('.oculto').forEach(e => e.style.display = 'block');
-      const boton = document.getElementById('botonNoticias');
-      if (boton) boton.style.display = 'none';
+      document.querySelectorAll('.noticia.oculto').forEach(e => e.style.display = 'block');
+      document.getElementById('botonNoticias').style.display = 'none';
+    }
+    function mostrarFestividades() {
+      document.querySelectorAll('.festividad.oculto').forEach(e => e.style.display = 'block');
+      document.getElementById('botonFestividades').style.display = 'none';
     }
   </script>
-
 </body>
 </html>
